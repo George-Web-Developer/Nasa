@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — Circadian Rhythms &amp; Daily Routine Tracking</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-shell">
+  <header id="appHeader"></header>
+
+  <main class="workspace-main">
+    <div class="workspace-wrap">
+      <!-- Page Header -->
+      <div class="page-header-strip">
+        <div>
+          <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">CIRCADIAN ENTROPY &amp; ROUTINE MANAGEMENT</span>
+          <h1>Circadian Tracking &amp; Sleep Schedule</h1>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+          <button type="button" id="resetTrackingSeedBtn" class="btn-secondary" style="font-size:12px;padding:6px 12px;">Reset to NASA Seed</button>
+          <a href="astra.html" class="btn-primary" style="white-space:nowrap;">Open ASTRA Missions &rarr;</a>
+        </div>
+      </div>
+
+      <!-- 1. Top Dashboard Summary (5 KPI Cards) -->
+      <section class="tracking-summary-grid" aria-label="Tracking Dashboard Summary">
+        <div class="tracking-kpi-card">
+          <span class="kpi-label">Today's Planned Sleep</span>
+          <div class="kpi-value mono-num" id="kpiPlannedSleep">8h 00m</div>
+          <span class="kpi-sub" id="kpiPlannedTimes">22:00 &ndash; 06:00 (8.0 hrs)</span>
+        </div>
+
+        <div class="tracking-kpi-card">
+          <span class="kpi-label">Last Recorded Sleep</span>
+          <div class="kpi-value mono-num" id="kpiLastSleep">7h 35m</div>
+          <span class="kpi-sub" id="kpiSleepDiff" style="color:var(--accent-nominal);">-25m vs planned target</span>
+        </div>
+
+        <div class="tracking-kpi-card">
+          <span class="kpi-label">Sleep Schedule Status</span>
+          <div class="kpi-value" id="kpiNextEvent" style="font-size:18px;margin:6px 0;">Next: Sleep Prep</div>
+          <span class="kpi-sub mono-num" id="kpiCountdown">T- 03h 40m (at 21:00)</span>
+        </div>
+
+        <div class="tracking-kpi-card">
+          <span class="kpi-label">Daily Routine Progress</span>
+          <div class="kpi-value mono-num" id="kpiRoutinePct">62%</div>
+          <span class="kpi-sub" id="kpiRoutineCounts">5 of 8 activities completed</span>
+        </div>
+
+        <div class="tracking-kpi-card">
+          <span class="kpi-label">Active Light Phase</span>
+          <div class="kpi-value" id="kpiLightPhase" style="font-size:18px;margin:6px 0;color:var(--accent-nominal);">Daytime Nominal</div>
+          <span class="kpi-sub">500 Lux · 08:00 &ndash; 19:30</span>
+        </div>
+      </section>
+
+      <!-- 2. Sleep Schedule Manager -->
+      <section class="ledger-card" style="margin-bottom:22px;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+          <div>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">MODULE 01 · CIRCADIAN TIMING</span>
+            <h2 style="font-size:18px;margin-top:2px;">Sleep Schedule Manager</h2>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button type="button" class="btn-outline schedule-preset-btn" data-preset="nominal" style="font-size:11.5px;padding:5px 10px;">Nominal (8.0h)</button>
+            <button type="button" class="btn-outline schedule-preset-btn" data-preset="eva" style="font-size:11.5px;padding:5px 10px;">EVA Prep (8.5h)</button>
+            <button type="button" class="btn-outline schedule-preset-btn" data-preset="shift" style="font-size:11.5px;padding:5px 10px;">Shift Phase (7.5h)</button>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:20px;align-items:start;">
+          <!-- Planned Bedtime & Wake Time Form -->
+          <form id="sleepScheduleForm" style="display:flex;flex-direction:column;gap:12px;">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              <div class="field-group">
+                <label for="schedBedtime">Planned Bedtime</label>
+                <input type="time" id="schedBedtime" class="input-field" value="22:00" required>
+              </div>
+              <div class="field-group">
+                <label for="schedWaketime">Planned Wake-up</label>
+                <input type="time" id="schedWaketime" class="input-field" value="06:00" required>
+              </div>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;align-items:center;background:var(--bg-paper);padding:10px 14px;border-radius:4px;border:1px solid var(--border-paper);">
+              <span class="mono-num" style="font-size:12px;color:var(--ink-muted-paper);">CALCULATED SLEEP TARGET:</span>
+              <strong id="calcTargetDuration" class="mono-num" style="font-size:14px;color:var(--accent-nominal-dark);">8 hrs 00 mins</strong>
+            </div>
+
+            <button type="submit" class="btn-primary" style="padding:8px 14px;font-size:12.5px;">Save Schedule Update</button>
+          </form>
+
+          <!-- Sleep Preparation Checklist & Reminder Card -->
+          <div style="background:var(--bg-paper);border:1px solid var(--border-paper);border-radius:6px;padding:14px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+              <strong style="font-size:13.5px;">Pre-Sleep Checklist (T-60m Wind-down)</strong>
+              <span id="prepBadge" class="badge badge-ghost">Pending</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;" id="sleepPrepList">
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" class="prep-check" data-item="lights" style="accent-color:var(--accent-nominal-dark);">
+                <span>Dim cabin habitat illumination to Evening Wind-down (&lt; 50 Lux)</span>
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" class="prep-check" data-item="screens" style="accent-color:var(--accent-nominal-dark);">
+                <span>Cease blue-spectrum procedures &amp; activate night mode on tablets</span>
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" class="prep-check" data-item="hydration" style="accent-color:var(--accent-nominal-dark);">
+                <span>Final hydration checkpoint; cease caffeine/ergometer stimulants</span>
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" class="prep-check" data-item="gear" style="accent-color:var(--accent-nominal-dark);">
+                <span>Secure acoustic earplugs, sleep restraint bag, and dark eye visor</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weekly Sleep Schedule Overview -->
+        <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border-paper);">
+          <span class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);display:block;margin-bottom:8px;">SEVEN-DAY MISSION SLEEP CALENDAR</span>
+          <div style="display:grid;grid-template-columns:repeat(7, 1fr);gap:6px;overflow-x:auto;" id="weeklyScheduleGrid"></div>
+        </div>
+      </section>
+
+      <!-- 3. Sleep Tracking (Manual Log & Duration Analytics) -->
+      <section class="ledger-card" style="margin-bottom:22px;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+          <div>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">MODULE 02 · SUBJECTIVE &amp; OBJECTIVE LOG</span>
+            <h2 style="font-size:18px;margin-top:2px;">Sleep Tracking &amp; Trend Analytics</h2>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:minmax(280px, 340px) 1fr;gap:20px;align-items:start;">
+          <!-- Manual Sleep Entry Form -->
+          <form id="sleepLogForm" style="background:var(--bg-paper);border:1px solid var(--border-paper);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px;">
+            <strong style="font-size:13.5px;">Record Sleep Entry</strong>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+              <div class="field-group">
+                <label for="logSleepTime">Went to Sleep</label>
+                <input type="time" id="logSleepTime" class="input-field" value="22:20" required>
+              </div>
+              <div class="field-group">
+                <label for="logWakeTime">Woke Up</label>
+                <input type="time" id="logWakeTime" class="input-field" value="06:05" required>
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+              <div class="field-group">
+                <label for="logAwakenings">Awakenings</label>
+                <select id="logAwakenings" class="input-field">
+                  <option value="0">0 (Solid sleep)</option>
+                  <option value="1" selected>1 awakening</option>
+                  <option value="2">2 awakenings</option>
+                  <option value="3">3+ awakenings</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="logQuality">Sleep Quality</label>
+                <select id="logQuality" class="input-field">
+                  <option value="5">5 &ndash; Optimal &amp; Restored</option>
+                  <option value="4" selected>4 &ndash; Good &amp; Alert</option>
+                  <option value="3">3 &ndash; Fair / Mild Fatigue</option>
+                  <option value="2">2 &ndash; Restless / Disturbed</option>
+                  <option value="1">1 &ndash; Severe Deficit</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="logNotes">Subjective Wakeup Notes (Optional)</label>
+              <textarea id="logNotes" class="input-field" rows="2" placeholder="e.g. Felt rested, slight cabin ventilation hum..."></textarea>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-top:2px;">
+              <span class="mono-num" style="font-size:11.5px;color:var(--ink-muted-paper);">CALCULATED: <strong id="logCalculatedHours" style="color:var(--accent-nominal-dark);">7h 45m</strong></span>
+              <button type="submit" class="btn-primary" style="padding:7px 14px;font-size:12px;">Save Sleep Entry</button>
+            </div>
+          </form>
+
+          <!-- Sleep Trends Chart (Planned vs Actual) & Metrics -->
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:10px;">
+              <div style="background:var(--bg-paper);padding:10px 12px;border:1px solid var(--border-paper);border-radius:4px;">
+                <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">7-DAY AVERAGE</span>
+                <strong class="mono-num" id="statAvgSleep" style="font-size:16px;">7.6 hrs</strong>
+              </div>
+              <div style="background:var(--bg-paper);padding:10px 12px;border:1px solid var(--border-paper);border-radius:4px;">
+                <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">SCHEDULE CONSISTENCY</span>
+                <strong class="mono-num" id="statConsistency" style="font-size:16px;color:var(--accent-nominal-dark);">94%</strong>
+              </div>
+              <div style="background:var(--bg-paper);padding:10px 12px;border:1px solid var(--border-paper);border-radius:4px;">
+                <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">NET SLEEP DEBT</span>
+                <strong class="mono-num" id="statSleepDebt" style="font-size:16px;color:var(--accent-nominal);">-0.4 hrs</strong>
+              </div>
+            </div>
+
+            <div style="position:relative;height:240px;width:100%;background:var(--bg-paper);border:1px solid var(--border-paper);border-radius:4px;padding:10px;">
+              <canvas id="sleepDurationChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Historical Sleep Log Table -->
+        <div style="margin-top:18px;overflow-x:auto;">
+          <table class="ledger-table" style="font-size:12px;">
+            <thead>
+              <tr>
+                <th>Date / Mission Sol</th>
+                <th>Bedtime</th>
+                <th>Wake Time</th>
+                <th>Actual Sleep</th>
+                <th>Planned</th>
+                <th>Awakenings</th>
+                <th>Quality</th>
+                <th>Notes</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="sleepHistoryTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 4. Light Schedule (24-Hour Visual Timeline) -->
+      <section class="ledger-card" style="margin-bottom:22px;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+          <div>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">MODULE 03 · CIRCADIAN LIGHTING</span>
+            <h2 style="font-size:18px;margin-top:2px;">24-Hour Habitat Light Schedule</h2>
+          </div>
+          <span class="badge badge-nominal mono-num" style="font-size:11px;">NASA HRP Circadian Protocol</span>
+        </div>
+
+        <!-- 24-Hour Visual Timeline -->
+        <div class="light-timeline-bar" id="lightTimelineBar" title="Click any phase to inspect details">
+          <div class="light-segment phase-sleep" style="width:25%;" data-phase="sleep1">
+            <span>00:00 &ndash; 06:00 (Dark)</span>
+          </div>
+          <div class="light-segment phase-morning" style="width:8.33%;" data-phase="morning">
+            <span>06:00 &ndash; 08:00</span>
+          </div>
+          <div class="light-segment phase-daytime" style="width:47.92%;" data-phase="daytime">
+            <span>08:00 &ndash; 19:30 (Nominal Full Spectrum)</span>
+          </div>
+          <div class="light-segment phase-evening" style="width:10.42%;" data-phase="evening">
+            <span>19:30 &ndash; 22:00</span>
+          </div>
+          <div class="light-segment phase-sleep" style="width:8.33%;" data-phase="sleep2">
+            <span>22:00 &ndash; 24:00 (Dark)</span>
+          </div>
+        </div>
+
+        <!-- Phase Descriptions & Config Grid -->
+        <div class="light-legend-grid">
+          <div class="light-legend-item">
+            <strong><span class="light-color-dot" style="background:#00E5FF;"></span> Morning / Wake-up Lighting</strong>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion);display:block;margin-bottom:3px;">06:00 &ndash; 08:00 (2.0 hrs)</span>
+            <p style="font-size:11.5px;color:var(--ink-muted-paper);line-height:1.45;">
+              Blue-enriched (480 nm) high-lux lighting directly suppresses melatonin and triggers rapid cortisol awakening.
+            </p>
+          </div>
+
+          <div class="light-legend-item">
+            <strong><span class="light-color-dot" style="background:#43A047;"></span> Daytime Working Lighting</strong>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion);display:block;margin-bottom:3px;">08:00 &ndash; 19:30 (11.5 hrs)</span>
+            <p style="font-size:11.5px;color:var(--ink-muted-paper);line-height:1.45;">
+              Balanced 500 Lux full-spectrum illumination maintains continuous cognitive alertness and procedural performance.
+            </p>
+          </div>
+
+          <div class="light-legend-item">
+            <strong><span class="light-color-dot" style="background:#FB8C00;"></span> Evening Wind-Down Lighting</strong>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion);display:block;margin-bottom:3px;">19:30 &ndash; 22:00 (2.5 hrs)</span>
+            <p style="font-size:11.5px;color:var(--ink-muted-paper);line-height:1.45;">
+              Amber / red-shifted low illumination (&lt; 50 Lux) eliminates short-wavelength light to allow pineal melatonin rise.
+            </p>
+          </div>
+
+          <div class="light-legend-item">
+            <strong><span class="light-color-dot" style="background:#1A2332;border:1px solid rgba(255,255,255,0.4);"></span> Sleep / Dark Period</strong>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion);display:block;margin-bottom:3px;">22:00 &ndash; 06:00 (8.0 hrs)</span>
+            <p style="font-size:11.5px;color:var(--ink-muted-paper);line-height:1.45;">
+              Total cabin blackout (0 Lux) inside sleep quarters. Prevents circadian phase shifting during rapid orbital sunrises.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Daily Routine Organizer -->
+      <section class="ledger-card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+          <div>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">MODULE 04 · DAILY TIMELINE</span>
+            <h2 style="font-size:18px;margin-top:2px;">Daily Routine Organizer</h2>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button type="button" id="resetChecklistBtn" class="btn-secondary" style="font-size:12px;padding:6px 12px;">Reset Checklist Today</button>
+            <button type="button" id="toggleAddActivityBtn" class="btn-primary" style="font-size:12px;padding:6px 12px;">+ Add Activity</button>
+          </div>
+        </div>
+
+        <!-- Add Activity Form (Collapsible) -->
+        <form id="addActivityForm" class="hidden" style="background:var(--bg-paper);border:1px solid var(--border-paper);border-radius:6px;padding:14px;margin-bottom:16px;">
+          <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:10px;align-items:end;">
+            <div class="field-group">
+              <label for="actName">Activity Title</label>
+              <input type="text" id="actName" class="input-field" placeholder="e.g. ARED Squat &amp; Deadlift Session" required>
+            </div>
+            <div class="field-group">
+              <label for="actStart">Start Time</label>
+              <input type="time" id="actStart" class="input-field" value="09:00" required>
+            </div>
+            <div class="field-group">
+              <label for="actEnd">End Time</label>
+              <input type="time" id="actEnd" class="input-field" value="10:00" required>
+            </div>
+            <div class="field-group">
+              <label for="actCategory">Category</label>
+              <select id="actCategory" class="input-field">
+                <option value="Wake-up routine">Wake-up routine</option>
+                <option value="Morning activities">Morning activities</option>
+                <option value="Work sessions">Work sessions</option>
+                <option value="Meals">Meals</option>
+                <option value="Exercise" selected>Exercise</option>
+                <option value="Breaks and relaxation">Breaks and relaxation</option>
+                <option value="Sleep preparation">Sleep preparation</option>
+                <option value="Bedtime">Bedtime</option>
+              </select>
+            </div>
+          </div>
+          <div style="display:flex;justify-content:flex-end;gap:8px;margin-top:12px;">
+            <button type="button" id="cancelAddActivityBtn" class="btn-secondary" style="font-size:12px;padding:6px 12px;">Cancel</button>
+            <button type="submit" class="btn-primary" style="font-size:12px;padding:6px 12px;">Save Activity</button>
+          </div>
+        </form>
+
+        <!-- Dynamic Activity Checklist -->
+        <div class="routine-list" id="routineListWrap"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script src="nasa-data.js"></script>
+  <script src="ai-model.js"></script>
+  <script src="app-shell.js"></script>
+  <script src="assets/chart.umd.min.js"></script>
+  <script src="tracking.js"></script>
+</body>
+</html>

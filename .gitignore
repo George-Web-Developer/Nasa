@@ -1,0 +1,45 @@
+# ==============================================================================
+# Bio Astro Lab (NASA Space Apps 2026) - Project .gitignore
+# ==============================================================================
+
+# Secrets & local environment files (keep .env.example as template)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode, test & coverage caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime SQLite databases (keep prebuilt NASA reference DB; remove '!' line to exclude it too)
+*.db
+*.sqlite
+*.sqlite3
+!database/astronaut_health.db
+
+# Local design-tool state, reference mocks, and scratch scraping scripts
+.impeccable/
+Chat Bot/scratch/
+
+# Build artifacts, archives, and Node dependencies
+*.zip
+dist/
+build/
+*.egg-info/
+node_modules/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

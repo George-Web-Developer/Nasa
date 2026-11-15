@@ -1,0 +1,1831 @@
+id,study_accession,measurement_type,sample_name,timepoint,metric_name,metric_value,unit
+1,OSD-583,Spaceflight Tonometry IOP,F1,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+2,OSD-583,Spaceflight Tonometry IOP,F1,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+3,OSD-583,Spaceflight Tonometry IOP,F2,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+4,OSD-583,Spaceflight Tonometry IOP,F2,Post-flight,Right_IOP_Measurement_Average_mmHg,15.66666667,mmHg
+5,OSD-583,Spaceflight Tonometry IOP,F3,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+6,OSD-583,Spaceflight Tonometry IOP,F3,Post-flight,Right_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+7,OSD-583,Spaceflight Tonometry IOP,F4,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+8,OSD-583,Spaceflight Tonometry IOP,F4,Post-flight,Right_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+9,OSD-583,Spaceflight Tonometry IOP,F5,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+10,OSD-583,Spaceflight Tonometry IOP,F5,Post-flight,Right_IOP_Measurement_Average_mmHg,14.66666667,mmHg
+11,OSD-583,Spaceflight Tonometry IOP,F6,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+12,OSD-583,Spaceflight Tonometry IOP,F6,Post-flight,Right_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+13,OSD-583,Spaceflight Tonometry IOP,F7,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.33333333,mmHg
+14,OSD-583,Spaceflight Tonometry IOP,F7,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+15,OSD-583,Spaceflight Tonometry IOP,F8,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+16,OSD-583,Spaceflight Tonometry IOP,F8,Post-flight,Right_IOP_Measurement_Average_mmHg,14.0,mmHg
+17,OSD-583,Spaceflight Tonometry IOP,F9,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,13.0,mmHg
+18,OSD-583,Spaceflight Tonometry IOP,F9,Post-flight,Right_IOP_Measurement_Average_mmHg,13.0,mmHg
+19,OSD-583,Spaceflight Tonometry IOP,F10,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+20,OSD-583,Spaceflight Tonometry IOP,F10,Post-flight,Right_IOP_Measurement_Average_mmHg,12.0,mmHg
+21,OSD-583,Spaceflight Tonometry IOP,F11,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.33333333,mmHg
+22,OSD-583,Spaceflight Tonometry IOP,F11,Post-flight,Right_IOP_Measurement_Average_mmHg,15.0,mmHg
+23,OSD-583,Spaceflight Tonometry IOP,F12,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.0,mmHg
+24,OSD-583,Spaceflight Tonometry IOP,F12,Post-flight,Right_IOP_Measurement_Average_mmHg,16.0,mmHg
+25,OSD-583,Spaceflight Tonometry IOP,F13,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.33333333,mmHg
+26,OSD-583,Spaceflight Tonometry IOP,F13,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+27,OSD-583,Spaceflight Tonometry IOP,F14,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+28,OSD-583,Spaceflight Tonometry IOP,F14,Post-flight,Right_IOP_Measurement_Average_mmHg,19.0,mmHg
+29,OSD-583,Spaceflight Tonometry IOP,F15,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.33333333,mmHg
+30,OSD-583,Spaceflight Tonometry IOP,F15,Post-flight,Right_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+31,OSD-583,Spaceflight Tonometry IOP,F16,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.0,mmHg
+32,OSD-583,Spaceflight Tonometry IOP,F16,Post-flight,Right_IOP_Measurement_Average_mmHg,18.66666667,mmHg
+33,OSD-583,Spaceflight Tonometry IOP,F17,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.33333333,mmHg
+34,OSD-583,Spaceflight Tonometry IOP,F17,Post-flight,Right_IOP_Measurement_Average_mmHg,16.0,mmHg
+35,OSD-583,Spaceflight Tonometry IOP,F18,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.0,mmHg
+36,OSD-583,Spaceflight Tonometry IOP,F18,Post-flight,Right_IOP_Measurement_Average_mmHg,16.0,mmHg
+37,OSD-583,Spaceflight Tonometry IOP,F19,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.66666667,mmHg
+38,OSD-583,Spaceflight Tonometry IOP,F19,Post-flight,Right_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+39,OSD-583,Spaceflight Tonometry IOP,F20,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+40,OSD-583,Spaceflight Tonometry IOP,F20,Post-flight,Right_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+41,OSD-583,Spaceflight Tonometry IOP,FViv1,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.0,mmHg
+42,OSD-583,Spaceflight Tonometry IOP,FViv1,Post-flight,Right_IOP_Measurement_Average_mmHg,15.0,mmHg
+43,OSD-583,Spaceflight Tonometry IOP,FViv2,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+44,OSD-583,Spaceflight Tonometry IOP,FViv2,Post-flight,Right_IOP_Measurement_Average_mmHg,14.0,mmHg
+45,OSD-583,Spaceflight Tonometry IOP,FViv3,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+46,OSD-583,Spaceflight Tonometry IOP,FViv3,Post-flight,Right_IOP_Measurement_Average_mmHg,13.66666667,mmHg
+47,OSD-583,Spaceflight Tonometry IOP,FViv4,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.0,mmHg
+48,OSD-583,Spaceflight Tonometry IOP,FViv4,Post-flight,Right_IOP_Measurement_Average_mmHg,11.0,mmHg
+49,OSD-583,Spaceflight Tonometry IOP,FViv5,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+50,OSD-583,Spaceflight Tonometry IOP,FViv5,Post-flight,Right_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+51,OSD-583,Spaceflight Tonometry IOP,FViv6,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+52,OSD-583,Spaceflight Tonometry IOP,FViv6,Post-flight,Right_IOP_Measurement_Average_mmHg,15.0,mmHg
+53,OSD-583,Spaceflight Tonometry IOP,FViv7,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.0,mmHg
+54,OSD-583,Spaceflight Tonometry IOP,FViv7,Post-flight,Right_IOP_Measurement_Average_mmHg,15.66666667,mmHg
+55,OSD-583,Spaceflight Tonometry IOP,FViv8,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.0,mmHg
+56,OSD-583,Spaceflight Tonometry IOP,FViv8,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+57,OSD-583,Spaceflight Tonometry IOP,FViv9,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,14.66666667,mmHg
+58,OSD-583,Spaceflight Tonometry IOP,FViv9,Post-flight,Right_IOP_Measurement_Average_mmHg,13.33333333,mmHg
+59,OSD-583,Spaceflight Tonometry IOP,FViv10,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+60,OSD-583,Spaceflight Tonometry IOP,FViv10,Post-flight,Right_IOP_Measurement_Average_mmHg,15.66666667,mmHg
+61,OSD-583,Spaceflight Tonometry IOP,FViv11,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.0,mmHg
+62,OSD-583,Spaceflight Tonometry IOP,FViv11,Post-flight,Right_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+63,OSD-583,Spaceflight Tonometry IOP,FViv12,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.0,mmHg
+64,OSD-583,Spaceflight Tonometry IOP,FViv12,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+65,OSD-583,Spaceflight Tonometry IOP,FViv13,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+66,OSD-583,Spaceflight Tonometry IOP,FViv13,Post-flight,Right_IOP_Measurement_Average_mmHg,14.33333333,mmHg
+67,OSD-583,Spaceflight Tonometry IOP,FViv14,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,11.33333333,mmHg
+68,OSD-583,Spaceflight Tonometry IOP,FViv14,Post-flight,Right_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+69,OSD-583,Spaceflight Tonometry IOP,FViv15,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+70,OSD-583,Spaceflight Tonometry IOP,FViv15,Post-flight,Right_IOP_Measurement_Average_mmHg,14.0,mmHg
+71,OSD-583,Spaceflight Tonometry IOP,FViv16,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.0,mmHg
+72,OSD-583,Spaceflight Tonometry IOP,FViv16,Post-flight,Right_IOP_Measurement_Average_mmHg,10.66666667,mmHg
+73,OSD-583,Spaceflight Tonometry IOP,FViv17,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.33333333,mmHg
+74,OSD-583,Spaceflight Tonometry IOP,FViv17,Post-flight,Right_IOP_Measurement_Average_mmHg,11.33333333,mmHg
+75,OSD-583,Spaceflight Tonometry IOP,FViv18,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,13.66666667,mmHg
+76,OSD-583,Spaceflight Tonometry IOP,FViv18,Post-flight,Right_IOP_Measurement_Average_mmHg,13.33333333,mmHg
+77,OSD-583,Spaceflight Tonometry IOP,FViv19,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,13.33333333,mmHg
+78,OSD-583,Spaceflight Tonometry IOP,FViv19,Post-flight,Right_IOP_Measurement_Average_mmHg,14.66666667,mmHg
+79,OSD-583,Spaceflight Tonometry IOP,FViv20,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+80,OSD-583,Spaceflight Tonometry IOP,FViv20,Post-flight,Right_IOP_Measurement_Average_mmHg,12.66666667,mmHg
+81,OSD-583,Spaceflight Tonometry IOP,GC1,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,22.0,mmHg
+82,OSD-583,Spaceflight Tonometry IOP,GC1,Post-flight,Right_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+83,OSD-583,Spaceflight Tonometry IOP,GC2,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+84,OSD-583,Spaceflight Tonometry IOP,GC2,Post-flight,Right_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+85,OSD-583,Spaceflight Tonometry IOP,GC3,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.0,mmHg
+86,OSD-583,Spaceflight Tonometry IOP,GC3,Post-flight,Right_IOP_Measurement_Average_mmHg,22.33333333,mmHg
+87,OSD-583,Spaceflight Tonometry IOP,GC4,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+88,OSD-583,Spaceflight Tonometry IOP,GC4,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+89,OSD-583,Spaceflight Tonometry IOP,GC5,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+90,OSD-583,Spaceflight Tonometry IOP,GC5,Post-flight,Right_IOP_Measurement_Average_mmHg,20.66666667,mmHg
+91,OSD-583,Spaceflight Tonometry IOP,GC6,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+92,OSD-583,Spaceflight Tonometry IOP,GC6,Post-flight,Right_IOP_Measurement_Average_mmHg,24.33333333,mmHg
+93,OSD-583,Spaceflight Tonometry IOP,GC7,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.0,mmHg
+94,OSD-583,Spaceflight Tonometry IOP,GC7,Post-flight,Right_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+95,OSD-583,Spaceflight Tonometry IOP,GC8,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,22.0,mmHg
+96,OSD-583,Spaceflight Tonometry IOP,GC8,Post-flight,Right_IOP_Measurement_Average_mmHg,22.0,mmHg
+97,OSD-583,Spaceflight Tonometry IOP,GC9,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+98,OSD-583,Spaceflight Tonometry IOP,GC9,Post-flight,Right_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+99,OSD-583,Spaceflight Tonometry IOP,GC10,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.66666667,mmHg
+100,OSD-583,Spaceflight Tonometry IOP,GC10,Post-flight,Right_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+101,OSD-583,Spaceflight Tonometry IOP,GC11,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,22.66666667,mmHg
+102,OSD-583,Spaceflight Tonometry IOP,GC11,Post-flight,Right_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+103,OSD-583,Spaceflight Tonometry IOP,GC12,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.66666667,mmHg
+104,OSD-583,Spaceflight Tonometry IOP,GC12,Post-flight,Right_IOP_Measurement_Average_mmHg,16.0,mmHg
+105,OSD-583,Spaceflight Tonometry IOP,GC13,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,23.0,mmHg
+106,OSD-583,Spaceflight Tonometry IOP,GC13,Post-flight,Right_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+107,OSD-583,Spaceflight Tonometry IOP,GC14,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.0,mmHg
+108,OSD-583,Spaceflight Tonometry IOP,GC14,Post-flight,Right_IOP_Measurement_Average_mmHg,20.33333333,mmHg
+109,OSD-583,Spaceflight Tonometry IOP,GC15,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.33333333,mmHg
+110,OSD-583,Spaceflight Tonometry IOP,GC15,Post-flight,Right_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+111,OSD-583,Spaceflight Tonometry IOP,GC16,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,15.33333333,mmHg
+112,OSD-583,Spaceflight Tonometry IOP,GC16,Post-flight,Right_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+113,OSD-583,Spaceflight Tonometry IOP,GC17,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+114,OSD-583,Spaceflight Tonometry IOP,GC17,Post-flight,Right_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+115,OSD-583,Spaceflight Tonometry IOP,GC18,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.0,mmHg
+116,OSD-583,Spaceflight Tonometry IOP,GC18,Post-flight,Right_IOP_Measurement_Average_mmHg,17.66666667,mmHg
+117,OSD-583,Spaceflight Tonometry IOP,GC19,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.66666667,mmHg
+118,OSD-583,Spaceflight Tonometry IOP,GC19,Post-flight,Right_IOP_Measurement_Average_mmHg,21.66666667,mmHg
+119,OSD-583,Spaceflight Tonometry IOP,GC20,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.33333333,mmHg
+120,OSD-583,Spaceflight Tonometry IOP,GC20,Post-flight,Right_IOP_Measurement_Average_mmHg,15.0,mmHg
+121,OSD-583,Spaceflight Tonometry IOP,Viv1,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+122,OSD-583,Spaceflight Tonometry IOP,Viv1,Post-flight,Right_IOP_Measurement_Average_mmHg,20.67,mmHg
+123,OSD-583,Spaceflight Tonometry IOP,Viv2,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.7,mmHg
+124,OSD-583,Spaceflight Tonometry IOP,Viv2,Post-flight,Right_IOP_Measurement_Average_mmHg,18.67,mmHg
+125,OSD-583,Spaceflight Tonometry IOP,Viv3,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.0,mmHg
+126,OSD-583,Spaceflight Tonometry IOP,Viv3,Post-flight,Right_IOP_Measurement_Average_mmHg,19.33,mmHg
+127,OSD-583,Spaceflight Tonometry IOP,Viv4,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.7,mmHg
+128,OSD-583,Spaceflight Tonometry IOP,Viv4,Post-flight,Right_IOP_Measurement_Average_mmHg,20.67,mmHg
+129,OSD-583,Spaceflight Tonometry IOP,Viv5,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+130,OSD-583,Spaceflight Tonometry IOP,Viv5,Post-flight,Right_IOP_Measurement_Average_mmHg,18.67,mmHg
+131,OSD-583,Spaceflight Tonometry IOP,Viv6,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.0,mmHg
+132,OSD-583,Spaceflight Tonometry IOP,Viv6,Post-flight,Right_IOP_Measurement_Average_mmHg,18.33,mmHg
+133,OSD-583,Spaceflight Tonometry IOP,Viv7,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.7,mmHg
+134,OSD-583,Spaceflight Tonometry IOP,Viv7,Post-flight,Right_IOP_Measurement_Average_mmHg,18.67,mmHg
+135,OSD-583,Spaceflight Tonometry IOP,Viv8,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,23.7,mmHg
+136,OSD-583,Spaceflight Tonometry IOP,Viv8,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+137,OSD-583,Spaceflight Tonometry IOP,Viv9,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,23.3,mmHg
+138,OSD-583,Spaceflight Tonometry IOP,Viv9,Post-flight,Right_IOP_Measurement_Average_mmHg,22.67,mmHg
+139,OSD-583,Spaceflight Tonometry IOP,Viv10,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.7,mmHg
+140,OSD-583,Spaceflight Tonometry IOP,Viv10,Post-flight,Right_IOP_Measurement_Average_mmHg,18.67,mmHg
+141,OSD-583,Spaceflight Tonometry IOP,Viv11,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+142,OSD-583,Spaceflight Tonometry IOP,Viv11,Post-flight,Right_IOP_Measurement_Average_mmHg,17.33,mmHg
+143,OSD-583,Spaceflight Tonometry IOP,Viv12,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.7,mmHg
+144,OSD-583,Spaceflight Tonometry IOP,Viv12,Post-flight,Right_IOP_Measurement_Average_mmHg,21.33,mmHg
+145,OSD-583,Spaceflight Tonometry IOP,Viv13,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.0,mmHg
+146,OSD-583,Spaceflight Tonometry IOP,Viv13,Post-flight,Right_IOP_Measurement_Average_mmHg,21.0,mmHg
+147,OSD-583,Spaceflight Tonometry IOP,Viv14,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.7,mmHg
+148,OSD-583,Spaceflight Tonometry IOP,Viv14,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+149,OSD-583,Spaceflight Tonometry IOP,Viv15,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.0,mmHg
+150,OSD-583,Spaceflight Tonometry IOP,Viv15,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+151,OSD-583,Spaceflight Tonometry IOP,Viv16,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,24.0,mmHg
+152,OSD-583,Spaceflight Tonometry IOP,Viv16,Post-flight,Right_IOP_Measurement_Average_mmHg,25.0,mmHg
+153,OSD-583,Spaceflight Tonometry IOP,Viv17,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.0,mmHg
+154,OSD-583,Spaceflight Tonometry IOP,Viv17,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+155,OSD-583,Spaceflight Tonometry IOP,Viv18,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.3,mmHg
+156,OSD-583,Spaceflight Tonometry IOP,Viv18,Post-flight,Right_IOP_Measurement_Average_mmHg,19.67,mmHg
+157,OSD-583,Spaceflight Tonometry IOP,Viv19,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.7,mmHg
+158,OSD-583,Spaceflight Tonometry IOP,Viv19,Post-flight,Right_IOP_Measurement_Average_mmHg,22.33,mmHg
+159,OSD-583,Spaceflight Tonometry IOP,Viv20,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.3,mmHg
+160,OSD-583,Spaceflight Tonometry IOP,Viv20,Post-flight,Right_IOP_Measurement_Average_mmHg,21.67,mmHg
+161,OSD-583,Spaceflight Tonometry IOP,CC1,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.7,mmHg
+162,OSD-583,Spaceflight Tonometry IOP,CC1,Post-flight,Right_IOP_Measurement_Average_mmHg,20.33333333,mmHg
+163,OSD-583,Spaceflight Tonometry IOP,CC2,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,14.7,mmHg
+164,OSD-583,Spaceflight Tonometry IOP,CC2,Post-flight,Right_IOP_Measurement_Average_mmHg,19.0,mmHg
+165,OSD-583,Spaceflight Tonometry IOP,CC3,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.0,mmHg
+166,OSD-583,Spaceflight Tonometry IOP,CC3,Post-flight,Right_IOP_Measurement_Average_mmHg,16.7,mmHg
+167,OSD-583,Spaceflight Tonometry IOP,CC4,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,22.0,mmHg
+168,OSD-583,Spaceflight Tonometry IOP,CC4,Post-flight,Right_IOP_Measurement_Average_mmHg,22.3,mmHg
+169,OSD-583,Spaceflight Tonometry IOP,CC5,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+170,OSD-583,Spaceflight Tonometry IOP,CC5,Post-flight,Right_IOP_Measurement_Average_mmHg,23.3,mmHg
+171,OSD-583,Spaceflight Tonometry IOP,CC6,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.3,mmHg
+172,OSD-583,Spaceflight Tonometry IOP,CC6,Post-flight,Right_IOP_Measurement_Average_mmHg,16.7,mmHg
+173,OSD-583,Spaceflight Tonometry IOP,CC7,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.0,mmHg
+174,OSD-583,Spaceflight Tonometry IOP,CC7,Post-flight,Right_IOP_Measurement_Average_mmHg,18.0,mmHg
+175,OSD-583,Spaceflight Tonometry IOP,CC8,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.3,mmHg
+176,OSD-583,Spaceflight Tonometry IOP,CC8,Post-flight,Right_IOP_Measurement_Average_mmHg,21.0,mmHg
+177,OSD-583,Spaceflight Tonometry IOP,CC9,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.7,mmHg
+178,OSD-583,Spaceflight Tonometry IOP,CC9,Post-flight,Right_IOP_Measurement_Average_mmHg,18.7,mmHg
+179,OSD-583,Spaceflight Tonometry IOP,CC10,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.0,mmHg
+180,OSD-583,Spaceflight Tonometry IOP,CC10,Post-flight,Right_IOP_Measurement_Average_mmHg,18.7,mmHg
+181,OSD-583,Spaceflight Tonometry IOP,CC11,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.3,mmHg
+182,OSD-583,Spaceflight Tonometry IOP,CC11,Post-flight,Right_IOP_Measurement_Average_mmHg,17.0,mmHg
+183,OSD-583,Spaceflight Tonometry IOP,CC12,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,23.3,mmHg
+184,OSD-583,Spaceflight Tonometry IOP,CC12,Post-flight,Right_IOP_Measurement_Average_mmHg,20.0,mmHg
+185,OSD-583,Spaceflight Tonometry IOP,CC13,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+186,OSD-583,Spaceflight Tonometry IOP,CC13,Post-flight,Right_IOP_Measurement_Average_mmHg,20.7,mmHg
+187,OSD-583,Spaceflight Tonometry IOP,CC14,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,17.3,mmHg
+188,OSD-583,Spaceflight Tonometry IOP,CC14,Post-flight,Right_IOP_Measurement_Average_mmHg,17.7,mmHg
+189,OSD-583,Spaceflight Tonometry IOP,CC15,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.3,mmHg
+190,OSD-583,Spaceflight Tonometry IOP,CC15,Post-flight,Right_IOP_Measurement_Average_mmHg,19.7,mmHg
+191,OSD-583,Spaceflight Tonometry IOP,CC16,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,18.7,mmHg
+192,OSD-583,Spaceflight Tonometry IOP,CC16,Post-flight,Right_IOP_Measurement_Average_mmHg,17.3,mmHg
+193,OSD-583,Spaceflight Tonometry IOP,CC17,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,16.0,mmHg
+194,OSD-583,Spaceflight Tonometry IOP,CC17,Post-flight,Right_IOP_Measurement_Average_mmHg,19.0,mmHg
+195,OSD-583,Spaceflight Tonometry IOP,CC18,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,19.3,mmHg
+196,OSD-583,Spaceflight Tonometry IOP,CC18,Post-flight,Right_IOP_Measurement_Average_mmHg,20.7,mmHg
+197,OSD-583,Spaceflight Tonometry IOP,CC19,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,21.3,mmHg
+198,OSD-583,Spaceflight Tonometry IOP,CC19,Post-flight,Right_IOP_Measurement_Average_mmHg,19.7,mmHg
+199,OSD-583,Spaceflight Tonometry IOP,CC20,Post-flight,Left_Eye_IOP_Measurement_Average_mmHg,20.3,mmHg
+200,OSD-583,Spaceflight Tonometry IOP,CC20,Post-flight,Right_IOP_Measurement_Average_mmHg,21.3,mmHg
+201,OSD-679,Hindlimb Unloading Tonometry IOP,MT51_OD,Day_0,Intraocular Pressure,13.0,torr
+202,OSD-679,Hindlimb Unloading Tonometry IOP,MT51_OD,Day_7,Intraocular Pressure,16.0,torr
+203,OSD-679,Hindlimb Unloading Tonometry IOP,MT56_OD,Day_0,Intraocular Pressure,16.0,torr
+204,OSD-679,Hindlimb Unloading Tonometry IOP,MT56_OD,Day_7,Intraocular Pressure,25.0,torr
+205,OSD-679,Hindlimb Unloading Tonometry IOP,MT59_OD,Day_0,Intraocular Pressure,22.0,torr
+206,OSD-679,Hindlimb Unloading Tonometry IOP,MT59_OD,Day_7,Intraocular Pressure,24.0,torr
+207,OSD-679,Hindlimb Unloading Tonometry IOP,MT52_OD,Day_0,Intraocular Pressure,15.0,torr
+208,OSD-679,Hindlimb Unloading Tonometry IOP,MT52_OD,Day_7,Intraocular Pressure,20.0,torr
+209,OSD-679,Hindlimb Unloading Tonometry IOP,MT60_OD,Day_0,Intraocular Pressure,18.0,torr
+210,OSD-679,Hindlimb Unloading Tonometry IOP,MT60_OD,Day_7,Intraocular Pressure,19.0,torr
+211,OSD-679,Hindlimb Unloading Tonometry IOP,MT62_OD,Day_0,Intraocular Pressure,19.0,torr
+212,OSD-679,Hindlimb Unloading Tonometry IOP,MT62_OD,Day_7,Intraocular Pressure,19.0,torr
+213,OSD-679,Hindlimb Unloading Tonometry IOP,MT51_OS,Day_0,Intraocular Pressure,18.0,torr
+214,OSD-679,Hindlimb Unloading Tonometry IOP,MT51_OS,Day_7,Intraocular Pressure,19.0,torr
+215,OSD-679,Hindlimb Unloading Tonometry IOP,MT56_OS,Day_0,Intraocular Pressure,14.0,torr
+216,OSD-679,Hindlimb Unloading Tonometry IOP,MT56_OS,Day_7,Intraocular Pressure,22.0,torr
+217,OSD-679,Hindlimb Unloading Tonometry IOP,MT59_OS,Day_0,Intraocular Pressure,17.0,torr
+218,OSD-679,Hindlimb Unloading Tonometry IOP,MT59_OS,Day_7,Intraocular Pressure,26.0,torr
+219,OSD-679,Hindlimb Unloading Tonometry IOP,MT52_OS,Day_0,Intraocular Pressure,14.0,torr
+220,OSD-679,Hindlimb Unloading Tonometry IOP,MT52_OS,Day_7,Intraocular Pressure,17.0,torr
+221,OSD-679,Hindlimb Unloading Tonometry IOP,MT60_OS,Day_0,Intraocular Pressure,13.0,torr
+222,OSD-679,Hindlimb Unloading Tonometry IOP,MT60_OS,Day_7,Intraocular Pressure,14.0,torr
+223,OSD-679,Hindlimb Unloading Tonometry IOP,MT62_OS,Day_0,Intraocular Pressure,18.0,torr
+224,OSD-679,Hindlimb Unloading Tonometry IOP,MT62_OS,Day_7,Intraocular Pressure,13.0,torr
+225,OSD-679,Hindlimb Unloading Tonometry IOP,MT66_OD,Day_0,Intraocular Pressure,14.0,torr
+226,OSD-679,Hindlimb Unloading Tonometry IOP,MT66_OD,Day_14,Intraocular Pressure,23.0,torr
+227,OSD-679,Hindlimb Unloading Tonometry IOP,MT70_OD,Day_0,Intraocular Pressure,15.0,torr
+228,OSD-679,Hindlimb Unloading Tonometry IOP,MT70_OD,Day_14,Intraocular Pressure,22.0,torr
+229,OSD-679,Hindlimb Unloading Tonometry IOP,MT72_OD,Day_0,Intraocular Pressure,21.0,torr
+230,OSD-679,Hindlimb Unloading Tonometry IOP,MT72_OD,Day_14,Intraocular Pressure,18.0,torr
+231,OSD-679,Hindlimb Unloading Tonometry IOP,MT76_OD,Day_0,Intraocular Pressure,19.0,torr
+232,OSD-679,Hindlimb Unloading Tonometry IOP,MT76_OD,Day_14,Intraocular Pressure,25.0,torr
+233,OSD-679,Hindlimb Unloading Tonometry IOP,MT74_OD,Day_0,Intraocular Pressure,17.0,torr
+234,OSD-679,Hindlimb Unloading Tonometry IOP,MT74_OD,Day_14,Intraocular Pressure,23.0,torr
+235,OSD-679,Hindlimb Unloading Tonometry IOP,MT78_OD,Day_0,Intraocular Pressure,18.0,torr
+236,OSD-679,Hindlimb Unloading Tonometry IOP,MT78_OD,Day_14,Intraocular Pressure,32.0,torr
+237,OSD-679,Hindlimb Unloading Tonometry IOP,MT80_OD,Day_0,Intraocular Pressure,19.0,torr
+238,OSD-679,Hindlimb Unloading Tonometry IOP,MT80_OD,Day_14,Intraocular Pressure,29.0,torr
+239,OSD-679,Hindlimb Unloading Tonometry IOP,MT65_OD,Day_0,Intraocular Pressure,17.0,torr
+240,OSD-679,Hindlimb Unloading Tonometry IOP,MT65_OD,Day_14,Intraocular Pressure,22.0,torr
+241,OSD-679,Hindlimb Unloading Tonometry IOP,MT68_OD,Day_0,Intraocular Pressure,16.0,torr
+242,OSD-679,Hindlimb Unloading Tonometry IOP,MT68_OD,Day_14,Intraocular Pressure,21.0,torr
+243,OSD-679,Hindlimb Unloading Tonometry IOP,MT71_OD,Day_0,Intraocular Pressure,20.0,torr
+244,OSD-679,Hindlimb Unloading Tonometry IOP,MT71_OD,Day_14,Intraocular Pressure,17.0,torr
+245,OSD-679,Hindlimb Unloading Tonometry IOP,MT73_OD,Day_0,Intraocular Pressure,19.0,torr
+246,OSD-679,Hindlimb Unloading Tonometry IOP,MT73_OD,Day_14,Intraocular Pressure,22.0,torr
+247,OSD-679,Hindlimb Unloading Tonometry IOP,MT75_OD,Day_0,Intraocular Pressure,21.0,torr
+248,OSD-679,Hindlimb Unloading Tonometry IOP,MT75_OD,Day_14,Intraocular Pressure,23.0,torr
+249,OSD-679,Hindlimb Unloading Tonometry IOP,MT79_OD,Day_0,Intraocular Pressure,23.0,torr
+250,OSD-679,Hindlimb Unloading Tonometry IOP,MT79_OD,Day_14,Intraocular Pressure,18.0,torr
+251,OSD-679,Hindlimb Unloading Tonometry IOP,MT82_OD,Day_0,Intraocular Pressure,17.0,torr
+252,OSD-679,Hindlimb Unloading Tonometry IOP,MT82_OD,Day_14,Intraocular Pressure,19.0,torr
+253,OSD-679,Hindlimb Unloading Tonometry IOP,MT66_OS,Day_0,Intraocular Pressure,14.0,torr
+254,OSD-679,Hindlimb Unloading Tonometry IOP,MT66_OS,Day_14,Intraocular Pressure,22.0,torr
+255,OSD-679,Hindlimb Unloading Tonometry IOP,MT70_OS,Day_0,Intraocular Pressure,22.0,torr
+256,OSD-679,Hindlimb Unloading Tonometry IOP,MT70_OS,Day_14,Intraocular Pressure,24.0,torr
+257,OSD-679,Hindlimb Unloading Tonometry IOP,MT72_OS,Day_0,Intraocular Pressure,15.0,torr
+258,OSD-679,Hindlimb Unloading Tonometry IOP,MT72_OS,Day_14,Intraocular Pressure,22.0,torr
+259,OSD-679,Hindlimb Unloading Tonometry IOP,MT76_OS,Day_0,Intraocular Pressure,20.0,torr
+260,OSD-679,Hindlimb Unloading Tonometry IOP,MT76_OS,Day_14,Intraocular Pressure,26.0,torr
+261,OSD-679,Hindlimb Unloading Tonometry IOP,MT74_OS,Day_0,Intraocular Pressure,18.0,torr
+262,OSD-679,Hindlimb Unloading Tonometry IOP,MT74_OS,Day_14,Intraocular Pressure,17.0,torr
+263,OSD-679,Hindlimb Unloading Tonometry IOP,MT78_OS,Day_0,Intraocular Pressure,19.0,torr
+264,OSD-679,Hindlimb Unloading Tonometry IOP,MT78_OS,Day_14,Intraocular Pressure,32.0,torr
+265,OSD-679,Hindlimb Unloading Tonometry IOP,MT80_OS,Day_0,Intraocular Pressure,18.0,torr
+266,OSD-679,Hindlimb Unloading Tonometry IOP,MT80_OS,Day_14,Intraocular Pressure,25.0,torr
+267,OSD-679,Hindlimb Unloading Tonometry IOP,MT65_OS,Day_0,Intraocular Pressure,19.0,torr
+268,OSD-679,Hindlimb Unloading Tonometry IOP,MT65_OS,Day_14,Intraocular Pressure,19.0,torr
+269,OSD-679,Hindlimb Unloading Tonometry IOP,MT68_OS,Day_0,Intraocular Pressure,18.0,torr
+270,OSD-679,Hindlimb Unloading Tonometry IOP,MT68_OS,Day_14,Intraocular Pressure,15.0,torr
+271,OSD-679,Hindlimb Unloading Tonometry IOP,MT71_OS,Day_0,Intraocular Pressure,18.0,torr
+272,OSD-679,Hindlimb Unloading Tonometry IOP,MT71_OS,Day_14,Intraocular Pressure,22.0,torr
+273,OSD-679,Hindlimb Unloading Tonometry IOP,MT73_OS,Day_0,Intraocular Pressure,18.0,torr
+274,OSD-679,Hindlimb Unloading Tonometry IOP,MT73_OS,Day_14,Intraocular Pressure,26.0,torr
+275,OSD-679,Hindlimb Unloading Tonometry IOP,MT75_OS,Day_0,Intraocular Pressure,18.0,torr
+276,OSD-679,Hindlimb Unloading Tonometry IOP,MT75_OS,Day_14,Intraocular Pressure,26.0,torr
+277,OSD-679,Hindlimb Unloading Tonometry IOP,MT79_OS,Day_0,Intraocular Pressure,24.0,torr
+278,OSD-679,Hindlimb Unloading Tonometry IOP,MT79_OS,Day_14,Intraocular Pressure,27.0,torr
+279,OSD-679,Hindlimb Unloading Tonometry IOP,MT82_OS,Day_0,Intraocular Pressure,17.0,torr
+280,OSD-679,Hindlimb Unloading Tonometry IOP,MT82_OS,Day_14,Intraocular Pressure,20.0,torr
+281,OSD-679,Hindlimb Unloading Tonometry IOP,MT01_OD,Day_0,Intraocular Pressure,17.0,torr
+282,OSD-679,Hindlimb Unloading Tonometry IOP,MT01_OD,Day_28,Intraocular Pressure,28.0,torr
+283,OSD-679,Hindlimb Unloading Tonometry IOP,MT03_OD,Day_0,Intraocular Pressure,14.0,torr
+284,OSD-679,Hindlimb Unloading Tonometry IOP,MT03_OD,Day_28,Intraocular Pressure,20.0,torr
+285,OSD-679,Hindlimb Unloading Tonometry IOP,MT63_OD,Day_0,Intraocular Pressure,21.0,torr
+286,OSD-679,Hindlimb Unloading Tonometry IOP,MT63_OD,Day_28,Intraocular Pressure,18.0,torr
+287,OSD-679,Hindlimb Unloading Tonometry IOP,MT08_OD,Day_0,Intraocular Pressure,16.0,torr
+288,OSD-679,Hindlimb Unloading Tonometry IOP,MT08_OD,Day_28,Intraocular Pressure,29.0,torr
+289,OSD-679,Hindlimb Unloading Tonometry IOP,MT18_OD,Day_0,Intraocular Pressure,20.0,torr
+290,OSD-679,Hindlimb Unloading Tonometry IOP,MT18_OD,Day_28,Intraocular Pressure,22.0,torr
+291,OSD-679,Hindlimb Unloading Tonometry IOP,MT64_OD,Day_0,Intraocular Pressure,18.0,torr
+292,OSD-679,Hindlimb Unloading Tonometry IOP,MT64_OD,Day_28,Intraocular Pressure,21.0,torr
+293,OSD-679,Hindlimb Unloading Tonometry IOP,MT01_OS,Day_0,Intraocular Pressure,14.0,torr
+294,OSD-679,Hindlimb Unloading Tonometry IOP,MT01_OS,Day_28,Intraocular Pressure,27.0,torr
+295,OSD-679,Hindlimb Unloading Tonometry IOP,MT03_OS,Day_0,Intraocular Pressure,15.0,torr
+296,OSD-679,Hindlimb Unloading Tonometry IOP,MT03_OS,Day_28,Intraocular Pressure,20.0,torr
+297,OSD-679,Hindlimb Unloading Tonometry IOP,MT63_OS,Day_0,Intraocular Pressure,21.0,torr
+298,OSD-679,Hindlimb Unloading Tonometry IOP,MT63_OS,Day_28,Intraocular Pressure,28.0,torr
+299,OSD-679,Hindlimb Unloading Tonometry IOP,MT08_OS,Day_0,Intraocular Pressure,15.0,torr
+300,OSD-679,Hindlimb Unloading Tonometry IOP,MT08_OS,Day_28,Intraocular Pressure,12.0,torr
+301,OSD-679,Hindlimb Unloading Tonometry IOP,MT18_OS,Day_0,Intraocular Pressure,14.0,torr
+302,OSD-679,Hindlimb Unloading Tonometry IOP,MT18_OS,Day_28,Intraocular Pressure,17.0,torr
+303,OSD-679,Hindlimb Unloading Tonometry IOP,MT64_OS,Day_0,Intraocular Pressure,19.0,torr
+304,OSD-679,Hindlimb Unloading Tonometry IOP,MT64_OS,Day_28,Intraocular Pressure,21.0,torr
+305,OSD-679,Hindlimb Unloading Tonometry IOP,MT09_OD,Day_0,Intraocular Pressure,16.5,torr
+306,OSD-679,Hindlimb Unloading Tonometry IOP,MT09_OD,Day_90,Intraocular Pressure,25.0,torr
+307,OSD-679,Hindlimb Unloading Tonometry IOP,MT04_OD,Day_0,Intraocular Pressure,17.0,torr
+308,OSD-679,Hindlimb Unloading Tonometry IOP,MT04_OD,Day_90,Intraocular Pressure,15.0,torr
+309,OSD-679,Hindlimb Unloading Tonometry IOP,MT05_OD,Day_0,Intraocular Pressure,16.0,torr
+310,OSD-679,Hindlimb Unloading Tonometry IOP,MT05_OD,Day_90,Intraocular Pressure,25.0,torr
+311,OSD-679,Hindlimb Unloading Tonometry IOP,MT17_OD,Day_0,Intraocular Pressure,24.0,torr
+312,OSD-679,Hindlimb Unloading Tonometry IOP,MT17_OD,Day_90,Intraocular Pressure,29.0,torr
+313,OSD-679,Hindlimb Unloading Tonometry IOP,MT21_OD,Day_0,Intraocular Pressure,16.5,torr
+314,OSD-679,Hindlimb Unloading Tonometry IOP,MT21_OD,Day_90,Intraocular Pressure,23.0,torr
+315,OSD-679,Hindlimb Unloading Tonometry IOP,MT23_OD,Day_0,Intraocular Pressure,20.0,torr
+316,OSD-679,Hindlimb Unloading Tonometry IOP,MT23_OD,Day_90,Intraocular Pressure,17.0,torr
+317,OSD-679,Hindlimb Unloading Tonometry IOP,MT02_OD,Day_0,Intraocular Pressure,18.5,torr
+318,OSD-679,Hindlimb Unloading Tonometry IOP,MT02_OD,Day_90,Intraocular Pressure,21.0,torr
+319,OSD-679,Hindlimb Unloading Tonometry IOP,MT54_OD,Day_0,Intraocular Pressure,15.0,torr
+320,OSD-679,Hindlimb Unloading Tonometry IOP,MT54_OD,Day_90,Intraocular Pressure,19.0,torr
+321,OSD-679,Hindlimb Unloading Tonometry IOP,MT13_OD,Day_0,Intraocular Pressure,19.5,torr
+322,OSD-679,Hindlimb Unloading Tonometry IOP,MT13_OD,Day_90,Intraocular Pressure,14.0,torr
+323,OSD-679,Hindlimb Unloading Tonometry IOP,MT15_OD,Day_0,Intraocular Pressure,20.0,torr
+324,OSD-679,Hindlimb Unloading Tonometry IOP,MT15_OD,Day_90,Intraocular Pressure,25.0,torr
+325,OSD-679,Hindlimb Unloading Tonometry IOP,MT16_OD,Day_0,Intraocular Pressure,15.5,torr
+326,OSD-679,Hindlimb Unloading Tonometry IOP,MT16_OD,Day_90,Intraocular Pressure,15.0,torr
+327,OSD-679,Hindlimb Unloading Tonometry IOP,MT20_OD,Day_0,Intraocular Pressure,18.0,torr
+328,OSD-679,Hindlimb Unloading Tonometry IOP,MT20_OD,Day_90,Intraocular Pressure,23.0,torr
+329,OSD-679,Hindlimb Unloading Tonometry IOP,MT28_OD,Day_0,Intraocular Pressure,20.5,torr
+330,OSD-679,Hindlimb Unloading Tonometry IOP,MT28_OD,Day_90,Intraocular Pressure,23.0,torr
+331,OSD-679,Hindlimb Unloading Tonometry IOP,MT32_OD,Day_0,Intraocular Pressure,19.5,torr
+332,OSD-679,Hindlimb Unloading Tonometry IOP,MT32_OD,Day_90,Intraocular Pressure,21.0,torr
+333,OSD-679,Hindlimb Unloading Tonometry IOP,MT39_OD,Day_0,Intraocular Pressure,20.0,torr
+334,OSD-679,Hindlimb Unloading Tonometry IOP,MT39_OD,Day_90,Intraocular Pressure,26.0,torr
+335,OSD-679,Hindlimb Unloading Tonometry IOP,MT37_OD,Day_0,Intraocular Pressure,21.5,torr
+336,OSD-679,Hindlimb Unloading Tonometry IOP,MT37_OD,Day_90,Intraocular Pressure,21.0,torr
+337,OSD-679,Hindlimb Unloading Tonometry IOP,MT09_OS,Day_0,Intraocular Pressure,18.5,torr
+338,OSD-679,Hindlimb Unloading Tonometry IOP,MT09_OS,Day_90,Intraocular Pressure,24.0,torr
+339,OSD-679,Hindlimb Unloading Tonometry IOP,MT04_OS,Day_0,Intraocular Pressure,17.0,torr
+340,OSD-679,Hindlimb Unloading Tonometry IOP,MT04_OS,Day_90,Intraocular Pressure,23.0,torr
+341,OSD-679,Hindlimb Unloading Tonometry IOP,MT05_OS,Day_0,Intraocular Pressure,15.5,torr
+342,OSD-679,Hindlimb Unloading Tonometry IOP,MT05_OS,Day_90,Intraocular Pressure,17.0,torr
+343,OSD-679,Hindlimb Unloading Tonometry IOP,MT17_OS,Day_0,Intraocular Pressure,21.5,torr
+344,OSD-679,Hindlimb Unloading Tonometry IOP,MT17_OS,Day_90,Intraocular Pressure,28.0,torr
+345,OSD-679,Hindlimb Unloading Tonometry IOP,MT21_OS,Day_0,Intraocular Pressure,16.5,torr
+346,OSD-679,Hindlimb Unloading Tonometry IOP,MT21_OS,Day_90,Intraocular Pressure,23.0,torr
+347,OSD-679,Hindlimb Unloading Tonometry IOP,MT23_OS,Day_0,Intraocular Pressure,14.0,torr
+348,OSD-679,Hindlimb Unloading Tonometry IOP,MT23_OS,Day_90,Intraocular Pressure,29.0,torr
+349,OSD-679,Hindlimb Unloading Tonometry IOP,MT02_OS,Day_0,Intraocular Pressure,14.5,torr
+350,OSD-679,Hindlimb Unloading Tonometry IOP,MT02_OS,Day_90,Intraocular Pressure,19.0,torr
+351,OSD-679,Hindlimb Unloading Tonometry IOP,MT54_OS,Day_0,Intraocular Pressure,17.0,torr
+352,OSD-679,Hindlimb Unloading Tonometry IOP,MT54_OS,Day_90,Intraocular Pressure,20.0,torr
+353,OSD-679,Hindlimb Unloading Tonometry IOP,MT13_OS,Day_0,Intraocular Pressure,21.5,torr
+354,OSD-679,Hindlimb Unloading Tonometry IOP,MT13_OS,Day_90,Intraocular Pressure,17.0,torr
+355,OSD-679,Hindlimb Unloading Tonometry IOP,MT15_OS,Day_0,Intraocular Pressure,18.0,torr
+356,OSD-679,Hindlimb Unloading Tonometry IOP,MT15_OS,Day_90,Intraocular Pressure,26.0,torr
+357,OSD-679,Hindlimb Unloading Tonometry IOP,MT16_OS,Day_0,Intraocular Pressure,19.5,torr
+358,OSD-679,Hindlimb Unloading Tonometry IOP,MT16_OS,Day_90,Intraocular Pressure,14.0,torr
+359,OSD-679,Hindlimb Unloading Tonometry IOP,MT20_OS,Day_0,Intraocular Pressure,18.5,torr
+360,OSD-679,Hindlimb Unloading Tonometry IOP,MT20_OS,Day_90,Intraocular Pressure,23.0,torr
+361,OSD-679,Hindlimb Unloading Tonometry IOP,MT28_OS,Day_0,Intraocular Pressure,21.0,torr
+362,OSD-679,Hindlimb Unloading Tonometry IOP,MT28_OS,Day_90,Intraocular Pressure,19.0,torr
+363,OSD-679,Hindlimb Unloading Tonometry IOP,MT32_OS,Day_0,Intraocular Pressure,15.0,torr
+364,OSD-679,Hindlimb Unloading Tonometry IOP,MT32_OS,Day_90,Intraocular Pressure,18.0,torr
+365,OSD-679,Hindlimb Unloading Tonometry IOP,MT39_OS,Day_0,Intraocular Pressure,20.0,torr
+366,OSD-679,Hindlimb Unloading Tonometry IOP,MT39_OS,Day_90,Intraocular Pressure,25.0,torr
+367,OSD-679,Hindlimb Unloading Tonometry IOP,MT37_OS,Day_0,Intraocular Pressure,14.5,torr
+368,OSD-679,Hindlimb Unloading Tonometry IOP,MT37_OS,Day_90,Intraocular Pressure,20.0,torr
+369,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OD,Day_0,Intraocular Pressure,22.0,torr
+370,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OD,Day_45,Intraocular Pressure,22.0,torr
+371,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OD,Day_90,Intraocular Pressure,19.0,torr
+372,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OD,Day_97,Intraocular Pressure,27.0,torr
+373,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OD,Day_0,Intraocular Pressure,18.0,torr
+374,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OD,Day_45,Intraocular Pressure,28.0,torr
+375,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OD,Day_90,Intraocular Pressure,23.0,torr
+376,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OD,Day_97,Intraocular Pressure,22.0,torr
+377,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OD,Day_0,Intraocular Pressure,20.0,torr
+378,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OD,Day_45,Intraocular Pressure,26.0,torr
+379,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OD,Day_90,Intraocular Pressure,25.0,torr
+380,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OD,Day_97,Intraocular Pressure,18.0,torr
+381,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OD,Day_0,Intraocular Pressure,20.0,torr
+382,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OD,Day_45,Intraocular Pressure,23.0,torr
+383,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OD,Day_90,Intraocular Pressure,19.0,torr
+384,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OD,Day_97,Intraocular Pressure,14.0,torr
+385,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OD,Day_0,Intraocular Pressure,21.0,torr
+386,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OD,Day_45,Intraocular Pressure,22.0,torr
+387,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OD,Day_90,Intraocular Pressure,15.0,torr
+388,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OD,Day_97,Intraocular Pressure,15.0,torr
+389,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OD,Day_0,Intraocular Pressure,19.0,torr
+390,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OD,Day_45,Intraocular Pressure,25.0,torr
+391,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OD,Day_90,Intraocular Pressure,20.0,torr
+392,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OD,Day_97,Intraocular Pressure,20.0,torr
+393,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OS,Day_0,Intraocular Pressure,21.0,torr
+394,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OS,Day_45,Intraocular Pressure,22.0,torr
+395,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OS,Day_90,Intraocular Pressure,19.0,torr
+396,OSD-679,Hindlimb Unloading Tonometry IOP,MT267_OS,Day_97,Intraocular Pressure,16.0,torr
+397,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OS,Day_0,Intraocular Pressure,18.0,torr
+398,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OS,Day_45,Intraocular Pressure,22.0,torr
+399,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OS,Day_90,Intraocular Pressure,20.0,torr
+400,OSD-679,Hindlimb Unloading Tonometry IOP,MT269_OS,Day_97,Intraocular Pressure,27.0,torr
+401,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OS,Day_0,Intraocular Pressure,20.0,torr
+402,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OS,Day_45,Intraocular Pressure,24.0,torr
+403,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OS,Day_90,Intraocular Pressure,28.0,torr
+404,OSD-679,Hindlimb Unloading Tonometry IOP,MT270_OS,Day_97,Intraocular Pressure,22.0,torr
+405,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OS,Day_0,Intraocular Pressure,17.0,torr
+406,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OS,Day_45,Intraocular Pressure,18.0,torr
+407,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OS,Day_90,Intraocular Pressure,14.0,torr
+408,OSD-679,Hindlimb Unloading Tonometry IOP,MT278_OS,Day_97,Intraocular Pressure,13.0,torr
+409,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OS,Day_0,Intraocular Pressure,18.0,torr
+410,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OS,Day_45,Intraocular Pressure,17.0,torr
+411,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OS,Day_90,Intraocular Pressure,18.0,torr
+412,OSD-679,Hindlimb Unloading Tonometry IOP,MT279_OS,Day_97,Intraocular Pressure,15.0,torr
+413,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OS,Day_0,Intraocular Pressure,18.0,torr
+414,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OS,Day_45,Intraocular Pressure,20.0,torr
+415,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OS,Day_90,Intraocular Pressure,17.0,torr
+416,OSD-679,Hindlimb Unloading Tonometry IOP,MT280_OS,Day_97,Intraocular Pressure,19.0,torr
+417,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OD,Day_0,Intraocular Pressure,16.0,torr
+418,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OD,Day_45,Intraocular Pressure,20.0,torr
+419,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OD,Day_90,Intraocular Pressure,21.0,torr
+420,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OD,Day_104,Intraocular Pressure,14.0,torr
+421,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OD,Day_0,Intraocular Pressure,16.0,torr
+422,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OD,Day_45,Intraocular Pressure,25.0,torr
+423,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OD,Day_90,Intraocular Pressure,21.0,torr
+424,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OD,Day_104,Intraocular Pressure,15.0,torr
+425,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OD,Day_0,Intraocular Pressure,21.0,torr
+426,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OD,Day_45,Intraocular Pressure,21.0,torr
+427,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OD,Day_90,Intraocular Pressure,24.0,torr
+428,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OD,Day_104,Intraocular Pressure,21.0,torr
+429,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OD,Day_0,Intraocular Pressure,19.0,torr
+430,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OD,Day_45,Intraocular Pressure,25.0,torr
+431,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OD,Day_90,Intraocular Pressure,24.0,torr
+432,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OD,Day_104,Intraocular Pressure,15.0,torr
+433,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OD,Day_0,Intraocular Pressure,21.0,torr
+434,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OD,Day_45,Intraocular Pressure,20.0,torr
+435,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OD,Day_90,Intraocular Pressure,16.0,torr
+436,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OD,Day_104,Intraocular Pressure,19.0,torr
+437,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OD,Day_0,Intraocular Pressure,19.0,torr
+438,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OD,Day_45,Intraocular Pressure,28.0,torr
+439,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OD,Day_90,Intraocular Pressure,24.0,torr
+440,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OD,Day_104,Intraocular Pressure,29.0,torr
+441,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OD,Day_0,Intraocular Pressure,23.0,torr
+442,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OD,Day_45,Intraocular Pressure,19.0,torr
+443,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OD,Day_90,Intraocular Pressure,22.0,torr
+444,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OD,Day_104,Intraocular Pressure,22.0,torr
+445,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OD,Day_0,Intraocular Pressure,19.0,torr
+446,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OD,Day_45,Intraocular Pressure,23.0,torr
+447,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OD,Day_90,Intraocular Pressure,21.0,torr
+448,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OD,Day_104,Intraocular Pressure,20.0,torr
+449,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OD,Day_0,Intraocular Pressure,18.0,torr
+450,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OD,Day_45,Intraocular Pressure,21.0,torr
+451,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OD,Day_90,Intraocular Pressure,20.0,torr
+452,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OD,Day_104,Intraocular Pressure,20.0,torr
+453,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OD,Day_0,Intraocular Pressure,20.0,torr
+454,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OD,Day_45,Intraocular Pressure,21.0,torr
+455,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OD,Day_90,Intraocular Pressure,17.0,torr
+456,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OD,Day_104,Intraocular Pressure,19.0,torr
+457,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OD,Day_0,Intraocular Pressure,20.0,torr
+458,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OD,Day_45,Intraocular Pressure,22.0,torr
+459,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OD,Day_90,Intraocular Pressure,22.0,torr
+460,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OD,Day_104,Intraocular Pressure,19.0,torr
+461,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OD,Day_0,Intraocular Pressure,21.0,torr
+462,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OD,Day_45,Intraocular Pressure,15.0,torr
+463,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OD,Day_90,Intraocular Pressure,20.0,torr
+464,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OD,Day_104,Intraocular Pressure,13.0,torr
+465,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OD,Day_0,Intraocular Pressure,23.0,torr
+466,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OD,Day_45,Intraocular Pressure,20.0,torr
+467,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OD,Day_90,Intraocular Pressure,20.0,torr
+468,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OD,Day_104,Intraocular Pressure,18.0,torr
+469,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OS,Day_0,Intraocular Pressure,13.0,torr
+470,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OS,Day_45,Intraocular Pressure,22.0,torr
+471,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OS,Day_90,Intraocular Pressure,17.0,torr
+472,OSD-679,Hindlimb Unloading Tonometry IOP,MT259_OS,Day_104,Intraocular Pressure,17.0,torr
+473,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OS,Day_0,Intraocular Pressure,22.0,torr
+474,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OS,Day_45,Intraocular Pressure,27.0,torr
+475,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OS,Day_90,Intraocular Pressure,18.0,torr
+476,OSD-679,Hindlimb Unloading Tonometry IOP,MT261_OS,Day_104,Intraocular Pressure,13.0,torr
+477,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OS,Day_0,Intraocular Pressure,15.0,torr
+478,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OS,Day_45,Intraocular Pressure,18.0,torr
+479,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OS,Day_90,Intraocular Pressure,24.0,torr
+480,OSD-679,Hindlimb Unloading Tonometry IOP,MT263_OS,Day_104,Intraocular Pressure,18.0,torr
+481,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OS,Day_0,Intraocular Pressure,23.0,torr
+482,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OS,Day_45,Intraocular Pressure,26.0,torr
+483,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OS,Day_90,Intraocular Pressure,27.0,torr
+484,OSD-679,Hindlimb Unloading Tonometry IOP,MT264_OS,Day_104,Intraocular Pressure,22.0,torr
+485,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OS,Day_0,Intraocular Pressure,18.0,torr
+486,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OS,Day_45,Intraocular Pressure,24.0,torr
+487,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OS,Day_90,Intraocular Pressure,22.0,torr
+488,OSD-679,Hindlimb Unloading Tonometry IOP,MT265_OS,Day_104,Intraocular Pressure,21.0,torr
+489,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OS,Day_0,Intraocular Pressure,19.0,torr
+490,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OS,Day_45,Intraocular Pressure,27.0,torr
+491,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OS,Day_90,Intraocular Pressure,19.0,torr
+492,OSD-679,Hindlimb Unloading Tonometry IOP,MT266_OS,Day_104,Intraocular Pressure,23.0,torr
+493,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OS,Day_0,Intraocular Pressure,22.0,torr
+494,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OS,Day_45,Intraocular Pressure,26.0,torr
+495,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OS,Day_90,Intraocular Pressure,21.0,torr
+496,OSD-679,Hindlimb Unloading Tonometry IOP,MT271_OS,Day_104,Intraocular Pressure,25.0,torr
+497,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OS,Day_0,Intraocular Pressure,20.0,torr
+498,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OS,Day_45,Intraocular Pressure,23.0,torr
+499,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OS,Day_90,Intraocular Pressure,19.0,torr
+500,OSD-679,Hindlimb Unloading Tonometry IOP,MT272_OS,Day_104,Intraocular Pressure,21.0,torr
+501,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OS,Day_0,Intraocular Pressure,21.0,torr
+502,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OS,Day_45,Intraocular Pressure,19.0,torr
+503,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OS,Day_90,Intraocular Pressure,17.0,torr
+504,OSD-679,Hindlimb Unloading Tonometry IOP,MT273_OS,Day_104,Intraocular Pressure,20.0,torr
+505,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OS,Day_0,Intraocular Pressure,20.0,torr
+506,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OS,Day_45,Intraocular Pressure,20.0,torr
+507,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OS,Day_90,Intraocular Pressure,14.0,torr
+508,OSD-679,Hindlimb Unloading Tonometry IOP,MT274_OS,Day_104,Intraocular Pressure,20.0,torr
+509,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OS,Day_0,Intraocular Pressure,20.0,torr
+510,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OS,Day_45,Intraocular Pressure,21.0,torr
+511,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OS,Day_90,Intraocular Pressure,14.0,torr
+512,OSD-679,Hindlimb Unloading Tonometry IOP,MT275_OS,Day_104,Intraocular Pressure,19.0,torr
+513,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OS,Day_0,Intraocular Pressure,15.0,torr
+514,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OS,Day_45,Intraocular Pressure,19.0,torr
+515,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OS,Day_90,Intraocular Pressure,17.0,torr
+516,OSD-679,Hindlimb Unloading Tonometry IOP,MT276_OS,Day_104,Intraocular Pressure,14.0,torr
+517,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OS,Day_0,Intraocular Pressure,17.0,torr
+518,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OS,Day_45,Intraocular Pressure,17.0,torr
+519,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OS,Day_90,Intraocular Pressure,19.0,torr
+520,OSD-679,Hindlimb Unloading Tonometry IOP,MT277_OS,Day_104,Intraocular Pressure,22.0,torr
+521,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OD,Day_0,Intraocular Pressure,18.0,torr
+522,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OD,Day_90,Intraocular Pressure,13.0,torr
+523,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OD,Day_118,Intraocular Pressure,19.0,torr
+524,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OD,Day_0,Intraocular Pressure,17.0,torr
+525,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OD,Day_90,Intraocular Pressure,14.0,torr
+526,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OD,Day_118,Intraocular Pressure,18.0,torr
+527,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OD,Day_0,Intraocular Pressure,14.0,torr
+528,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OD,Day_90,Intraocular Pressure,20.0,torr
+529,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OD,Day_118,Intraocular Pressure,23.0,torr
+530,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OD,Day_0,Intraocular Pressure,19.0,torr
+531,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OD,Day_90,Intraocular Pressure,23.0,torr
+532,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OD,Day_118,Intraocular Pressure,23.0,torr
+533,OSD-679,Hindlimb Unloading Tonometry IOP,MT36_OD,Day_0,Intraocular Pressure,18.0,torr
+534,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OD,Day_0,Intraocular Pressure,20.0,torr
+535,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OD,Day_90,Intraocular Pressure,22.0,torr
+536,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OD,Day_118,Intraocular Pressure,22.0,torr
+537,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OS,Day_0,Intraocular Pressure,11.0,torr
+538,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OS,Day_90,Intraocular Pressure,12.0,torr
+539,OSD-679,Hindlimb Unloading Tonometry IOP,MT25_OS,Day_118,Intraocular Pressure,19.0,torr
+540,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OS,Day_0,Intraocular Pressure,18.0,torr
+541,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OS,Day_90,Intraocular Pressure,13.0,torr
+542,OSD-679,Hindlimb Unloading Tonometry IOP,MT07_OS,Day_118,Intraocular Pressure,10.0,torr
+543,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OS,Day_0,Intraocular Pressure,19.0,torr
+544,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OS,Day_90,Intraocular Pressure,15.0,torr
+545,OSD-679,Hindlimb Unloading Tonometry IOP,MT35_OS,Day_118,Intraocular Pressure,16.0,torr
+546,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OS,Day_0,Intraocular Pressure,22.0,torr
+547,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OS,Day_90,Intraocular Pressure,19.0,torr
+548,OSD-679,Hindlimb Unloading Tonometry IOP,MT42_OS,Day_118,Intraocular Pressure,19.0,torr
+549,OSD-679,Hindlimb Unloading Tonometry IOP,MT36_OS,Day_0,Intraocular Pressure,16.0,torr
+550,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OS,Day_0,Intraocular Pressure,25.0,torr
+551,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OS,Day_90,Intraocular Pressure,26.0,torr
+552,OSD-679,Hindlimb Unloading Tonometry IOP,MT24_OS,Day_118,Intraocular Pressure,26.0,torr
+553,OSD-679,Hindlimb Unloading Tonometry IOP,MT293_OD,Day_45,Intraocular Pressure,21.0,torr
+554,OSD-679,Hindlimb Unloading Tonometry IOP,MT303_OD,Day_45,Intraocular Pressure,25.0,torr
+555,OSD-679,Hindlimb Unloading Tonometry IOP,MT296_OD,Day_45,Intraocular Pressure,24.0,torr
+556,OSD-679,Hindlimb Unloading Tonometry IOP,MT302_OD,Day_45,Intraocular Pressure,20.0,torr
+557,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OD,Day_45,Intraocular Pressure,23.0,torr
+558,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OD,Day_90,Intraocular Pressure,27.0,torr
+559,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OD,Day_180,Intraocular Pressure,28.0,torr
+560,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OD,Day_45,Intraocular Pressure,21.0,torr
+561,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OD,Day_90,Intraocular Pressure,24.0,torr
+562,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OD,Day_180,Intraocular Pressure,26.0,torr
+563,OSD-679,Hindlimb Unloading Tonometry IOP,MT301_OD,Day_90,Intraocular Pressure,25.0,torr
+564,OSD-679,Hindlimb Unloading Tonometry IOP,MT301_OD,Day_180,Intraocular Pressure,21.0,torr
+565,OSD-679,Hindlimb Unloading Tonometry IOP,MT293_OS,Day_45,Intraocular Pressure,18.0,torr
+566,OSD-679,Hindlimb Unloading Tonometry IOP,MT303_OS,Day_45,Intraocular Pressure,21.0,torr
+567,OSD-679,Hindlimb Unloading Tonometry IOP,MT296_OS,Day_45,Intraocular Pressure,23.0,torr
+568,OSD-679,Hindlimb Unloading Tonometry IOP,MT302_OS,Day_45,Intraocular Pressure,21.0,torr
+569,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OS,Day_45,Intraocular Pressure,22.0,torr
+570,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OS,Day_90,Intraocular Pressure,20.0,torr
+571,OSD-679,Hindlimb Unloading Tonometry IOP,MT297_OS,Day_180,Intraocular Pressure,28.0,torr
+572,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OS,Day_45,Intraocular Pressure,15.0,torr
+573,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OS,Day_90,Intraocular Pressure,19.0,torr
+574,OSD-679,Hindlimb Unloading Tonometry IOP,MT299_OS,Day_180,Intraocular Pressure,27.0,torr
+575,OSD-679,Hindlimb Unloading Tonometry IOP,MT301_OS,Day_90,Intraocular Pressure,26.0,torr
+576,OSD-679,Hindlimb Unloading Tonometry IOP,MT301_OS,Day_180,Intraocular Pressure,27.0,torr
+577,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OD,Day_0,Intraocular Pressure,16.0,torr
+578,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OD,Day_45,Intraocular Pressure,25.0,torr
+579,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OD,Day_90,Intraocular Pressure,25.0,torr
+580,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OD,Day_135,Intraocular Pressure,29.0,torr
+581,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OD,Day_180,Intraocular Pressure,25.0,torr
+582,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OD,Day_0,Intraocular Pressure,16.0,torr
+583,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OD,Day_45,Intraocular Pressure,16.0,torr
+584,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OD,Day_90,Intraocular Pressure,29.0,torr
+585,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OD,Day_135,Intraocular Pressure,17.0,torr
+586,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OD,Day_180,Intraocular Pressure,26.0,torr
+587,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OD,Day_0,Intraocular Pressure,18.0,torr
+588,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OD,Day_45,Intraocular Pressure,23.0,torr
+589,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OD,Day_90,Intraocular Pressure,24.0,torr
+590,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OD,Day_135,Intraocular Pressure,16.0,torr
+591,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OD,Day_180,Intraocular Pressure,29.0,torr
+592,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OD,Day_0,Intraocular Pressure,14.0,torr
+593,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OD,Day_45,Intraocular Pressure,23.0,torr
+594,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OD,Day_90,Intraocular Pressure,26.0,torr
+595,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OD,Day_135,Intraocular Pressure,22.0,torr
+596,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OD,Day_180,Intraocular Pressure,34.0,torr
+597,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OD,Day_0,Intraocular Pressure,18.0,torr
+598,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OD,Day_45,Intraocular Pressure,24.0,torr
+599,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OD,Day_90,Intraocular Pressure,28.0,torr
+600,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OD,Day_135,Intraocular Pressure,28.0,torr
+601,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OD,Day_180,Intraocular Pressure,28.0,torr
+602,OSD-679,Hindlimb Unloading Tonometry IOP,MT159_OD,Day_0,Intraocular Pressure,24.0,torr
+603,OSD-679,Hindlimb Unloading Tonometry IOP,MT159_OD,Day_45,Intraocular Pressure,25.0,torr
+604,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OD,Day_0,Intraocular Pressure,14.0,torr
+605,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OD,Day_45,Intraocular Pressure,18.0,torr
+606,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OD,Day_90,Intraocular Pressure,15.0,torr
+607,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OD,Day_135,Intraocular Pressure,19.0,torr
+608,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OD,Day_180,Intraocular Pressure,23.0,torr
+609,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OD,Day_0,Intraocular Pressure,19.0,torr
+610,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OD,Day_45,Intraocular Pressure,18.0,torr
+611,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OD,Day_90,Intraocular Pressure,21.0,torr
+612,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OD,Day_135,Intraocular Pressure,24.0,torr
+613,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OD,Day_180,Intraocular Pressure,15.0,torr
+614,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OD,Day_0,Intraocular Pressure,22.0,torr
+615,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OD,Day_45,Intraocular Pressure,20.0,torr
+616,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OD,Day_90,Intraocular Pressure,22.0,torr
+617,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OD,Day_135,Intraocular Pressure,24.0,torr
+618,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OD,Day_180,Intraocular Pressure,30.0,torr
+619,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OD,Day_0,Intraocular Pressure,13.0,torr
+620,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OD,Day_45,Intraocular Pressure,21.0,torr
+621,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OD,Day_90,Intraocular Pressure,22.0,torr
+622,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OD,Day_135,Intraocular Pressure,20.0,torr
+623,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OD,Day_180,Intraocular Pressure,35.0,torr
+624,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OD,Day_0,Intraocular Pressure,19.0,torr
+625,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OD,Day_45,Intraocular Pressure,20.0,torr
+626,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OD,Day_90,Intraocular Pressure,20.0,torr
+627,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OD,Day_135,Intraocular Pressure,25.0,torr
+628,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OD,Day_0,Intraocular Pressure,15.0,torr
+629,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OD,Day_45,Intraocular Pressure,20.0,torr
+630,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OD,Day_90,Intraocular Pressure,24.0,torr
+631,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OD,Day_135,Intraocular Pressure,22.0,torr
+632,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OD,Day_180,Intraocular Pressure,27.0,torr
+633,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OS,Day_0,Intraocular Pressure,14.0,torr
+634,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OS,Day_45,Intraocular Pressure,25.0,torr
+635,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OS,Day_90,Intraocular Pressure,28.0,torr
+636,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OS,Day_135,Intraocular Pressure,16.0,torr
+637,OSD-679,Hindlimb Unloading Tonometry IOP,MT149_OS,Day_180,Intraocular Pressure,34.0,torr
+638,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OS,Day_0,Intraocular Pressure,15.0,torr
+639,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OS,Day_45,Intraocular Pressure,21.0,torr
+640,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OS,Day_90,Intraocular Pressure,27.0,torr
+641,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OS,Day_135,Intraocular Pressure,12.0,torr
+642,OSD-679,Hindlimb Unloading Tonometry IOP,MT151_OS,Day_180,Intraocular Pressure,21.0,torr
+643,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OS,Day_0,Intraocular Pressure,15.0,torr
+644,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OS,Day_45,Intraocular Pressure,26.0,torr
+645,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OS,Day_90,Intraocular Pressure,23.0,torr
+646,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OS,Day_135,Intraocular Pressure,22.0,torr
+647,OSD-679,Hindlimb Unloading Tonometry IOP,MT153_OS,Day_180,Intraocular Pressure,24.0,torr
+648,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OS,Day_0,Intraocular Pressure,21.0,torr
+649,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OS,Day_45,Intraocular Pressure,25.0,torr
+650,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OS,Day_90,Intraocular Pressure,26.0,torr
+651,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OS,Day_135,Intraocular Pressure,17.0,torr
+652,OSD-679,Hindlimb Unloading Tonometry IOP,MT155_OS,Day_180,Intraocular Pressure,30.0,torr
+653,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OS,Day_0,Intraocular Pressure,22.0,torr
+654,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OS,Day_45,Intraocular Pressure,24.0,torr
+655,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OS,Day_90,Intraocular Pressure,25.0,torr
+656,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OS,Day_135,Intraocular Pressure,29.0,torr
+657,OSD-679,Hindlimb Unloading Tonometry IOP,MT158_OS,Day_180,Intraocular Pressure,28.0,torr
+658,OSD-679,Hindlimb Unloading Tonometry IOP,MT159_OS,Day_0,Intraocular Pressure,22.0,torr
+659,OSD-679,Hindlimb Unloading Tonometry IOP,MT159_OS,Day_45,Intraocular Pressure,24.0,torr
+660,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OS,Day_0,Intraocular Pressure,18.0,torr
+661,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OS,Day_45,Intraocular Pressure,19.0,torr
+662,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OS,Day_90,Intraocular Pressure,22.0,torr
+663,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OS,Day_135,Intraocular Pressure,23.0,torr
+664,OSD-679,Hindlimb Unloading Tonometry IOP,MT150_OS,Day_180,Intraocular Pressure,28.0,torr
+665,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OS,Day_0,Intraocular Pressure,19.0,torr
+666,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OS,Day_45,Intraocular Pressure,19.0,torr
+667,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OS,Day_90,Intraocular Pressure,22.0,torr
+668,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OS,Day_135,Intraocular Pressure,21.0,torr
+669,OSD-679,Hindlimb Unloading Tonometry IOP,MT152_OS,Day_180,Intraocular Pressure,25.0,torr
+670,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OS,Day_0,Intraocular Pressure,19.0,torr
+671,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OS,Day_45,Intraocular Pressure,19.0,torr
+672,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OS,Day_90,Intraocular Pressure,21.0,torr
+673,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OS,Day_135,Intraocular Pressure,15.0,torr
+674,OSD-679,Hindlimb Unloading Tonometry IOP,MT154_OS,Day_180,Intraocular Pressure,36.0,torr
+675,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OS,Day_0,Intraocular Pressure,17.0,torr
+676,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OS,Day_45,Intraocular Pressure,19.0,torr
+677,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OS,Day_90,Intraocular Pressure,23.0,torr
+678,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OS,Day_135,Intraocular Pressure,20.0,torr
+679,OSD-679,Hindlimb Unloading Tonometry IOP,MT157_OS,Day_180,Intraocular Pressure,27.0,torr
+680,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OS,Day_0,Intraocular Pressure,14.0,torr
+681,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OS,Day_45,Intraocular Pressure,20.0,torr
+682,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OS,Day_90,Intraocular Pressure,23.0,torr
+683,OSD-679,Hindlimb Unloading Tonometry IOP,MT160_OS,Day_135,Intraocular Pressure,21.0,torr
+684,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OS,Day_0,Intraocular Pressure,19.0,torr
+685,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OS,Day_45,Intraocular Pressure,21.0,torr
+686,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OS,Day_90,Intraocular Pressure,19.0,torr
+687,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OS,Day_135,Intraocular Pressure,23.0,torr
+688,OSD-679,Hindlimb Unloading Tonometry IOP,MT161_OS,Day_180,Intraocular Pressure,24.0,torr
+689,OSD-679,Hindlimb Unloading Tonometry IOP,FT210_OD,Day_0,Intraocular Pressure,19.0,torr
+690,OSD-679,Hindlimb Unloading Tonometry IOP,FT211_OD,Day_0,Intraocular Pressure,19.0,torr
+691,OSD-679,Hindlimb Unloading Tonometry IOP,FT212_OD,Day_0,Intraocular Pressure,18.0,torr
+692,OSD-679,Hindlimb Unloading Tonometry IOP,FT213_OD,Day_0,Intraocular Pressure,19.0,torr
+693,OSD-679,Hindlimb Unloading Tonometry IOP,FT214_OD,Day_0,Intraocular Pressure,16.0,torr
+694,OSD-679,Hindlimb Unloading Tonometry IOP,FT215_OD,Day_0,Intraocular Pressure,21.0,torr
+695,OSD-679,Hindlimb Unloading Tonometry IOP,FT216_OD,Day_0,Intraocular Pressure,16.0,torr
+696,OSD-679,Hindlimb Unloading Tonometry IOP,FT06_OD,Day_0,Intraocular Pressure,21.0,torr
+697,OSD-679,Hindlimb Unloading Tonometry IOP,FT06_OD,Day_7,Intraocular Pressure,16.0,torr
+698,OSD-679,Hindlimb Unloading Tonometry IOP,FT29_OD,Day_0,Intraocular Pressure,23.5,torr
+699,OSD-679,Hindlimb Unloading Tonometry IOP,FT29_OD,Day_7,Intraocular Pressure,24.0,torr
+700,OSD-679,Hindlimb Unloading Tonometry IOP,FT32_OD,Day_0,Intraocular Pressure,20.0,torr
+701,OSD-679,Hindlimb Unloading Tonometry IOP,FT32_OD,Day_7,Intraocular Pressure,29.0,torr
+702,OSD-679,Hindlimb Unloading Tonometry IOP,FT38_OD,Day_0,Intraocular Pressure,14.5,torr
+703,OSD-679,Hindlimb Unloading Tonometry IOP,FT38_OD,Day_7,Intraocular Pressure,19.0,torr
+704,OSD-679,Hindlimb Unloading Tonometry IOP,FT07_OD,Day_0,Intraocular Pressure,20.5,torr
+705,OSD-679,Hindlimb Unloading Tonometry IOP,FT07_OD,Day_7,Intraocular Pressure,24.0,torr
+706,OSD-679,Hindlimb Unloading Tonometry IOP,FT09_OD,Day_0,Intraocular Pressure,16.5,torr
+707,OSD-679,Hindlimb Unloading Tonometry IOP,FT09_OD,Day_7,Intraocular Pressure,18.0,torr
+708,OSD-679,Hindlimb Unloading Tonometry IOP,FT28_OD,Day_0,Intraocular Pressure,20.0,torr
+709,OSD-679,Hindlimb Unloading Tonometry IOP,FT28_OD,Day_7,Intraocular Pressure,22.0,torr
+710,OSD-679,Hindlimb Unloading Tonometry IOP,FT31_OD,Day_0,Intraocular Pressure,20.5,torr
+711,OSD-679,Hindlimb Unloading Tonometry IOP,FT31_OD,Day_7,Intraocular Pressure,25.0,torr
+712,OSD-679,Hindlimb Unloading Tonometry IOP,FT210_OS,Day_0,Intraocular Pressure,17.0,torr
+713,OSD-679,Hindlimb Unloading Tonometry IOP,FT211_OS,Day_0,Intraocular Pressure,17.0,torr
+714,OSD-679,Hindlimb Unloading Tonometry IOP,FT212_OS,Day_0,Intraocular Pressure,18.0,torr
+715,OSD-679,Hindlimb Unloading Tonometry IOP,FT213_OS,Day_0,Intraocular Pressure,18.0,torr
+716,OSD-679,Hindlimb Unloading Tonometry IOP,FT214_OS,Day_0,Intraocular Pressure,16.0,torr
+717,OSD-679,Hindlimb Unloading Tonometry IOP,FT215_OS,Day_0,Intraocular Pressure,18.0,torr
+718,OSD-679,Hindlimb Unloading Tonometry IOP,FT216_OS,Day_0,Intraocular Pressure,17.0,torr
+719,OSD-679,Hindlimb Unloading Tonometry IOP,FT06_OS,Day_0,Intraocular Pressure,22.5,torr
+720,OSD-679,Hindlimb Unloading Tonometry IOP,FT06_OS,Day_7,Intraocular Pressure,26.0,torr
+721,OSD-679,Hindlimb Unloading Tonometry IOP,FT29_OS,Day_0,Intraocular Pressure,18.0,torr
+722,OSD-679,Hindlimb Unloading Tonometry IOP,FT29_OS,Day_7,Intraocular Pressure,26.0,torr
+723,OSD-679,Hindlimb Unloading Tonometry IOP,FT32_OS,Day_0,Intraocular Pressure,22.0,torr
+724,OSD-679,Hindlimb Unloading Tonometry IOP,FT32_OS,Day_7,Intraocular Pressure,26.0,torr
+725,OSD-679,Hindlimb Unloading Tonometry IOP,FT38_OS,Day_0,Intraocular Pressure,17.0,torr
+726,OSD-679,Hindlimb Unloading Tonometry IOP,FT38_OS,Day_7,Intraocular Pressure,19.0,torr
+727,OSD-679,Hindlimb Unloading Tonometry IOP,FT07_OS,Day_0,Intraocular Pressure,20.0,torr
+728,OSD-679,Hindlimb Unloading Tonometry IOP,FT07_OS,Day_7,Intraocular Pressure,20.0,torr
+729,OSD-679,Hindlimb Unloading Tonometry IOP,FT09_OS,Day_0,Intraocular Pressure,15.5,torr
+730,OSD-679,Hindlimb Unloading Tonometry IOP,FT09_OS,Day_7,Intraocular Pressure,19.0,torr
+731,OSD-679,Hindlimb Unloading Tonometry IOP,FT28_OS,Day_0,Intraocular Pressure,22.0,torr
+732,OSD-679,Hindlimb Unloading Tonometry IOP,FT28_OS,Day_7,Intraocular Pressure,21.0,torr
+733,OSD-679,Hindlimb Unloading Tonometry IOP,FT31_OS,Day_0,Intraocular Pressure,25.0,torr
+734,OSD-679,Hindlimb Unloading Tonometry IOP,FT31_OS,Day_7,Intraocular Pressure,24.0,torr
+735,OSD-679,Hindlimb Unloading Tonometry IOP,FT10_OD,Day_0,Intraocular Pressure,19.0,torr
+736,OSD-679,Hindlimb Unloading Tonometry IOP,FT10_OD,Day_14,Intraocular Pressure,25.0,torr
+737,OSD-679,Hindlimb Unloading Tonometry IOP,FT14_OD,Day_0,Intraocular Pressure,17.0,torr
+738,OSD-679,Hindlimb Unloading Tonometry IOP,FT14_OD,Day_14,Intraocular Pressure,17.0,torr
+739,OSD-679,Hindlimb Unloading Tonometry IOP,FT24_OD,Day_0,Intraocular Pressure,16.5,torr
+740,OSD-679,Hindlimb Unloading Tonometry IOP,FT24_OD,Day_14,Intraocular Pressure,24.0,torr
+741,OSD-679,Hindlimb Unloading Tonometry IOP,FT26_OD,Day_0,Intraocular Pressure,22.0,torr
+742,OSD-679,Hindlimb Unloading Tonometry IOP,FT26_OD,Day_14,Intraocular Pressure,24.0,torr
+743,OSD-679,Hindlimb Unloading Tonometry IOP,FT27_OD,Day_0,Intraocular Pressure,18.0,torr
+744,OSD-679,Hindlimb Unloading Tonometry IOP,FT27_OD,Day_14,Intraocular Pressure,13.0,torr
+745,OSD-679,Hindlimb Unloading Tonometry IOP,FT33_OD,Day_0,Intraocular Pressure,14.0,torr
+746,OSD-679,Hindlimb Unloading Tonometry IOP,FT33_OD,Day_14,Intraocular Pressure,19.0,torr
+747,OSD-679,Hindlimb Unloading Tonometry IOP,FT34_OD,Day_0,Intraocular Pressure,21.5,torr
+748,OSD-679,Hindlimb Unloading Tonometry IOP,FT34_OD,Day_14,Intraocular Pressure,21.0,torr
+749,OSD-679,Hindlimb Unloading Tonometry IOP,FT37_OD,Day_0,Intraocular Pressure,21.0,torr
+750,OSD-679,Hindlimb Unloading Tonometry IOP,FT37_OD,Day_14,Intraocular Pressure,25.0,torr
+751,OSD-679,Hindlimb Unloading Tonometry IOP,FT08_OD,Day_0,Intraocular Pressure,21.0,torr
+752,OSD-679,Hindlimb Unloading Tonometry IOP,FT08_OD,Day_14,Intraocular Pressure,25.0,torr
+753,OSD-679,Hindlimb Unloading Tonometry IOP,FT12_OD,Day_0,Intraocular Pressure,20.5,torr
+754,OSD-679,Hindlimb Unloading Tonometry IOP,FT12_OD,Day_14,Intraocular Pressure,21.0,torr
+755,OSD-679,Hindlimb Unloading Tonometry IOP,FT19_OD,Day_0,Intraocular Pressure,19.5,torr
+756,OSD-679,Hindlimb Unloading Tonometry IOP,FT19_OD,Day_14,Intraocular Pressure,20.0,torr
+757,OSD-679,Hindlimb Unloading Tonometry IOP,FT22_OD,Day_0,Intraocular Pressure,21.5,torr
+758,OSD-679,Hindlimb Unloading Tonometry IOP,FT22_OD,Day_14,Intraocular Pressure,22.0,torr
+759,OSD-679,Hindlimb Unloading Tonometry IOP,FT23_OD,Day_0,Intraocular Pressure,13.0,torr
+760,OSD-679,Hindlimb Unloading Tonometry IOP,FT23_OD,Day_14,Intraocular Pressure,24.0,torr
+761,OSD-679,Hindlimb Unloading Tonometry IOP,FT25_OD,Day_0,Intraocular Pressure,20.5,torr
+762,OSD-679,Hindlimb Unloading Tonometry IOP,FT25_OD,Day_14,Intraocular Pressure,24.0,torr
+763,OSD-679,Hindlimb Unloading Tonometry IOP,FT30_OD,Day_0,Intraocular Pressure,21.5,torr
+764,OSD-679,Hindlimb Unloading Tonometry IOP,FT30_OD,Day_14,Intraocular Pressure,16.0,torr
+765,OSD-679,Hindlimb Unloading Tonometry IOP,FT35_OD,Day_0,Intraocular Pressure,25.0,torr
+766,OSD-679,Hindlimb Unloading Tonometry IOP,FT35_OD,Day_14,Intraocular Pressure,21.0,torr
+767,OSD-679,Hindlimb Unloading Tonometry IOP,FT10_OS,Day_0,Intraocular Pressure,23.5,torr
+768,OSD-679,Hindlimb Unloading Tonometry IOP,FT10_OS,Day_14,Intraocular Pressure,25.0,torr
+769,OSD-679,Hindlimb Unloading Tonometry IOP,FT14_OS,Day_0,Intraocular Pressure,14.0,torr
+770,OSD-679,Hindlimb Unloading Tonometry IOP,FT14_OS,Day_14,Intraocular Pressure,13.0,torr
+771,OSD-679,Hindlimb Unloading Tonometry IOP,FT24_OS,Day_0,Intraocular Pressure,19.5,torr
+772,OSD-679,Hindlimb Unloading Tonometry IOP,FT24_OS,Day_14,Intraocular Pressure,18.0,torr
+773,OSD-679,Hindlimb Unloading Tonometry IOP,FT26_OS,Day_0,Intraocular Pressure,24.0,torr
+774,OSD-679,Hindlimb Unloading Tonometry IOP,FT26_OS,Day_14,Intraocular Pressure,21.0,torr
+775,OSD-679,Hindlimb Unloading Tonometry IOP,FT27_OS,Day_0,Intraocular Pressure,22.0,torr
+776,OSD-679,Hindlimb Unloading Tonometry IOP,FT27_OS,Day_14,Intraocular Pressure,23.0,torr
+777,OSD-679,Hindlimb Unloading Tonometry IOP,FT33_OS,Day_0,Intraocular Pressure,17.5,torr
+778,OSD-679,Hindlimb Unloading Tonometry IOP,FT33_OS,Day_14,Intraocular Pressure,21.0,torr
+779,OSD-679,Hindlimb Unloading Tonometry IOP,FT34_OS,Day_0,Intraocular Pressure,21.0,torr
+780,OSD-679,Hindlimb Unloading Tonometry IOP,FT34_OS,Day_14,Intraocular Pressure,23.0,torr
+781,OSD-679,Hindlimb Unloading Tonometry IOP,FT37_OS,Day_0,Intraocular Pressure,18.5,torr
+782,OSD-679,Hindlimb Unloading Tonometry IOP,FT37_OS,Day_14,Intraocular Pressure,25.0,torr
+783,OSD-679,Hindlimb Unloading Tonometry IOP,FT08_OS,Day_0,Intraocular Pressure,17.5,torr
+784,OSD-679,Hindlimb Unloading Tonometry IOP,FT08_OS,Day_14,Intraocular Pressure,15.0,torr
+785,OSD-679,Hindlimb Unloading Tonometry IOP,FT12_OS,Day_0,Intraocular Pressure,20.5,torr
+786,OSD-679,Hindlimb Unloading Tonometry IOP,FT12_OS,Day_14,Intraocular Pressure,23.0,torr
+787,OSD-679,Hindlimb Unloading Tonometry IOP,FT19_OS,Day_0,Intraocular Pressure,21.0,torr
+788,OSD-679,Hindlimb Unloading Tonometry IOP,FT19_OS,Day_14,Intraocular Pressure,25.0,torr
+789,OSD-679,Hindlimb Unloading Tonometry IOP,FT22_OS,Day_0,Intraocular Pressure,20.0,torr
+790,OSD-679,Hindlimb Unloading Tonometry IOP,FT22_OS,Day_14,Intraocular Pressure,19.0,torr
+791,OSD-679,Hindlimb Unloading Tonometry IOP,FT23_OS,Day_0,Intraocular Pressure,17.5,torr
+792,OSD-679,Hindlimb Unloading Tonometry IOP,FT23_OS,Day_14,Intraocular Pressure,13.0,torr
+793,OSD-679,Hindlimb Unloading Tonometry IOP,FT25_OS,Day_0,Intraocular Pressure,20.0,torr
+794,OSD-679,Hindlimb Unloading Tonometry IOP,FT25_OS,Day_14,Intraocular Pressure,19.0,torr
+795,OSD-679,Hindlimb Unloading Tonometry IOP,FT30_OS,Day_0,Intraocular Pressure,19.5,torr
+796,OSD-679,Hindlimb Unloading Tonometry IOP,FT30_OS,Day_14,Intraocular Pressure,25.0,torr
+797,OSD-679,Hindlimb Unloading Tonometry IOP,FT35_OS,Day_0,Intraocular Pressure,18.0,torr
+798,OSD-679,Hindlimb Unloading Tonometry IOP,FT35_OS,Day_14,Intraocular Pressure,24.0,torr
+799,OSD-679,Hindlimb Unloading Tonometry IOP,FT02_OD,Day_0,Intraocular Pressure,19.0,torr
+800,OSD-679,Hindlimb Unloading Tonometry IOP,FT02_OD,Day_28,Intraocular Pressure,22.0,torr
+801,OSD-679,Hindlimb Unloading Tonometry IOP,FT04_OD,Day_0,Intraocular Pressure,17.5,torr
+802,OSD-679,Hindlimb Unloading Tonometry IOP,FT04_OD,Day_28,Intraocular Pressure,25.0,torr
+803,OSD-679,Hindlimb Unloading Tonometry IOP,FT16_OD,Day_0,Intraocular Pressure,19.5,torr
+804,OSD-679,Hindlimb Unloading Tonometry IOP,FT16_OD,Day_28,Intraocular Pressure,16.0,torr
+805,OSD-679,Hindlimb Unloading Tonometry IOP,FT18_OD,Day_0,Intraocular Pressure,18.0,torr
+806,OSD-679,Hindlimb Unloading Tonometry IOP,FT18_OD,Day_28,Intraocular Pressure,10.0,torr
+807,OSD-679,Hindlimb Unloading Tonometry IOP,FT01_OD,Day_0,Intraocular Pressure,15.5,torr
+808,OSD-679,Hindlimb Unloading Tonometry IOP,FT01_OD,Day_28,Intraocular Pressure,25.0,torr
+809,OSD-679,Hindlimb Unloading Tonometry IOP,FT03_OD,Day_0,Intraocular Pressure,18.5,torr
+810,OSD-679,Hindlimb Unloading Tonometry IOP,FT03_OD,Day_28,Intraocular Pressure,18.0,torr
+811,OSD-679,Hindlimb Unloading Tonometry IOP,FT15_OD,Day_0,Intraocular Pressure,19.5,torr
+812,OSD-679,Hindlimb Unloading Tonometry IOP,FT15_OD,Day_28,Intraocular Pressure,23.0,torr
+813,OSD-679,Hindlimb Unloading Tonometry IOP,FT17_OD,Day_0,Intraocular Pressure,17.0,torr
+814,OSD-679,Hindlimb Unloading Tonometry IOP,FT17_OD,Day_28,Intraocular Pressure,17.0,torr
+815,OSD-679,Hindlimb Unloading Tonometry IOP,FT02_OS,Day_0,Intraocular Pressure,17.5,torr
+816,OSD-679,Hindlimb Unloading Tonometry IOP,FT02_OS,Day_28,Intraocular Pressure,25.0,torr
+817,OSD-679,Hindlimb Unloading Tonometry IOP,FT04_OS,Day_0,Intraocular Pressure,19.5,torr
+818,OSD-679,Hindlimb Unloading Tonometry IOP,FT04_OS,Day_28,Intraocular Pressure,22.0,torr
+819,OSD-679,Hindlimb Unloading Tonometry IOP,FT16_OS,Day_0,Intraocular Pressure,21.5,torr
+820,OSD-679,Hindlimb Unloading Tonometry IOP,FT16_OS,Day_28,Intraocular Pressure,19.0,torr
+821,OSD-679,Hindlimb Unloading Tonometry IOP,FT18_OS,Day_0,Intraocular Pressure,21.5,torr
+822,OSD-679,Hindlimb Unloading Tonometry IOP,FT18_OS,Day_28,Intraocular Pressure,21.0,torr
+823,OSD-679,Hindlimb Unloading Tonometry IOP,FT01_OS,Day_0,Intraocular Pressure,14.5,torr
+824,OSD-679,Hindlimb Unloading Tonometry IOP,FT01_OS,Day_28,Intraocular Pressure,25.0,torr
+825,OSD-679,Hindlimb Unloading Tonometry IOP,FT03_OS,Day_0,Intraocular Pressure,21.0,torr
+826,OSD-679,Hindlimb Unloading Tonometry IOP,FT03_OS,Day_28,Intraocular Pressure,16.0,torr
+827,OSD-679,Hindlimb Unloading Tonometry IOP,FT15_OS,Day_0,Intraocular Pressure,19.0,torr
+828,OSD-679,Hindlimb Unloading Tonometry IOP,FT15_OS,Day_28,Intraocular Pressure,24.0,torr
+829,OSD-679,Hindlimb Unloading Tonometry IOP,FT17_OS,Day_0,Intraocular Pressure,21.0,torr
+830,OSD-679,Hindlimb Unloading Tonometry IOP,FT17_OS,Day_28,Intraocular Pressure,20.0,torr
+831,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OD,Day_0,Intraocular Pressure,16.0,torr
+832,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OD,Day_45,Intraocular Pressure,21.0,torr
+833,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OD,Day_90,Intraocular Pressure,19.0,torr
+834,OSD-679,Hindlimb Unloading Tonometry IOP,FT49_OD,Day_0,Intraocular Pressure,16.0,torr
+835,OSD-679,Hindlimb Unloading Tonometry IOP,FT154_OD,Day_0,Intraocular Pressure,18.0,torr
+836,OSD-679,Hindlimb Unloading Tonometry IOP,FT154_OD,Day_90,Intraocular Pressure,27.0,torr
+837,OSD-679,Hindlimb Unloading Tonometry IOP,FT156_OD,Day_0,Intraocular Pressure,18.0,torr
+838,OSD-679,Hindlimb Unloading Tonometry IOP,FT156_OD,Day_90,Intraocular Pressure,24.0,torr
+839,OSD-679,Hindlimb Unloading Tonometry IOP,FT160_OD,Day_0,Intraocular Pressure,19.0,torr
+840,OSD-679,Hindlimb Unloading Tonometry IOP,FT160_OD,Day_90,Intraocular Pressure,26.0,torr
+841,OSD-679,Hindlimb Unloading Tonometry IOP,FT164_OD,Day_0,Intraocular Pressure,15.0,torr
+842,OSD-679,Hindlimb Unloading Tonometry IOP,FT164_OD,Day_90,Intraocular Pressure,25.0,torr
+843,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OS,Day_0,Intraocular Pressure,16.0,torr
+844,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OS,Day_45,Intraocular Pressure,21.0,torr
+845,OSD-679,Hindlimb Unloading Tonometry IOP,FT43_OS,Day_90,Intraocular Pressure,15.0,torr
+846,OSD-679,Hindlimb Unloading Tonometry IOP,FT49_OS,Day_0,Intraocular Pressure,17.0,torr
+847,OSD-679,Hindlimb Unloading Tonometry IOP,FT154_OS,Day_0,Intraocular Pressure,16.0,torr
+848,OSD-679,Hindlimb Unloading Tonometry IOP,FT154_OS,Day_90,Intraocular Pressure,26.0,torr
+849,OSD-679,Hindlimb Unloading Tonometry IOP,FT156_OS,Day_0,Intraocular Pressure,16.0,torr
+850,OSD-679,Hindlimb Unloading Tonometry IOP,FT156_OS,Day_90,Intraocular Pressure,29.0,torr
+851,OSD-679,Hindlimb Unloading Tonometry IOP,FT160_OS,Day_0,Intraocular Pressure,18.0,torr
+852,OSD-679,Hindlimb Unloading Tonometry IOP,FT160_OS,Day_90,Intraocular Pressure,24.0,torr
+853,OSD-679,Hindlimb Unloading Tonometry IOP,FT164_OS,Day_0,Intraocular Pressure,18.0,torr
+854,OSD-679,Hindlimb Unloading Tonometry IOP,FT164_OS,Day_90,Intraocular Pressure,23.0,torr
+855,OSD-679,Hindlimb Unloading Tonometry IOP,FT58_OD,Day_0,Intraocular Pressure,19.0,torr
+856,OSD-679,Hindlimb Unloading Tonometry IOP,FT58_OD,Day_45,Intraocular Pressure,20.0,torr
+857,OSD-679,Hindlimb Unloading Tonometry IOP,FT155_OD,Day_0,Intraocular Pressure,17.0,torr
+858,OSD-679,Hindlimb Unloading Tonometry IOP,FT155_OD,Day_90,Intraocular Pressure,18.0,torr
+859,OSD-679,Hindlimb Unloading Tonometry IOP,FT157_OD,Day_0,Intraocular Pressure,15.0,torr
+860,OSD-679,Hindlimb Unloading Tonometry IOP,FT157_OD,Day_90,Intraocular Pressure,23.0,torr
+861,OSD-679,Hindlimb Unloading Tonometry IOP,FT159_OD,Day_0,Intraocular Pressure,16.0,torr
+862,OSD-679,Hindlimb Unloading Tonometry IOP,FT159_OD,Day_90,Intraocular Pressure,21.0,torr
+863,OSD-679,Hindlimb Unloading Tonometry IOP,FT163_OD,Day_0,Intraocular Pressure,19.0,torr
+864,OSD-679,Hindlimb Unloading Tonometry IOP,FT163_OD,Day_90,Intraocular Pressure,20.0,torr
+865,OSD-679,Hindlimb Unloading Tonometry IOP,FT58_OS,Day_0,Intraocular Pressure,18.0,torr
+866,OSD-679,Hindlimb Unloading Tonometry IOP,FT58_OS,Day_45,Intraocular Pressure,19.0,torr
+867,OSD-679,Hindlimb Unloading Tonometry IOP,FT155_OS,Day_0,Intraocular Pressure,17.0,torr
+868,OSD-679,Hindlimb Unloading Tonometry IOP,FT155_OS,Day_90,Intraocular Pressure,16.0,torr
+869,OSD-679,Hindlimb Unloading Tonometry IOP,FT157_OS,Day_0,Intraocular Pressure,13.0,torr
+870,OSD-679,Hindlimb Unloading Tonometry IOP,FT157_OS,Day_90,Intraocular Pressure,24.0,torr
+871,OSD-679,Hindlimb Unloading Tonometry IOP,FT159_OS,Day_0,Intraocular Pressure,16.0,torr
+872,OSD-679,Hindlimb Unloading Tonometry IOP,FT159_OS,Day_90,Intraocular Pressure,22.0,torr
+873,OSD-679,Hindlimb Unloading Tonometry IOP,FT163_OS,Day_0,Intraocular Pressure,14.0,torr
+874,OSD-679,Hindlimb Unloading Tonometry IOP,FT163_OS,Day_90,Intraocular Pressure,20.0,torr
+875,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OD,Day_0,Intraocular Pressure,23.0,torr
+876,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OD,Day_45,Intraocular Pressure,29.0,torr
+877,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OD,Day_90,Intraocular Pressure,21.0,torr
+878,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OD,Day_97,Intraocular Pressure,21.0,torr
+879,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OD,Day_0,Intraocular Pressure,21.0,torr
+880,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OD,Day_45,Intraocular Pressure,19.0,torr
+881,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OD,Day_90,Intraocular Pressure,23.0,torr
+882,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OD,Day_97,Intraocular Pressure,23.0,torr
+883,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OD,Day_0,Intraocular Pressure,18.0,torr
+884,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OD,Day_45,Intraocular Pressure,22.0,torr
+885,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OD,Day_90,Intraocular Pressure,21.0,torr
+886,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OD,Day_97,Intraocular Pressure,23.0,torr
+887,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OD,Day_0,Intraocular Pressure,20.0,torr
+888,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OD,Day_45,Intraocular Pressure,25.0,torr
+889,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OD,Day_90,Intraocular Pressure,25.0,torr
+890,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OD,Day_97,Intraocular Pressure,17.0,torr
+891,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OD,Day_0,Intraocular Pressure,16.0,torr
+892,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OD,Day_90,Intraocular Pressure,22.0,torr
+893,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OD,Day_97,Intraocular Pressure,24.0,torr
+894,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OD,Day_0,Intraocular Pressure,13.0,torr
+895,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OD,Day_90,Intraocular Pressure,17.0,torr
+896,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OD,Day_97,Intraocular Pressure,25.0,torr
+897,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OS,Day_0,Intraocular Pressure,19.0,torr
+898,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OS,Day_45,Intraocular Pressure,18.0,torr
+899,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OS,Day_90,Intraocular Pressure,23.0,torr
+900,OSD-679,Hindlimb Unloading Tonometry IOP,FT100_OS,Day_97,Intraocular Pressure,18.0,torr
+901,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OS,Day_0,Intraocular Pressure,15.0,torr
+902,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OS,Day_45,Intraocular Pressure,22.0,torr
+903,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OS,Day_90,Intraocular Pressure,18.0,torr
+904,OSD-679,Hindlimb Unloading Tonometry IOP,FT101_OS,Day_97,Intraocular Pressure,21.0,torr
+905,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OS,Day_0,Intraocular Pressure,16.0,torr
+906,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OS,Day_45,Intraocular Pressure,21.0,torr
+907,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OS,Day_90,Intraocular Pressure,20.0,torr
+908,OSD-679,Hindlimb Unloading Tonometry IOP,FT103_OS,Day_97,Intraocular Pressure,24.0,torr
+909,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OS,Day_0,Intraocular Pressure,13.0,torr
+910,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OS,Day_45,Intraocular Pressure,25.0,torr
+911,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OS,Day_90,Intraocular Pressure,25.0,torr
+912,OSD-679,Hindlimb Unloading Tonometry IOP,FT104_OS,Day_97,Intraocular Pressure,14.0,torr
+913,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OS,Day_0,Intraocular Pressure,11.0,torr
+914,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OS,Day_90,Intraocular Pressure,19.0,torr
+915,OSD-679,Hindlimb Unloading Tonometry IOP,FT148_OS,Day_97,Intraocular Pressure,20.0,torr
+916,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OS,Day_0,Intraocular Pressure,16.0,torr
+917,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OS,Day_90,Intraocular Pressure,20.0,torr
+918,OSD-679,Hindlimb Unloading Tonometry IOP,FT150_OS,Day_97,Intraocular Pressure,23.0,torr
+919,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OD,Day_0,Intraocular Pressure,22.0,torr
+920,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OD,Day_45,Intraocular Pressure,19.0,torr
+921,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OD,Day_90,Intraocular Pressure,18.0,torr
+922,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OD,Day_97,Intraocular Pressure,21.0,torr
+923,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OD,Day_0,Intraocular Pressure,19.0,torr
+924,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OD,Day_45,Intraocular Pressure,17.0,torr
+925,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OD,Day_90,Intraocular Pressure,14.0,torr
+926,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OD,Day_97,Intraocular Pressure,14.0,torr
+927,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OD,Day_0,Intraocular Pressure,17.0,torr
+928,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OD,Day_45,Intraocular Pressure,15.0,torr
+929,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OD,Day_90,Intraocular Pressure,17.0,torr
+930,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OD,Day_97,Intraocular Pressure,23.0,torr
+931,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OD,Day_0,Intraocular Pressure,15.0,torr
+932,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OD,Day_90,Intraocular Pressure,16.0,torr
+933,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OD,Day_97,Intraocular Pressure,19.0,torr
+934,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OD,Day_0,Intraocular Pressure,18.0,torr
+935,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OD,Day_90,Intraocular Pressure,19.0,torr
+936,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OD,Day_97,Intraocular Pressure,23.0,torr
+937,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OS,Day_0,Intraocular Pressure,20.0,torr
+938,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OS,Day_45,Intraocular Pressure,20.0,torr
+939,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OS,Day_90,Intraocular Pressure,16.0,torr
+940,OSD-679,Hindlimb Unloading Tonometry IOP,FT98_OS,Day_97,Intraocular Pressure,20.0,torr
+941,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OS,Day_0,Intraocular Pressure,17.0,torr
+942,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OS,Day_45,Intraocular Pressure,18.0,torr
+943,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OS,Day_90,Intraocular Pressure,16.0,torr
+944,OSD-679,Hindlimb Unloading Tonometry IOP,FT99_OS,Day_97,Intraocular Pressure,20.0,torr
+945,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OS,Day_0,Intraocular Pressure,17.0,torr
+946,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OS,Day_45,Intraocular Pressure,15.0,torr
+947,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OS,Day_90,Intraocular Pressure,15.0,torr
+948,OSD-679,Hindlimb Unloading Tonometry IOP,FT102_OS,Day_97,Intraocular Pressure,25.0,torr
+949,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OS,Day_0,Intraocular Pressure,15.0,torr
+950,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OS,Day_90,Intraocular Pressure,16.0,torr
+951,OSD-679,Hindlimb Unloading Tonometry IOP,FT149_OS,Day_97,Intraocular Pressure,18.0,torr
+952,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OS,Day_0,Intraocular Pressure,18.0,torr
+953,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OS,Day_90,Intraocular Pressure,16.0,torr
+954,OSD-679,Hindlimb Unloading Tonometry IOP,FT151_OS,Day_97,Intraocular Pressure,21.0,torr
+955,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OD,Day_0,Intraocular Pressure,18.0,torr
+956,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OD,Day_45,Intraocular Pressure,19.0,torr
+957,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OD,Day_90,Intraocular Pressure,26.0,torr
+958,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OD,Day_104,Intraocular Pressure,14.0,torr
+959,OSD-679,Hindlimb Unloading Tonometry IOP,FT75_OD,Day_0,Intraocular Pressure,17.0,torr
+960,OSD-679,Hindlimb Unloading Tonometry IOP,FT75_OD,Day_45,Intraocular Pressure,18.0,torr
+961,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OD,Day_0,Intraocular Pressure,24.0,torr
+962,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OD,Day_45,Intraocular Pressure,21.0,torr
+963,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OD,Day_90,Intraocular Pressure,19.0,torr
+964,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OD,Day_104,Intraocular Pressure,17.0,torr
+965,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OD,Day_0,Intraocular Pressure,21.0,torr
+966,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OD,Day_45,Intraocular Pressure,23.0,torr
+967,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OD,Day_90,Intraocular Pressure,19.0,torr
+968,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OD,Day_0,Intraocular Pressure,19.0,torr
+969,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OD,Day_45,Intraocular Pressure,17.0,torr
+970,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OD,Day_90,Intraocular Pressure,22.0,torr
+971,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OD,Day_104,Intraocular Pressure,22.0,torr
+972,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OD,Day_0,Intraocular Pressure,22.0,torr
+973,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OD,Day_45,Intraocular Pressure,14.0,torr
+974,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OD,Day_90,Intraocular Pressure,24.0,torr
+975,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OD,Day_0,Intraocular Pressure,19.0,torr
+976,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OD,Day_45,Intraocular Pressure,23.0,torr
+977,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OD,Day_90,Intraocular Pressure,19.0,torr
+978,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OD,Day_104,Intraocular Pressure,18.0,torr
+979,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OD,Day_0,Intraocular Pressure,19.0,torr
+980,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OD,Day_45,Intraocular Pressure,23.0,torr
+981,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OD,Day_90,Intraocular Pressure,20.0,torr
+982,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OD,Day_104,Intraocular Pressure,15.0,torr
+983,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OD,Day_0,Intraocular Pressure,17.0,torr
+984,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OD,Day_90,Intraocular Pressure,23.0,torr
+985,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OD,Day_104,Intraocular Pressure,27.0,torr
+986,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OD,Day_0,Intraocular Pressure,23.0,torr
+987,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OD,Day_90,Intraocular Pressure,25.0,torr
+988,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OD,Day_104,Intraocular Pressure,25.0,torr
+989,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OD,Day_0,Intraocular Pressure,14.0,torr
+990,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OD,Day_90,Intraocular Pressure,25.0,torr
+991,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OD,Day_104,Intraocular Pressure,26.0,torr
+992,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OD,Day_0,Intraocular Pressure,15.0,torr
+993,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OD,Day_90,Intraocular Pressure,27.0,torr
+994,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OD,Day_104,Intraocular Pressure,25.0,torr
+995,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OD,Day_0,Intraocular Pressure,15.0,torr
+996,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OD,Day_90,Intraocular Pressure,24.0,torr
+997,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OD,Day_104,Intraocular Pressure,27.0,torr
+998,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OD,Day_0,Intraocular Pressure,23.0,torr
+999,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OD,Day_90,Intraocular Pressure,25.0,torr
+1000,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OD,Day_104,Intraocular Pressure,26.0,torr
+1001,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OD,Day_0,Intraocular Pressure,19.0,torr
+1002,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OD,Day_90,Intraocular Pressure,22.0,torr
+1003,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OD,Day_104,Intraocular Pressure,25.0,torr
+1004,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OS,Day_0,Intraocular Pressure,22.0,torr
+1005,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OS,Day_45,Intraocular Pressure,20.0,torr
+1006,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OS,Day_90,Intraocular Pressure,21.0,torr
+1007,OSD-679,Hindlimb Unloading Tonometry IOP,FT73_OS,Day_104,Intraocular Pressure,15.0,torr
+1008,OSD-679,Hindlimb Unloading Tonometry IOP,FT75_OS,Day_0,Intraocular Pressure,20.0,torr
+1009,OSD-679,Hindlimb Unloading Tonometry IOP,FT75_OS,Day_45,Intraocular Pressure,22.0,torr
+1010,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OS,Day_0,Intraocular Pressure,19.0,torr
+1011,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OS,Day_45,Intraocular Pressure,24.0,torr
+1012,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OS,Day_90,Intraocular Pressure,23.0,torr
+1013,OSD-679,Hindlimb Unloading Tonometry IOP,FT77_OS,Day_104,Intraocular Pressure,14.0,torr
+1014,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OS,Day_0,Intraocular Pressure,26.0,torr
+1015,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OS,Day_45,Intraocular Pressure,24.0,torr
+1016,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OS,Day_90,Intraocular Pressure,22.0,torr
+1017,OSD-679,Hindlimb Unloading Tonometry IOP,FT81_OS,Day_104,Intraocular Pressure,18.0,torr
+1018,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OS,Day_0,Intraocular Pressure,21.0,torr
+1019,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OS,Day_45,Intraocular Pressure,18.0,torr
+1020,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OS,Day_90,Intraocular Pressure,24.0,torr
+1021,OSD-679,Hindlimb Unloading Tonometry IOP,FT83_OS,Day_104,Intraocular Pressure,25.0,torr
+1022,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OS,Day_0,Intraocular Pressure,23.0,torr
+1023,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OS,Day_45,Intraocular Pressure,17.0,torr
+1024,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OS,Day_90,Intraocular Pressure,24.0,torr
+1025,OSD-679,Hindlimb Unloading Tonometry IOP,FT85_OS,Day_104,Intraocular Pressure,17.0,torr
+1026,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OS,Day_0,Intraocular Pressure,18.0,torr
+1027,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OS,Day_45,Intraocular Pressure,22.0,torr
+1028,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OS,Day_90,Intraocular Pressure,20.0,torr
+1029,OSD-679,Hindlimb Unloading Tonometry IOP,FT95_OS,Day_104,Intraocular Pressure,16.0,torr
+1030,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OS,Day_0,Intraocular Pressure,18.0,torr
+1031,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OS,Day_45,Intraocular Pressure,24.0,torr
+1032,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OS,Day_90,Intraocular Pressure,19.0,torr
+1033,OSD-679,Hindlimb Unloading Tonometry IOP,FT97_OS,Day_104,Intraocular Pressure,17.0,torr
+1034,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OS,Day_0,Intraocular Pressure,21.0,torr
+1035,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OS,Day_90,Intraocular Pressure,21.0,torr
+1036,OSD-679,Hindlimb Unloading Tonometry IOP,FT132_OS,Day_104,Intraocular Pressure,25.0,torr
+1037,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OS,Day_0,Intraocular Pressure,23.0,torr
+1038,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OS,Day_90,Intraocular Pressure,20.0,torr
+1039,OSD-679,Hindlimb Unloading Tonometry IOP,FT134_OS,Day_104,Intraocular Pressure,23.0,torr
+1040,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OS,Day_0,Intraocular Pressure,20.0,torr
+1041,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OS,Day_90,Intraocular Pressure,25.0,torr
+1042,OSD-679,Hindlimb Unloading Tonometry IOP,FT136_OS,Day_104,Intraocular Pressure,24.0,torr
+1043,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OS,Day_0,Intraocular Pressure,19.0,torr
+1044,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OS,Day_90,Intraocular Pressure,25.0,torr
+1045,OSD-679,Hindlimb Unloading Tonometry IOP,FT140_OS,Day_104,Intraocular Pressure,26.0,torr
+1046,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OS,Day_0,Intraocular Pressure,19.0,torr
+1047,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OS,Day_90,Intraocular Pressure,25.0,torr
+1048,OSD-679,Hindlimb Unloading Tonometry IOP,FT142_OS,Day_104,Intraocular Pressure,24.0,torr
+1049,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OS,Day_0,Intraocular Pressure,20.0,torr
+1050,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OS,Day_90,Intraocular Pressure,26.0,torr
+1051,OSD-679,Hindlimb Unloading Tonometry IOP,FT144_OS,Day_104,Intraocular Pressure,28.0,torr
+1052,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OS,Day_0,Intraocular Pressure,14.0,torr
+1053,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OS,Day_90,Intraocular Pressure,21.0,torr
+1054,OSD-679,Hindlimb Unloading Tonometry IOP,FT146_OS,Day_104,Intraocular Pressure,27.0,torr
+1055,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OD,Day_0,Intraocular Pressure,21.0,torr
+1056,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OD,Day_45,Intraocular Pressure,20.0,torr
+1057,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OD,Day_90,Intraocular Pressure,16.0,torr
+1058,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OD,Day_104,Intraocular Pressure,21.0,torr
+1059,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OD,Day_0,Intraocular Pressure,14.0,torr
+1060,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OD,Day_45,Intraocular Pressure,15.0,torr
+1061,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OD,Day_90,Intraocular Pressure,14.0,torr
+1062,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OD,Day_104,Intraocular Pressure,19.0,torr
+1063,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OD,Day_0,Intraocular Pressure,21.0,torr
+1064,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OD,Day_45,Intraocular Pressure,15.0,torr
+1065,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OD,Day_90,Intraocular Pressure,19.0,torr
+1066,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OD,Day_104,Intraocular Pressure,23.0,torr
+1067,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OD,Day_0,Intraocular Pressure,18.0,torr
+1068,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OD,Day_45,Intraocular Pressure,22.0,torr
+1069,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OD,Day_90,Intraocular Pressure,16.0,torr
+1070,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OD,Day_104,Intraocular Pressure,18.0,torr
+1071,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OD,Day_0,Intraocular Pressure,22.0,torr
+1072,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OD,Day_45,Intraocular Pressure,15.0,torr
+1073,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OD,Day_90,Intraocular Pressure,18.0,torr
+1074,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OD,Day_104,Intraocular Pressure,16.0,torr
+1075,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OD,Day_0,Intraocular Pressure,21.0,torr
+1076,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OD,Day_45,Intraocular Pressure,16.0,torr
+1077,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OD,Day_90,Intraocular Pressure,17.0,torr
+1078,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OD,Day_104,Intraocular Pressure,13.0,torr
+1079,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OD,Day_0,Intraocular Pressure,20.0,torr
+1080,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OD,Day_45,Intraocular Pressure,20.0,torr
+1081,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OD,Day_90,Intraocular Pressure,17.0,torr
+1082,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OD,Day_104,Intraocular Pressure,21.0,torr
+1083,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OD,Day_0,Intraocular Pressure,23.0,torr
+1084,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OD,Day_90,Intraocular Pressure,21.0,torr
+1085,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OD,Day_104,Intraocular Pressure,23.0,torr
+1086,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OD,Day_0,Intraocular Pressure,18.0,torr
+1087,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OD,Day_90,Intraocular Pressure,22.0,torr
+1088,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OD,Day_104,Intraocular Pressure,21.0,torr
+1089,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OD,Day_0,Intraocular Pressure,17.0,torr
+1090,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OD,Day_90,Intraocular Pressure,17.0,torr
+1091,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OD,Day_104,Intraocular Pressure,24.0,torr
+1092,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OD,Day_0,Intraocular Pressure,14.0,torr
+1093,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OD,Day_90,Intraocular Pressure,18.0,torr
+1094,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OD,Day_104,Intraocular Pressure,22.0,torr
+1095,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OD,Day_0,Intraocular Pressure,17.0,torr
+1096,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OD,Day_90,Intraocular Pressure,18.0,torr
+1097,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OD,Day_104,Intraocular Pressure,23.0,torr
+1098,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OD,Day_0,Intraocular Pressure,24.0,torr
+1099,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OD,Day_90,Intraocular Pressure,20.0,torr
+1100,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OD,Day_104,Intraocular Pressure,22.0,torr
+1101,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OD,Day_0,Intraocular Pressure,18.0,torr
+1102,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OD,Day_90,Intraocular Pressure,14.0,torr
+1103,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OD,Day_104,Intraocular Pressure,21.0,torr
+1104,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OD,Day_0,Intraocular Pressure,13.0,torr
+1105,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OD,Day_45,Intraocular Pressure,21.0,torr
+1106,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OD,Day_90,Intraocular Pressure,25.0,torr
+1107,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OD,Day_0,Intraocular Pressure,17.0,torr
+1108,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OD,Day_90,Intraocular Pressure,25.0,torr
+1109,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OD,Day_118,Intraocular Pressure,23.0,torr
+1110,OSD-679,Hindlimb Unloading Tonometry IOP,FT111_OD,Day_118,Intraocular Pressure,15.0,torr
+1111,OSD-679,Hindlimb Unloading Tonometry IOP,FT106_OD,Day_118,Intraocular Pressure,19.0,torr
+1112,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OS,Day_0,Intraocular Pressure,18.0,torr
+1113,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OS,Day_45,Intraocular Pressure,17.0,torr
+1114,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OS,Day_90,Intraocular Pressure,18.0,torr
+1115,OSD-679,Hindlimb Unloading Tonometry IOP,FT74_OS,Day_104,Intraocular Pressure,20.0,torr
+1116,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OS,Day_0,Intraocular Pressure,24.0,torr
+1117,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OS,Day_45,Intraocular Pressure,22.0,torr
+1118,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OS,Day_90,Intraocular Pressure,18.0,torr
+1119,OSD-679,Hindlimb Unloading Tonometry IOP,FT76_OS,Day_104,Intraocular Pressure,21.0,torr
+1120,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OS,Day_0,Intraocular Pressure,19.0,torr
+1121,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OS,Day_45,Intraocular Pressure,22.0,torr
+1122,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OS,Day_90,Intraocular Pressure,15.0,torr
+1123,OSD-679,Hindlimb Unloading Tonometry IOP,FT78_OS,Day_104,Intraocular Pressure,19.0,torr
+1124,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OS,Day_0,Intraocular Pressure,15.0,torr
+1125,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OS,Day_45,Intraocular Pressure,17.0,torr
+1126,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OS,Day_90,Intraocular Pressure,15.0,torr
+1127,OSD-679,Hindlimb Unloading Tonometry IOP,FT82_OS,Day_104,Intraocular Pressure,18.0,torr
+1128,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OS,Day_0,Intraocular Pressure,17.0,torr
+1129,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OS,Day_45,Intraocular Pressure,20.0,torr
+1130,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OS,Day_90,Intraocular Pressure,15.0,torr
+1131,OSD-679,Hindlimb Unloading Tonometry IOP,FT84_OS,Day_104,Intraocular Pressure,22.0,torr
+1132,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OS,Day_0,Intraocular Pressure,15.0,torr
+1133,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OS,Day_45,Intraocular Pressure,14.0,torr
+1134,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OS,Day_90,Intraocular Pressure,17.0,torr
+1135,OSD-679,Hindlimb Unloading Tonometry IOP,FT87_OS,Day_104,Intraocular Pressure,18.0,torr
+1136,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OS,Day_0,Intraocular Pressure,16.0,torr
+1137,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OS,Day_45,Intraocular Pressure,21.0,torr
+1138,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OS,Day_90,Intraocular Pressure,15.0,torr
+1139,OSD-679,Hindlimb Unloading Tonometry IOP,FT96_OS,Day_104,Intraocular Pressure,18.0,torr
+1140,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OS,Day_0,Intraocular Pressure,21.0,torr
+1141,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OS,Day_90,Intraocular Pressure,22.0,torr
+1142,OSD-679,Hindlimb Unloading Tonometry IOP,FT133_OS,Day_104,Intraocular Pressure,21.0,torr
+1143,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OS,Day_0,Intraocular Pressure,20.0,torr
+1144,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OS,Day_90,Intraocular Pressure,23.0,torr
+1145,OSD-679,Hindlimb Unloading Tonometry IOP,FT135_OS,Day_104,Intraocular Pressure,22.0,torr
+1146,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OS,Day_0,Intraocular Pressure,14.0,torr
+1147,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OS,Day_90,Intraocular Pressure,15.0,torr
+1148,OSD-679,Hindlimb Unloading Tonometry IOP,FT137_OS,Day_104,Intraocular Pressure,20.0,torr
+1149,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OS,Day_0,Intraocular Pressure,15.0,torr
+1150,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OS,Day_90,Intraocular Pressure,20.0,torr
+1151,OSD-679,Hindlimb Unloading Tonometry IOP,FT141_OS,Day_104,Intraocular Pressure,22.0,torr
+1152,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OS,Day_0,Intraocular Pressure,20.0,torr
+1153,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OS,Day_90,Intraocular Pressure,19.0,torr
+1154,OSD-679,Hindlimb Unloading Tonometry IOP,FT143_OS,Day_104,Intraocular Pressure,18.0,torr
+1155,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OS,Day_0,Intraocular Pressure,21.0,torr
+1156,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OS,Day_90,Intraocular Pressure,17.0,torr
+1157,OSD-679,Hindlimb Unloading Tonometry IOP,FT145_OS,Day_104,Intraocular Pressure,20.0,torr
+1158,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OS,Day_0,Intraocular Pressure,23.0,torr
+1159,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OS,Day_90,Intraocular Pressure,16.0,torr
+1160,OSD-679,Hindlimb Unloading Tonometry IOP,FT147_OS,Day_104,Intraocular Pressure,21.0,torr
+1161,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OS,Day_0,Intraocular Pressure,15.0,torr
+1162,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OS,Day_45,Intraocular Pressure,16.0,torr
+1163,OSD-679,Hindlimb Unloading Tonometry IOP,FT120_OS,Day_90,Intraocular Pressure,29.0,torr
+1164,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OS,Day_0,Intraocular Pressure,17.0,torr
+1165,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OS,Day_90,Intraocular Pressure,21.0,torr
+1166,OSD-679,Hindlimb Unloading Tonometry IOP,FT138_OS,Day_118,Intraocular Pressure,24.0,torr
+1167,OSD-679,Hindlimb Unloading Tonometry IOP,FT111_OS,Day_118,Intraocular Pressure,13.0,torr
+1168,OSD-679,Hindlimb Unloading Tonometry IOP,FT106_OS,Day_118,Intraocular Pressure,15.0,torr
+1169,OSD-679,Hindlimb Unloading Tonometry IOP,FT108_OD,Day_0,Intraocular Pressure,17.0,torr
+1170,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OD,Day_0,Intraocular Pressure,16.0,torr
+1171,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OD,Day_45,Intraocular Pressure,27.0,torr
+1172,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OD,Day_90,Intraocular Pressure,25.0,torr
+1173,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OD,Day_180,Intraocular Pressure,26.0,torr
+1174,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OD,Day_0,Intraocular Pressure,19.0,torr
+1175,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OD,Day_45,Intraocular Pressure,24.0,torr
+1176,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OD,Day_90,Intraocular Pressure,27.0,torr
+1177,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OD,Day_180,Intraocular Pressure,25.0,torr
+1178,OSD-679,Hindlimb Unloading Tonometry IOP,FT123_OD,Day_0,Intraocular Pressure,16.0,torr
+1179,OSD-679,Hindlimb Unloading Tonometry IOP,FT123_OD,Day_45,Intraocular Pressure,20.0,torr
+1180,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OD,Day_0,Intraocular Pressure,16.0,torr
+1181,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OD,Day_45,Intraocular Pressure,15.0,torr
+1182,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OD,Day_90,Intraocular Pressure,26.0,torr
+1183,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OD,Day_180,Intraocular Pressure,19.0,torr
+1184,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OD,Day_0,Intraocular Pressure,20.0,torr
+1185,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OD,Day_45,Intraocular Pressure,25.0,torr
+1186,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OD,Day_90,Intraocular Pressure,24.0,torr
+1187,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OD,Day_180,Intraocular Pressure,26.0,torr
+1188,OSD-679,Hindlimb Unloading Tonometry IOP,FT108_OS,Day_0,Intraocular Pressure,14.0,torr
+1189,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OS,Day_0,Intraocular Pressure,17.0,torr
+1190,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OS,Day_45,Intraocular Pressure,23.0,torr
+1191,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OS,Day_90,Intraocular Pressure,24.0,torr
+1192,OSD-679,Hindlimb Unloading Tonometry IOP,FT109_OS,Day_180,Intraocular Pressure,27.0,torr
+1193,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OS,Day_0,Intraocular Pressure,17.0,torr
+1194,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OS,Day_45,Intraocular Pressure,25.0,torr
+1195,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OS,Day_90,Intraocular Pressure,25.0,torr
+1196,OSD-679,Hindlimb Unloading Tonometry IOP,FT121_OS,Day_180,Intraocular Pressure,26.0,torr
+1197,OSD-679,Hindlimb Unloading Tonometry IOP,FT123_OS,Day_0,Intraocular Pressure,17.0,torr
+1198,OSD-679,Hindlimb Unloading Tonometry IOP,FT123_OS,Day_45,Intraocular Pressure,19.0,torr
+1199,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OS,Day_0,Intraocular Pressure,18.0,torr
+1200,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OS,Day_45,Intraocular Pressure,18.0,torr
+1201,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OS,Day_90,Intraocular Pressure,28.0,torr
+1202,OSD-679,Hindlimb Unloading Tonometry IOP,FT127_OS,Day_180,Intraocular Pressure,21.0,torr
+1203,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OS,Day_0,Intraocular Pressure,18.0,torr
+1204,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OS,Day_45,Intraocular Pressure,18.0,torr
+1205,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OS,Day_90,Intraocular Pressure,23.0,torr
+1206,OSD-679,Hindlimb Unloading Tonometry IOP,FT130_OS,Day_180,Intraocular Pressure,26.0,torr
+1207,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OD,Day_0,Intraocular Pressure,21.0,torr
+1208,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OD,Day_45,Intraocular Pressure,18.0,torr
+1209,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OD,Day_90,Intraocular Pressure,22.0,torr
+1210,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OD,Day_180,Intraocular Pressure,24.0,torr
+1211,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OD,Day_0,Intraocular Pressure,16.0,torr
+1212,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OD,Day_45,Intraocular Pressure,19.0,torr
+1213,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OD,Day_90,Intraocular Pressure,19.0,torr
+1214,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OD,Day_180,Intraocular Pressure,17.0,torr
+1215,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OD,Day_0,Intraocular Pressure,17.0,torr
+1216,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OD,Day_45,Intraocular Pressure,14.0,torr
+1217,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OD,Day_90,Intraocular Pressure,18.0,torr
+1218,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OD,Day_180,Intraocular Pressure,20.0,torr
+1219,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OD,Day_0,Intraocular Pressure,14.0,torr
+1220,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OD,Day_45,Intraocular Pressure,22.0,torr
+1221,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OD,Day_90,Intraocular Pressure,22.0,torr
+1222,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OD,Day_180,Intraocular Pressure,22.0,torr
+1223,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OS,Day_0,Intraocular Pressure,22.0,torr
+1224,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OS,Day_45,Intraocular Pressure,17.0,torr
+1225,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OS,Day_90,Intraocular Pressure,21.0,torr
+1226,OSD-679,Hindlimb Unloading Tonometry IOP,FT107_OS,Day_180,Intraocular Pressure,24.0,torr
+1227,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OS,Day_0,Intraocular Pressure,14.0,torr
+1228,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OS,Day_45,Intraocular Pressure,21.0,torr
+1229,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OS,Day_90,Intraocular Pressure,20.0,torr
+1230,OSD-679,Hindlimb Unloading Tonometry IOP,FT110_OS,Day_180,Intraocular Pressure,19.0,torr
+1231,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OS,Day_0,Intraocular Pressure,15.0,torr
+1232,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OS,Day_45,Intraocular Pressure,20.0,torr
+1233,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OS,Day_90,Intraocular Pressure,21.0,torr
+1234,OSD-679,Hindlimb Unloading Tonometry IOP,FT122_OS,Day_180,Intraocular Pressure,18.0,torr
+1235,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OS,Day_0,Intraocular Pressure,18.0,torr
+1236,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OS,Day_45,Intraocular Pressure,19.0,torr
+1237,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OS,Day_90,Intraocular Pressure,19.0,torr
+1238,OSD-679,Hindlimb Unloading Tonometry IOP,FT128_OS,Day_180,Intraocular Pressure,20.0,torr
+1239,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OD,Day_0,Intraocular Pressure,19.0,torr
+1240,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OD,Day_45,Intraocular Pressure,23.0,torr
+1241,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OD,Day_90,Intraocular Pressure,18.0,torr
+1242,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OD,Day_135,Intraocular Pressure,23.0,torr
+1243,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OD,Day_0,Intraocular Pressure,23.0,torr
+1244,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OD,Day_45,Intraocular Pressure,24.0,torr
+1245,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OD,Day_90,Intraocular Pressure,20.0,torr
+1246,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OD,Day_135,Intraocular Pressure,26.0,torr
+1247,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OD,Day_0,Intraocular Pressure,17.0,torr
+1248,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OD,Day_45,Intraocular Pressure,19.0,torr
+1249,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OD,Day_90,Intraocular Pressure,21.0,torr
+1250,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OD,Day_135,Intraocular Pressure,24.0,torr
+1251,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OD,Day_0,Intraocular Pressure,24.0,torr
+1252,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OD,Day_45,Intraocular Pressure,27.0,torr
+1253,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OD,Day_90,Intraocular Pressure,32.0,torr
+1254,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OD,Day_135,Intraocular Pressure,24.0,torr
+1255,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OD,Day_0,Intraocular Pressure,19.0,torr
+1256,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OD,Day_45,Intraocular Pressure,23.0,torr
+1257,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OD,Day_90,Intraocular Pressure,25.0,torr
+1258,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OD,Day_135,Intraocular Pressure,17.0,torr
+1259,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OD,Day_0,Intraocular Pressure,24.0,torr
+1260,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OD,Day_45,Intraocular Pressure,20.0,torr
+1261,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OD,Day_90,Intraocular Pressure,25.0,torr
+1262,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OD,Day_135,Intraocular Pressure,21.0,torr
+1263,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OD,Day_0,Intraocular Pressure,21.0,torr
+1264,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OD,Day_45,Intraocular Pressure,23.0,torr
+1265,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OD,Day_90,Intraocular Pressure,28.0,torr
+1266,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OD,Day_135,Intraocular Pressure,31.0,torr
+1267,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OD,Day_0,Intraocular Pressure,17.0,torr
+1268,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OD,Day_45,Intraocular Pressure,20.0,torr
+1269,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OD,Day_90,Intraocular Pressure,24.0,torr
+1270,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OD,Day_135,Intraocular Pressure,54.0,torr
+1271,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OD,Day_0,Intraocular Pressure,16.0,torr
+1272,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OD,Day_45,Intraocular Pressure,22.0,torr
+1273,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OD,Day_90,Intraocular Pressure,18.0,torr
+1274,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OD,Day_135,Intraocular Pressure,23.0,torr
+1275,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OS,Day_0,Intraocular Pressure,23.0,torr
+1276,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OS,Day_45,Intraocular Pressure,17.0,torr
+1277,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OS,Day_90,Intraocular Pressure,25.0,torr
+1278,OSD-679,Hindlimb Unloading Tonometry IOP,FT51_OS,Day_135,Intraocular Pressure,21.0,torr
+1279,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OS,Day_0,Intraocular Pressure,20.0,torr
+1280,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OS,Day_45,Intraocular Pressure,27.0,torr
+1281,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OS,Day_90,Intraocular Pressure,18.0,torr
+1282,OSD-679,Hindlimb Unloading Tonometry IOP,FT53_OS,Day_135,Intraocular Pressure,24.0,torr
+1283,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OS,Day_0,Intraocular Pressure,22.0,torr
+1284,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OS,Day_45,Intraocular Pressure,22.0,torr
+1285,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OS,Day_90,Intraocular Pressure,28.0,torr
+1286,OSD-679,Hindlimb Unloading Tonometry IOP,FT55_OS,Day_135,Intraocular Pressure,24.0,torr
+1287,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OS,Day_0,Intraocular Pressure,19.0,torr
+1288,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OS,Day_45,Intraocular Pressure,27.0,torr
+1289,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OS,Day_90,Intraocular Pressure,19.0,torr
+1290,OSD-679,Hindlimb Unloading Tonometry IOP,FT57_OS,Day_135,Intraocular Pressure,31.0,torr
+1291,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OS,Day_0,Intraocular Pressure,13.0,torr
+1292,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OS,Day_45,Intraocular Pressure,22.0,torr
+1293,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OS,Day_90,Intraocular Pressure,16.0,torr
+1294,OSD-679,Hindlimb Unloading Tonometry IOP,FT45_OS,Day_135,Intraocular Pressure,26.0,torr
+1295,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OS,Day_0,Intraocular Pressure,17.0,torr
+1296,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OS,Day_45,Intraocular Pressure,21.0,torr
+1297,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OS,Day_90,Intraocular Pressure,28.0,torr
+1298,OSD-679,Hindlimb Unloading Tonometry IOP,FT47_OS,Day_135,Intraocular Pressure,20.0,torr
+1299,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OS,Day_0,Intraocular Pressure,25.0,torr
+1300,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OS,Day_45,Intraocular Pressure,16.0,torr
+1301,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OS,Day_90,Intraocular Pressure,27.0,torr
+1302,OSD-679,Hindlimb Unloading Tonometry IOP,FT50_OS,Day_135,Intraocular Pressure,32.0,torr
+1303,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OS,Day_0,Intraocular Pressure,20.0,torr
+1304,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OS,Day_45,Intraocular Pressure,19.0,torr
+1305,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OS,Day_90,Intraocular Pressure,17.0,torr
+1306,OSD-679,Hindlimb Unloading Tonometry IOP,FT52_OS,Day_135,Intraocular Pressure,20.0,torr
+1307,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OS,Day_0,Intraocular Pressure,19.0,torr
+1308,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OS,Day_45,Intraocular Pressure,21.0,torr
+1309,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OS,Day_90,Intraocular Pressure,23.0,torr
+1310,OSD-679,Hindlimb Unloading Tonometry IOP,FT56_OS,Day_135,Intraocular Pressure,26.0,torr
+1311,OSD-679,Hindlimb Unloading Tonometry IOP,MT381_OD,Day_0,Intraocular Pressure,18.0,torr
+1312,OSD-679,Hindlimb Unloading Tonometry IOP,MT382_OD,Day_0,Intraocular Pressure,19.0,torr
+1313,OSD-679,Hindlimb Unloading Tonometry IOP,MT383_OD,Day_0,Intraocular Pressure,23.0,torr
+1314,OSD-679,Hindlimb Unloading Tonometry IOP,MT384_OD,Day_0,Intraocular Pressure,18.0,torr
+1315,OSD-679,Hindlimb Unloading Tonometry IOP,MT385_OD,Day_0,Intraocular Pressure,22.0,torr
+1316,OSD-679,Hindlimb Unloading Tonometry IOP,MT386_OD,Day_0,Intraocular Pressure,22.0,torr
+1317,OSD-679,Hindlimb Unloading Tonometry IOP,MT388_OD,Day_0,Intraocular Pressure,15.0,torr
+1318,OSD-679,Hindlimb Unloading Tonometry IOP,MT381_OS,Day_0,Intraocular Pressure,14.0,torr
+1319,OSD-679,Hindlimb Unloading Tonometry IOP,MT382_OS,Day_0,Intraocular Pressure,19.0,torr
+1320,OSD-679,Hindlimb Unloading Tonometry IOP,MT383_OS,Day_0,Intraocular Pressure,19.0,torr
+1321,OSD-679,Hindlimb Unloading Tonometry IOP,MT384_OS,Day_0,Intraocular Pressure,15.0,torr
+1322,OSD-679,Hindlimb Unloading Tonometry IOP,MT385_OS,Day_0,Intraocular Pressure,18.0,torr
+1323,OSD-679,Hindlimb Unloading Tonometry IOP,MT386_OS,Day_0,Intraocular Pressure,19.0,torr
+1324,OSD-679,Hindlimb Unloading Tonometry IOP,MT388_OS,Day_0,Intraocular Pressure,17.0,torr
+1325,OSD-679,Hindlimb Unloading Tonometry IOP,MT228_OD,Day_7,Intraocular Pressure,20.0,torr
+1326,OSD-679,Hindlimb Unloading Tonometry IOP,MT230_OD,Day_7,Intraocular Pressure,19.0,torr
+1327,OSD-679,Hindlimb Unloading Tonometry IOP,MT234_OD,Day_7,Intraocular Pressure,18.0,torr
+1328,OSD-679,Hindlimb Unloading Tonometry IOP,MT219_OD,Day_7,Intraocular Pressure,20.0,torr
+1329,OSD-679,Hindlimb Unloading Tonometry IOP,MT221_OD,Day_7,Intraocular Pressure,13.0,torr
+1330,OSD-679,Hindlimb Unloading Tonometry IOP,MT225_OD,Day_7,Intraocular Pressure,18.0,torr
+1331,OSD-679,Hindlimb Unloading Tonometry IOP,MT228_OS,Day_7,Intraocular Pressure,17.0,torr
+1332,OSD-679,Hindlimb Unloading Tonometry IOP,MT230_OS,Day_7,Intraocular Pressure,13.0,torr
+1333,OSD-679,Hindlimb Unloading Tonometry IOP,MT234_OS,Day_7,Intraocular Pressure,15.0,torr
+1334,OSD-679,Hindlimb Unloading Tonometry IOP,MT219_OS,Day_7,Intraocular Pressure,11.0,torr
+1335,OSD-679,Hindlimb Unloading Tonometry IOP,MT221_OS,Day_7,Intraocular Pressure,15.0,torr
+1336,OSD-679,Hindlimb Unloading Tonometry IOP,MT225_OS,Day_7,Intraocular Pressure,15.0,torr
+1337,OSD-679,Hindlimb Unloading Tonometry IOP,MT164_OD,Day_0,Intraocular Pressure,18.0,torr
+1338,OSD-679,Hindlimb Unloading Tonometry IOP,MT165_OD,Day_0,Intraocular Pressure,21.0,torr
+1339,OSD-679,Hindlimb Unloading Tonometry IOP,MT168_OD,Day_0,Intraocular Pressure,16.0,torr
+1340,OSD-679,Hindlimb Unloading Tonometry IOP,MT170_OD,Day_0,Intraocular Pressure,21.0,torr
+1341,OSD-679,Hindlimb Unloading Tonometry IOP,MT172_OD,Day_0,Intraocular Pressure,21.0,torr
+1342,OSD-679,Hindlimb Unloading Tonometry IOP,MT174_OD,Day_0,Intraocular Pressure,24.0,torr
+1343,OSD-679,Hindlimb Unloading Tonometry IOP,MT175_OD,Day_0,Intraocular Pressure,20.0,torr
+1344,OSD-679,Hindlimb Unloading Tonometry IOP,MT163_OD,Day_0,Intraocular Pressure,26.0,torr
+1345,OSD-679,Hindlimb Unloading Tonometry IOP,MT166_OD,Day_0,Intraocular Pressure,14.0,torr
+1346,OSD-679,Hindlimb Unloading Tonometry IOP,MT167_OD,Day_0,Intraocular Pressure,19.0,torr
+1347,OSD-679,Hindlimb Unloading Tonometry IOP,MT169_OD,Day_0,Intraocular Pressure,25.0,torr
+1348,OSD-679,Hindlimb Unloading Tonometry IOP,MT171_OD,Day_0,Intraocular Pressure,15.0,torr
+1349,OSD-679,Hindlimb Unloading Tonometry IOP,MT173_OD,Day_0,Intraocular Pressure,12.0,torr
+1350,OSD-679,Hindlimb Unloading Tonometry IOP,MT164_OS,Day_0,Intraocular Pressure,23.0,torr
+1351,OSD-679,Hindlimb Unloading Tonometry IOP,MT165_OS,Day_0,Intraocular Pressure,19.0,torr
+1352,OSD-679,Hindlimb Unloading Tonometry IOP,MT168_OS,Day_0,Intraocular Pressure,21.0,torr
+1353,OSD-679,Hindlimb Unloading Tonometry IOP,MT170_OS,Day_0,Intraocular Pressure,21.0,torr
+1354,OSD-679,Hindlimb Unloading Tonometry IOP,MT172_OS,Day_0,Intraocular Pressure,24.0,torr
+1355,OSD-679,Hindlimb Unloading Tonometry IOP,MT174_OS,Day_0,Intraocular Pressure,19.0,torr
+1356,OSD-679,Hindlimb Unloading Tonometry IOP,MT175_OS,Day_0,Intraocular Pressure,26.0,torr
+1357,OSD-679,Hindlimb Unloading Tonometry IOP,MT163_OS,Day_0,Intraocular Pressure,33.0,torr
+1358,OSD-679,Hindlimb Unloading Tonometry IOP,MT166_OS,Day_0,Intraocular Pressure,18.0,torr
+1359,OSD-679,Hindlimb Unloading Tonometry IOP,MT167_OS,Day_0,Intraocular Pressure,22.0,torr
+1360,OSD-679,Hindlimb Unloading Tonometry IOP,MT169_OS,Day_0,Intraocular Pressure,24.0,torr
+1361,OSD-679,Hindlimb Unloading Tonometry IOP,MT171_OS,Day_0,Intraocular Pressure,11.0,torr
+1362,OSD-679,Hindlimb Unloading Tonometry IOP,MT173_OS,Day_0,Intraocular Pressure,21.0,torr
+1363,OSD-679,Hindlimb Unloading Tonometry IOP,MT179_OD,Day_0,Intraocular Pressure,29.0,torr
+1364,OSD-679,Hindlimb Unloading Tonometry IOP,MT185_OD,Day_0,Intraocular Pressure,29.0,torr
+1365,OSD-679,Hindlimb Unloading Tonometry IOP,MT191_OD,Day_0,Intraocular Pressure,24.0,torr
+1366,OSD-679,Hindlimb Unloading Tonometry IOP,MT180_OD,Day_0,Intraocular Pressure,28.0,torr
+1367,OSD-679,Hindlimb Unloading Tonometry IOP,MT186_OD,Day_0,Intraocular Pressure,23.0,torr
+1368,OSD-679,Hindlimb Unloading Tonometry IOP,MT192_OD,Day_0,Intraocular Pressure,24.0,torr
+1369,OSD-679,Hindlimb Unloading Tonometry IOP,MT179_OS,Day_0,Intraocular Pressure,14.0,torr
+1370,OSD-679,Hindlimb Unloading Tonometry IOP,MT185_OS,Day_0,Intraocular Pressure,14.0,torr
+1371,OSD-679,Hindlimb Unloading Tonometry IOP,MT191_OS,Day_0,Intraocular Pressure,33.0,torr
+1372,OSD-679,Hindlimb Unloading Tonometry IOP,MT180_OS,Day_0,Intraocular Pressure,20.0,torr
+1373,OSD-679,Hindlimb Unloading Tonometry IOP,MT186_OS,Day_0,Intraocular Pressure,13.0,torr
+1374,OSD-679,Hindlimb Unloading Tonometry IOP,MT192_OS,Day_0,Intraocular Pressure,36.0,torr
+1375,OSD-679,Hindlimb Unloading Tonometry IOP,MT364_OD,Day_0,Intraocular Pressure,19.0,torr
+1376,OSD-679,Hindlimb Unloading Tonometry IOP,MT364_OD,Day_90,Intraocular Pressure,24.0,torr
+1377,OSD-679,Hindlimb Unloading Tonometry IOP,MT362_OD,Day_0,Intraocular Pressure,18.0,torr
+1378,OSD-679,Hindlimb Unloading Tonometry IOP,MT362_OD,Day_90,Intraocular Pressure,19.0,torr
+1379,OSD-679,Hindlimb Unloading Tonometry IOP,MT360_OD,Day_0,Intraocular Pressure,21.0,torr
+1380,OSD-679,Hindlimb Unloading Tonometry IOP,MT360_OD,Day_90,Intraocular Pressure,25.0,torr
+1381,OSD-679,Hindlimb Unloading Tonometry IOP,MT353_OD,Day_0,Intraocular Pressure,20.0,torr
+1382,OSD-679,Hindlimb Unloading Tonometry IOP,MT353_OD,Day_90,Intraocular Pressure,16.0,torr
+1383,OSD-679,Hindlimb Unloading Tonometry IOP,MT355_OD,Day_0,Intraocular Pressure,19.0,torr
+1384,OSD-679,Hindlimb Unloading Tonometry IOP,MT355_OD,Day_90,Intraocular Pressure,23.0,torr
+1385,OSD-679,Hindlimb Unloading Tonometry IOP,MT357_OD,Day_0,Intraocular Pressure,20.0,torr
+1386,OSD-679,Hindlimb Unloading Tonometry IOP,MT357_OD,Day_90,Intraocular Pressure,22.0,torr
+1387,OSD-679,Hindlimb Unloading Tonometry IOP,MT364_OS,Day_0,Intraocular Pressure,21.0,torr
+1388,OSD-679,Hindlimb Unloading Tonometry IOP,MT364_OS,Day_90,Intraocular Pressure,21.0,torr
+1389,OSD-679,Hindlimb Unloading Tonometry IOP,MT362_OS,Day_0,Intraocular Pressure,20.0,torr
+1390,OSD-679,Hindlimb Unloading Tonometry IOP,MT362_OS,Day_90,Intraocular Pressure,21.0,torr
+1391,OSD-679,Hindlimb Unloading Tonometry IOP,MT360_OS,Day_0,Intraocular Pressure,20.0,torr
+1392,OSD-679,Hindlimb Unloading Tonometry IOP,MT360_OS,Day_90,Intraocular Pressure,20.0,torr
+1393,OSD-679,Hindlimb Unloading Tonometry IOP,MT353_OS,Day_0,Intraocular Pressure,22.0,torr
+1394,OSD-679,Hindlimb Unloading Tonometry IOP,MT353_OS,Day_90,Intraocular Pressure,18.0,torr
+1395,OSD-679,Hindlimb Unloading Tonometry IOP,MT355_OS,Day_0,Intraocular Pressure,19.0,torr
+1396,OSD-679,Hindlimb Unloading Tonometry IOP,MT355_OS,Day_90,Intraocular Pressure,21.0,torr
+1397,OSD-679,Hindlimb Unloading Tonometry IOP,MT357_OS,Day_0,Intraocular Pressure,23.0,torr
+1398,OSD-679,Hindlimb Unloading Tonometry IOP,MT357_OS,Day_90,Intraocular Pressure,21.0,torr
+1399,OSD-679,Hindlimb Unloading Tonometry IOP,MT249_OD,Day_0,Intraocular Pressure,18.0,torr
+1400,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OD,Day_0,Intraocular Pressure,23.0,torr
+1401,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OD,Day_45,Intraocular Pressure,28.0,torr
+1402,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OD,Day_90,Intraocular Pressure,21.0,torr
+1403,OSD-679,Hindlimb Unloading Tonometry IOP,MT289_OD,Day_0,Intraocular Pressure,22.0,torr
+1404,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OD,Day_0,Intraocular Pressure,20.0,torr
+1405,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OD,Day_45,Intraocular Pressure,27.0,torr
+1406,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OD,Day_90,Intraocular Pressure,24.0,torr
+1407,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OD,Day_0,Intraocular Pressure,23.0,torr
+1408,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OD,Day_45,Intraocular Pressure,26.0,torr
+1409,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OD,Day_90,Intraocular Pressure,25.0,torr
+1410,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OD,Day_0,Intraocular Pressure,22.0,torr
+1411,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OD,Day_45,Intraocular Pressure,22.0,torr
+1412,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OD,Day_90,Intraocular Pressure,23.0,torr
+1413,OSD-679,Hindlimb Unloading Tonometry IOP,MT249_OS,Day_0,Intraocular Pressure,18.0,torr
+1414,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OS,Day_0,Intraocular Pressure,20.0,torr
+1415,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OS,Day_45,Intraocular Pressure,27.0,torr
+1416,OSD-679,Hindlimb Unloading Tonometry IOP,MT283_OS,Day_90,Intraocular Pressure,22.0,torr
+1417,OSD-679,Hindlimb Unloading Tonometry IOP,MT289_OS,Day_0,Intraocular Pressure,18.0,torr
+1418,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OS,Day_0,Intraocular Pressure,18.0,torr
+1419,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OS,Day_45,Intraocular Pressure,26.0,torr
+1420,OSD-679,Hindlimb Unloading Tonometry IOP,MT291_OS,Day_90,Intraocular Pressure,22.0,torr
+1421,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OS,Day_0,Intraocular Pressure,19.0,torr
+1422,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OS,Day_45,Intraocular Pressure,29.0,torr
+1423,OSD-679,Hindlimb Unloading Tonometry IOP,MT281_OS,Day_90,Intraocular Pressure,24.0,torr
+1424,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OS,Day_0,Intraocular Pressure,23.0,torr
+1425,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OS,Day_45,Intraocular Pressure,24.0,torr
+1426,OSD-679,Hindlimb Unloading Tonometry IOP,MT287_OS,Day_90,Intraocular Pressure,26.0,torr
+1427,OSD-679,Hindlimb Unloading Tonometry IOP,MT239_OD,Day_45,Intraocular Pressure,21.0,torr
+1428,OSD-679,Hindlimb Unloading Tonometry IOP,MT239_OD,Day_90,Intraocular Pressure,25.0,torr
+1429,OSD-679,Hindlimb Unloading Tonometry IOP,MT241_OD,Day_45,Intraocular Pressure,20.0,torr
+1430,OSD-679,Hindlimb Unloading Tonometry IOP,MT241_OD,Day_90,Intraocular Pressure,22.0,torr
+1431,OSD-679,Hindlimb Unloading Tonometry IOP,MT246_OD,Day_45,Intraocular Pressure,20.0,torr
+1432,OSD-679,Hindlimb Unloading Tonometry IOP,MT246_OD,Day_90,Intraocular Pressure,26.0,torr
+1433,OSD-679,Hindlimb Unloading Tonometry IOP,MT242_OD,Day_45,Intraocular Pressure,18.0,torr
+1434,OSD-679,Hindlimb Unloading Tonometry IOP,MT248_OD,Day_45,Intraocular Pressure,24.0,torr
+1435,OSD-679,Hindlimb Unloading Tonometry IOP,MT239_OS,Day_45,Intraocular Pressure,19.0,torr
+1436,OSD-679,Hindlimb Unloading Tonometry IOP,MT239_OS,Day_90,Intraocular Pressure,23.0,torr
+1437,OSD-679,Hindlimb Unloading Tonometry IOP,MT241_OS,Day_45,Intraocular Pressure,25.0,torr
+1438,OSD-679,Hindlimb Unloading Tonometry IOP,MT241_OS,Day_90,Intraocular Pressure,27.0,torr
+1439,OSD-679,Hindlimb Unloading Tonometry IOP,MT246_OS,Day_45,Intraocular Pressure,16.0,torr
+1440,OSD-679,Hindlimb Unloading Tonometry IOP,MT246_OS,Day_90,Intraocular Pressure,30.0,torr
+1441,OSD-679,Hindlimb Unloading Tonometry IOP,MT242_OS,Day_45,Intraocular Pressure,20.0,torr
+1442,OSD-679,Hindlimb Unloading Tonometry IOP,MT248_OS,Day_45,Intraocular Pressure,22.0,torr
+1443,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OD,Day_0,Intraocular Pressure,23.0,torr
+1444,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OD,Day_45,Intraocular Pressure,16.0,torr
+1445,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OD,Day_90,Intraocular Pressure,29.0,torr
+1446,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OD,Day_104,Intraocular Pressure,24.0,torr
+1447,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OD,Day_0,Intraocular Pressure,15.0,torr
+1448,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OD,Day_45,Intraocular Pressure,16.0,torr
+1449,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OD,Day_90,Intraocular Pressure,27.0,torr
+1450,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OD,Day_104,Intraocular Pressure,25.0,torr
+1451,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OD,Day_0,Intraocular Pressure,22.0,torr
+1452,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OD,Day_45,Intraocular Pressure,15.0,torr
+1453,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OD,Day_90,Intraocular Pressure,24.0,torr
+1454,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OD,Day_104,Intraocular Pressure,23.0,torr
+1455,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OD,Day_0,Intraocular Pressure,15.0,torr
+1456,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OD,Day_45,Intraocular Pressure,17.0,torr
+1457,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OD,Day_90,Intraocular Pressure,15.0,torr
+1458,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OD,Day_104,Intraocular Pressure,26.0,torr
+1459,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OD,Day_0,Intraocular Pressure,16.0,torr
+1460,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OD,Day_45,Intraocular Pressure,24.0,torr
+1461,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OD,Day_90,Intraocular Pressure,15.0,torr
+1462,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OD,Day_104,Intraocular Pressure,27.0,torr
+1463,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OD,Day_0,Intraocular Pressure,21.0,torr
+1464,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OD,Day_45,Intraocular Pressure,20.0,torr
+1465,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OD,Day_90,Intraocular Pressure,25.0,torr
+1466,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OD,Day_104,Intraocular Pressure,25.0,torr
+1467,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OD,Day_0,Intraocular Pressure,20.0,torr
+1468,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OD,Day_45,Intraocular Pressure,19.0,torr
+1469,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OD,Day_90,Intraocular Pressure,33.0,torr
+1470,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OD,Day_104,Intraocular Pressure,24.0,torr
+1471,OSD-679,Hindlimb Unloading Tonometry IOP,MT218_OD,Day_0,Intraocular Pressure,18.0,torr
+1472,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OS,Day_0,Intraocular Pressure,22.0,torr
+1473,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OS,Day_45,Intraocular Pressure,16.0,torr
+1474,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OS,Day_90,Intraocular Pressure,26.0,torr
+1475,OSD-679,Hindlimb Unloading Tonometry IOP,MT211_OS,Day_104,Intraocular Pressure,25.0,torr
+1476,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OS,Day_0,Intraocular Pressure,19.0,torr
+1477,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OS,Day_45,Intraocular Pressure,25.0,torr
+1478,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OS,Day_90,Intraocular Pressure,22.0,torr
+1479,OSD-679,Hindlimb Unloading Tonometry IOP,MT212_OS,Day_104,Intraocular Pressure,20.0,torr
+1480,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OS,Day_0,Intraocular Pressure,20.0,torr
+1481,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OS,Day_45,Intraocular Pressure,17.0,torr
+1482,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OS,Day_90,Intraocular Pressure,27.0,torr
+1483,OSD-679,Hindlimb Unloading Tonometry IOP,MT213_OS,Day_104,Intraocular Pressure,27.0,torr
+1484,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OS,Day_0,Intraocular Pressure,21.0,torr
+1485,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OS,Day_45,Intraocular Pressure,17.0,torr
+1486,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OS,Day_90,Intraocular Pressure,17.0,torr
+1487,OSD-679,Hindlimb Unloading Tonometry IOP,MT214_OS,Day_104,Intraocular Pressure,22.0,torr
+1488,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OS,Day_0,Intraocular Pressure,14.0,torr
+1489,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OS,Day_45,Intraocular Pressure,17.0,torr
+1490,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OS,Day_90,Intraocular Pressure,25.0,torr
+1491,OSD-679,Hindlimb Unloading Tonometry IOP,MT215_OS,Day_104,Intraocular Pressure,23.0,torr
+1492,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OS,Day_0,Intraocular Pressure,17.0,torr
+1493,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OS,Day_45,Intraocular Pressure,24.0,torr
+1494,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OS,Day_90,Intraocular Pressure,20.0,torr
+1495,OSD-679,Hindlimb Unloading Tonometry IOP,MT216_OS,Day_104,Intraocular Pressure,21.0,torr
+1496,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OS,Day_0,Intraocular Pressure,8.0,torr
+1497,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OS,Day_45,Intraocular Pressure,13.0,torr
+1498,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OS,Day_90,Intraocular Pressure,30.0,torr
+1499,OSD-679,Hindlimb Unloading Tonometry IOP,MT217_OS,Day_104,Intraocular Pressure,26.0,torr
+1500,OSD-679,Hindlimb Unloading Tonometry IOP,MT218_OS,Day_0,Intraocular Pressure,17.0,torr
+1501,OSD-679,Hindlimb Unloading Tonometry IOP,MT245_OD,Day_45,Intraocular Pressure,19.0,torr
+1502,OSD-679,Hindlimb Unloading Tonometry IOP,MT245_OD,Day_90,Intraocular Pressure,18.0,torr
+1503,OSD-679,Hindlimb Unloading Tonometry IOP,MT240_OD,Day_45,Intraocular Pressure,22.0,torr
+1504,OSD-679,Hindlimb Unloading Tonometry IOP,MT240_OD,Day_90,Intraocular Pressure,19.0,torr
+1505,OSD-679,Hindlimb Unloading Tonometry IOP,MT244_OD,Day_45,Intraocular Pressure,21.0,torr
+1506,OSD-679,Hindlimb Unloading Tonometry IOP,MT244_OD,Day_90,Intraocular Pressure,21.0,torr
+1507,OSD-679,Hindlimb Unloading Tonometry IOP,MT242_OD,Day_45,Intraocular Pressure,18.0,torr
+1508,OSD-679,Hindlimb Unloading Tonometry IOP,MT248_OD,Day_45,Intraocular Pressure,24.0,torr
+1509,OSD-679,Hindlimb Unloading Tonometry IOP,MT245_OS,Day_45,Intraocular Pressure,19.0,torr
+1510,OSD-679,Hindlimb Unloading Tonometry IOP,MT245_OS,Day_90,Intraocular Pressure,20.0,torr
+1511,OSD-679,Hindlimb Unloading Tonometry IOP,MT240_OS,Day_45,Intraocular Pressure,23.0,torr
+1512,OSD-679,Hindlimb Unloading Tonometry IOP,MT240_OS,Day_90,Intraocular Pressure,20.0,torr
+1513,OSD-679,Hindlimb Unloading Tonometry IOP,MT244_OS,Day_45,Intraocular Pressure,26.0,torr
+1514,OSD-679,Hindlimb Unloading Tonometry IOP,MT244_OS,Day_90,Intraocular Pressure,21.0,torr
+1515,OSD-679,Hindlimb Unloading Tonometry IOP,MT242_OS,Day_45,Intraocular Pressure,20.0,torr
+1516,OSD-679,Hindlimb Unloading Tonometry IOP,MT248_OS,Day_45,Intraocular Pressure,22.0,torr
+1517,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OD,Day_0,Intraocular Pressure,13.0,torr
+1518,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OD,Day_45,Intraocular Pressure,26.0,torr
+1519,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OD,Day_90,Intraocular Pressure,26.0,torr
+1520,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OD,Day_135,Intraocular Pressure,22.0,torr
+1521,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OD,Day_180,Intraocular Pressure,17.0,torr
+1522,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OD,Day_0,Intraocular Pressure,20.0,torr
+1523,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OD,Day_45,Intraocular Pressure,25.0,torr
+1524,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OD,Day_90,Intraocular Pressure,20.0,torr
+1525,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OD,Day_0,Intraocular Pressure,24.0,torr
+1526,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OD,Day_45,Intraocular Pressure,26.0,torr
+1527,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OD,Day_90,Intraocular Pressure,25.0,torr
+1528,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OD,Day_135,Intraocular Pressure,21.0,torr
+1529,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OD,Day_180,Intraocular Pressure,18.0,torr
+1530,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OD,Day_0,Intraocular Pressure,18.0,torr
+1531,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OD,Day_45,Intraocular Pressure,28.0,torr
+1532,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OD,Day_90,Intraocular Pressure,27.0,torr
+1533,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OD,Day_135,Intraocular Pressure,18.0,torr
+1534,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OD,Day_180,Intraocular Pressure,23.0,torr
+1535,OSD-679,Hindlimb Unloading Tonometry IOP,MT111_OD,Day_90,Intraocular Pressure,27.0,torr
+1536,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OD,Day_0,Intraocular Pressure,14.0,torr
+1537,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OD,Day_45,Intraocular Pressure,22.0,torr
+1538,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OD,Day_135,Intraocular Pressure,23.0,torr
+1539,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OD,Day_180,Intraocular Pressure,23.0,torr
+1540,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OD,Day_0,Intraocular Pressure,21.0,torr
+1541,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OD,Day_45,Intraocular Pressure,19.0,torr
+1542,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OD,Day_90,Intraocular Pressure,22.0,torr
+1543,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OD,Day_135,Intraocular Pressure,19.0,torr
+1544,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OD,Day_180,Intraocular Pressure,15.0,torr
+1545,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OD,Day_0,Intraocular Pressure,23.0,torr
+1546,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OD,Day_45,Intraocular Pressure,21.0,torr
+1547,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OD,Day_90,Intraocular Pressure,22.0,torr
+1548,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OD,Day_135,Intraocular Pressure,21.0,torr
+1549,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OD,Day_180,Intraocular Pressure,15.0,torr
+1550,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OD,Day_0,Intraocular Pressure,19.0,torr
+1551,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OD,Day_45,Intraocular Pressure,20.0,torr
+1552,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OD,Day_90,Intraocular Pressure,20.0,torr
+1553,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OD,Day_135,Intraocular Pressure,18.0,torr
+1554,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OD,Day_180,Intraocular Pressure,19.0,torr
+1555,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OD,Day_0,Intraocular Pressure,17.0,torr
+1556,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OD,Day_45,Intraocular Pressure,18.0,torr
+1557,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OD,Day_90,Intraocular Pressure,22.0,torr
+1558,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OD,Day_135,Intraocular Pressure,24.0,torr
+1559,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OD,Day_180,Intraocular Pressure,18.0,torr
+1560,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OD,Day_0,Intraocular Pressure,16.0,torr
+1561,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OD,Day_45,Intraocular Pressure,20.0,torr
+1562,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OD,Day_90,Intraocular Pressure,24.0,torr
+1563,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OD,Day_135,Intraocular Pressure,24.0,torr
+1564,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OD,Day_180,Intraocular Pressure,22.0,torr
+1565,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OS,Day_0,Intraocular Pressure,13.0,torr
+1566,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OS,Day_45,Intraocular Pressure,28.0,torr
+1567,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OS,Day_90,Intraocular Pressure,29.0,torr
+1568,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OS,Day_135,Intraocular Pressure,21.0,torr
+1569,OSD-679,Hindlimb Unloading Tonometry IOP,MT84_OS,Day_180,Intraocular Pressure,16.0,torr
+1570,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OS,Day_0,Intraocular Pressure,22.0,torr
+1571,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OS,Day_45,Intraocular Pressure,26.0,torr
+1572,OSD-679,Hindlimb Unloading Tonometry IOP,MT93_OS,Day_90,Intraocular Pressure,29.0,torr
+1573,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OS,Day_0,Intraocular Pressure,23.0,torr
+1574,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OS,Day_45,Intraocular Pressure,26.0,torr
+1575,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OS,Day_90,Intraocular Pressure,28.0,torr
+1576,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OS,Day_135,Intraocular Pressure,17.0,torr
+1577,OSD-679,Hindlimb Unloading Tonometry IOP,MT102_OS,Day_180,Intraocular Pressure,24.0,torr
+1578,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OS,Day_0,Intraocular Pressure,25.0,torr
+1579,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OS,Day_45,Intraocular Pressure,28.0,torr
+1580,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OS,Day_90,Intraocular Pressure,25.0,torr
+1581,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OS,Day_135,Intraocular Pressure,22.0,torr
+1582,OSD-679,Hindlimb Unloading Tonometry IOP,MT107_OS,Day_180,Intraocular Pressure,16.0,torr
+1583,OSD-679,Hindlimb Unloading Tonometry IOP,MT111_OS,Day_90,Intraocular Pressure,29.0,torr
+1584,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OS,Day_0,Intraocular Pressure,18.0,torr
+1585,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OS,Day_45,Intraocular Pressure,23.0,torr
+1586,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OS,Day_135,Intraocular Pressure,28.0,torr
+1587,OSD-679,Hindlimb Unloading Tonometry IOP,MT116_OS,Day_180,Intraocular Pressure,23.0,torr
+1588,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OS,Day_0,Intraocular Pressure,24.0,torr
+1589,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OS,Day_45,Intraocular Pressure,20.0,torr
+1590,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OS,Day_90,Intraocular Pressure,23.0,torr
+1591,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OS,Day_135,Intraocular Pressure,25.0,torr
+1592,OSD-679,Hindlimb Unloading Tonometry IOP,MT85_OS,Day_180,Intraocular Pressure,16.0,torr
+1593,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OS,Day_0,Intraocular Pressure,23.0,torr
+1594,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OS,Day_45,Intraocular Pressure,22.0,torr
+1595,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OS,Day_90,Intraocular Pressure,23.0,torr
+1596,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OS,Day_135,Intraocular Pressure,20.0,torr
+1597,OSD-679,Hindlimb Unloading Tonometry IOP,MT92_OS,Day_180,Intraocular Pressure,17.0,torr
+1598,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OS,Day_0,Intraocular Pressure,19.0,torr
+1599,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OS,Day_45,Intraocular Pressure,19.0,torr
+1600,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OS,Day_90,Intraocular Pressure,21.0,torr
+1601,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OS,Day_135,Intraocular Pressure,33.0,torr
+1602,OSD-679,Hindlimb Unloading Tonometry IOP,MT103_OS,Day_180,Intraocular Pressure,25.0,torr
+1603,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OS,Day_0,Intraocular Pressure,18.0,torr
+1604,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OS,Day_45,Intraocular Pressure,19.0,torr
+1605,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OS,Day_90,Intraocular Pressure,25.0,torr
+1606,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OS,Day_135,Intraocular Pressure,21.0,torr
+1607,OSD-679,Hindlimb Unloading Tonometry IOP,MT112_OS,Day_180,Intraocular Pressure,24.0,torr
+1608,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OS,Day_0,Intraocular Pressure,19.0,torr
+1609,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OS,Day_45,Intraocular Pressure,20.0,torr
+1610,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OS,Day_90,Intraocular Pressure,22.0,torr
+1611,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OS,Day_135,Intraocular Pressure,20.0,torr
+1612,OSD-679,Hindlimb Unloading Tonometry IOP,MT115_OS,Day_180,Intraocular Pressure,20.0,torr
+1613,OSD-679,Hindlimb Unloading Tonometry IOP,MT130_OD,Day_0,Intraocular Pressure,24.0,torr
+1614,OSD-679,Hindlimb Unloading Tonometry IOP,MT130_OD,Day_45,Intraocular Pressure,24.0,torr
+1615,OSD-679,Hindlimb Unloading Tonometry IOP,MT131_OD,Day_0,Intraocular Pressure,22.0,torr
+1616,OSD-679,Hindlimb Unloading Tonometry IOP,MT131_OD,Day_45,Intraocular Pressure,29.0,torr
+1617,OSD-679,Hindlimb Unloading Tonometry IOP,MT132_OD,Day_0,Intraocular Pressure,23.0,torr
+1618,OSD-679,Hindlimb Unloading Tonometry IOP,MT132_OD,Day_45,Intraocular Pressure,24.0,torr
+1619,OSD-679,Hindlimb Unloading Tonometry IOP,MT135_OD,Day_0,Intraocular Pressure,21.0,torr
+1620,OSD-679,Hindlimb Unloading Tonometry IOP,MT135_OD,Day_45,Intraocular Pressure,22.0,torr
+1621,OSD-679,Hindlimb Unloading Tonometry IOP,MT137_OD,Day_0,Intraocular Pressure,21.0,torr
+1622,OSD-679,Hindlimb Unloading Tonometry IOP,MT137_OD,Day_45,Intraocular Pressure,26.0,torr
+1623,OSD-679,Hindlimb Unloading Tonometry IOP,MT138_OD,Day_0,Intraocular Pressure,23.0,torr
+1624,OSD-679,Hindlimb Unloading Tonometry IOP,MT138_OD,Day_45,Intraocular Pressure,23.0,torr
+1625,OSD-679,Hindlimb Unloading Tonometry IOP,MT125_OD,Day_0,Intraocular Pressure,21.0,torr
+1626,OSD-679,Hindlimb Unloading Tonometry IOP,MT125_OD,Day_90,Intraocular Pressure,21.0,torr
+1627,OSD-679,Hindlimb Unloading Tonometry IOP,MT139_OD,Day_0,Intraocular Pressure,20.0,torr
+1628,OSD-679,Hindlimb Unloading Tonometry IOP,MT139_OD,Day_90,Intraocular Pressure,26.0,torr
+1629,OSD-679,Hindlimb Unloading Tonometry IOP,MT140_OD,Day_0,Intraocular Pressure,15.0,torr
+1630,OSD-679,Hindlimb Unloading Tonometry IOP,MT140_OD,Day_90,Intraocular Pressure,19.0,torr
+1631,OSD-679,Hindlimb Unloading Tonometry IOP,MT141_OD,Day_0,Intraocular Pressure,18.0,torr
+1632,OSD-679,Hindlimb Unloading Tonometry IOP,MT141_OD,Day_90,Intraocular Pressure,17.0,torr
+1633,OSD-679,Hindlimb Unloading Tonometry IOP,MT142_OD,Day_0,Intraocular Pressure,20.0,torr
+1634,OSD-679,Hindlimb Unloading Tonometry IOP,MT142_OD,Day_90,Intraocular Pressure,22.0,torr
+1635,OSD-679,Hindlimb Unloading Tonometry IOP,MT144_OD,Day_0,Intraocular Pressure,22.0,torr
+1636,OSD-679,Hindlimb Unloading Tonometry IOP,MT144_OD,Day_90,Intraocular Pressure,16.0,torr
+1637,OSD-679,Hindlimb Unloading Tonometry IOP,MT130_OS,Day_0,Intraocular Pressure,21.0,torr
+1638,OSD-679,Hindlimb Unloading Tonometry IOP,MT130_OS,Day_45,Intraocular Pressure,28.0,torr
+1639,OSD-679,Hindlimb Unloading Tonometry IOP,MT131_OS,Day_0,Intraocular Pressure,23.0,torr
+1640,OSD-679,Hindlimb Unloading Tonometry IOP,MT131_OS,Day_45,Intraocular Pressure,27.0,torr
+1641,OSD-679,Hindlimb Unloading Tonometry IOP,MT132_OS,Day_0,Intraocular Pressure,22.0,torr
+1642,OSD-679,Hindlimb Unloading Tonometry IOP,MT132_OS,Day_45,Intraocular Pressure,29.0,torr
+1643,OSD-679,Hindlimb Unloading Tonometry IOP,MT135_OS,Day_0,Intraocular Pressure,24.0,torr
+1644,OSD-679,Hindlimb Unloading Tonometry IOP,MT135_OS,Day_45,Intraocular Pressure,27.0,torr
+1645,OSD-679,Hindlimb Unloading Tonometry IOP,MT137_OS,Day_0,Intraocular Pressure,18.0,torr
+1646,OSD-679,Hindlimb Unloading Tonometry IOP,MT137_OS,Day_45,Intraocular Pressure,24.0,torr
+1647,OSD-679,Hindlimb Unloading Tonometry IOP,MT138_OS,Day_0,Intraocular Pressure,20.0,torr
+1648,OSD-679,Hindlimb Unloading Tonometry IOP,MT138_OS,Day_45,Intraocular Pressure,28.0,torr
+1649,OSD-679,Hindlimb Unloading Tonometry IOP,MT125_OS,Day_0,Intraocular Pressure,14.0,torr
+1650,OSD-679,Hindlimb Unloading Tonometry IOP,MT125_OS,Day_90,Intraocular Pressure,17.0,torr
+1651,OSD-679,Hindlimb Unloading Tonometry IOP,MT139_OS,Day_0,Intraocular Pressure,14.0,torr
+1652,OSD-679,Hindlimb Unloading Tonometry IOP,MT139_OS,Day_90,Intraocular Pressure,20.0,torr
+1653,OSD-679,Hindlimb Unloading Tonometry IOP,MT140_OS,Day_0,Intraocular Pressure,19.0,torr
+1654,OSD-679,Hindlimb Unloading Tonometry IOP,MT140_OS,Day_90,Intraocular Pressure,13.0,torr
+1655,OSD-679,Hindlimb Unloading Tonometry IOP,MT141_OS,Day_0,Intraocular Pressure,21.0,torr
+1656,OSD-679,Hindlimb Unloading Tonometry IOP,MT141_OS,Day_90,Intraocular Pressure,23.0,torr
+1657,OSD-679,Hindlimb Unloading Tonometry IOP,MT142_OS,Day_0,Intraocular Pressure,19.0,torr
+1658,OSD-679,Hindlimb Unloading Tonometry IOP,MT142_OS,Day_90,Intraocular Pressure,18.0,torr
+1659,OSD-679,Hindlimb Unloading Tonometry IOP,MT144_OS,Day_0,Intraocular Pressure,20.0,torr
+1660,OSD-679,Hindlimb Unloading Tonometry IOP,MT144_OS,Day_90,Intraocular Pressure,26.0,torr
+1661,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OD,Day_0,Intraocular Pressure,22.0,torr
+1662,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OD,Day_45,Intraocular Pressure,23.0,torr
+1663,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OD,Day_90,Intraocular Pressure,16.0,torr
+1664,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OD,Day_180,Intraocular Pressure,27.0,torr
+1665,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OD,Day_0,Intraocular Pressure,21.0,torr
+1666,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OD,Day_45,Intraocular Pressure,22.0,torr
+1667,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OD,Day_90,Intraocular Pressure,23.0,torr
+1668,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OD,Day_180,Intraocular Pressure,26.0,torr
+1669,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OD,Day_0,Intraocular Pressure,19.0,torr
+1670,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OD,Day_45,Intraocular Pressure,29.0,torr
+1671,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OD,Day_90,Intraocular Pressure,15.0,torr
+1672,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OD,Day_180,Intraocular Pressure,25.0,torr
+1673,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OD,Day_0,Intraocular Pressure,22.0,torr
+1674,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OD,Day_45,Intraocular Pressure,20.0,torr
+1675,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OD,Day_90,Intraocular Pressure,21.0,torr
+1676,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OD,Day_180,Intraocular Pressure,26.0,torr
+1677,OSD-679,Hindlimb Unloading Tonometry IOP,MT255_OD,Day_0,Intraocular Pressure,24.0,torr
+1678,OSD-679,Hindlimb Unloading Tonometry IOP,MT255_OD,Day_45,Intraocular Pressure,25.0,torr
+1679,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OD,Day_0,Intraocular Pressure,27.0,torr
+1680,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OD,Day_45,Intraocular Pressure,21.0,torr
+1681,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OD,Day_90,Intraocular Pressure,22.0,torr
+1682,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OD,Day_180,Intraocular Pressure,23.0,torr
+1683,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OD,Day_0,Intraocular Pressure,25.0,torr
+1684,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OD,Day_45,Intraocular Pressure,20.0,torr
+1685,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OD,Day_90,Intraocular Pressure,16.0,torr
+1686,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OD,Day_180,Intraocular Pressure,29.0,torr
+1687,OSD-679,Hindlimb Unloading Tonometry IOP,MT258_OD,Day_0,Intraocular Pressure,21.0,torr
+1688,OSD-679,Hindlimb Unloading Tonometry IOP,MT258_OD,Day_45,Intraocular Pressure,15.0,torr
+1689,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OS,Day_0,Intraocular Pressure,17.0,torr
+1690,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OS,Day_45,Intraocular Pressure,25.0,torr
+1691,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OS,Day_90,Intraocular Pressure,17.0,torr
+1692,OSD-679,Hindlimb Unloading Tonometry IOP,MT251_OS,Day_180,Intraocular Pressure,23.0,torr
+1693,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OS,Day_0,Intraocular Pressure,23.0,torr
+1694,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OS,Day_45,Intraocular Pressure,22.0,torr
+1695,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OS,Day_90,Intraocular Pressure,23.0,torr
+1696,OSD-679,Hindlimb Unloading Tonometry IOP,MT252_OS,Day_180,Intraocular Pressure,23.0,torr
+1697,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OS,Day_0,Intraocular Pressure,14.0,torr
+1698,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OS,Day_45,Intraocular Pressure,25.0,torr
+1699,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OS,Day_90,Intraocular Pressure,17.0,torr
+1700,OSD-679,Hindlimb Unloading Tonometry IOP,MT253_OS,Day_180,Intraocular Pressure,21.0,torr
+1701,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OS,Day_0,Intraocular Pressure,19.0,torr
+1702,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OS,Day_45,Intraocular Pressure,15.0,torr
+1703,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OS,Day_90,Intraocular Pressure,21.0,torr
+1704,OSD-679,Hindlimb Unloading Tonometry IOP,MT254_OS,Day_180,Intraocular Pressure,21.0,torr
+1705,OSD-679,Hindlimb Unloading Tonometry IOP,MT255_OS,Day_0,Intraocular Pressure,21.0,torr
+1706,OSD-679,Hindlimb Unloading Tonometry IOP,MT255_OS,Day_45,Intraocular Pressure,27.0,torr
+1707,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OS,Day_0,Intraocular Pressure,18.0,torr
+1708,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OS,Day_45,Intraocular Pressure,14.0,torr
+1709,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OS,Day_90,Intraocular Pressure,23.0,torr
+1710,OSD-679,Hindlimb Unloading Tonometry IOP,MT256_OS,Day_180,Intraocular Pressure,26.0,torr
+1711,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OS,Day_0,Intraocular Pressure,15.0,torr
+1712,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OS,Day_45,Intraocular Pressure,25.0,torr
+1713,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OS,Day_90,Intraocular Pressure,13.0,torr
+1714,OSD-679,Hindlimb Unloading Tonometry IOP,MT257_OS,Day_180,Intraocular Pressure,27.0,torr
+1715,OSD-679,Hindlimb Unloading Tonometry IOP,MT258_OS,Day_0,Intraocular Pressure,23.0,torr
+1716,OSD-679,Hindlimb Unloading Tonometry IOP,MT258_OS,Day_45,Intraocular Pressure,18.0,torr
+1717,OSD-679,Hindlimb Unloading Tonometry IOP,MT304_OD,Day_45,Intraocular Pressure,28.0,torr
+1718,OSD-679,Hindlimb Unloading Tonometry IOP,MT304_OD,Day_90,Intraocular Pressure,28.0,torr
+1719,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OD,Day_0,Intraocular Pressure,19.0,torr
+1720,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OD,Day_45,Intraocular Pressure,24.0,torr
+1721,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OD,Day_90,Intraocular Pressure,27.0,torr
+1722,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OD,Day_135,Intraocular Pressure,18.0,torr
+1723,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OD,Day_0,Intraocular Pressure,24.0,torr
+1724,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OD,Day_45,Intraocular Pressure,26.0,torr
+1725,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OD,Day_90,Intraocular Pressure,30.0,torr
+1726,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OD,Day_0,Intraocular Pressure,20.0,torr
+1727,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OD,Day_45,Intraocular Pressure,27.0,torr
+1728,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OD,Day_90,Intraocular Pressure,23.0,torr
+1729,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OD,Day_135,Intraocular Pressure,22.0,torr
+1730,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OD,Day_0,Intraocular Pressure,17.0,torr
+1731,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OD,Day_45,Intraocular Pressure,24.0,torr
+1732,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OD,Day_90,Intraocular Pressure,26.0,torr
+1733,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OD,Day_135,Intraocular Pressure,21.0,torr
+1734,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OD,Day_0,Intraocular Pressure,17.0,torr
+1735,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OD,Day_45,Intraocular Pressure,21.0,torr
+1736,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OD,Day_90,Intraocular Pressure,29.0,torr
+1737,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OD,Day_0,Intraocular Pressure,16.0,torr
+1738,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OD,Day_45,Intraocular Pressure,22.0,torr
+1739,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OD,Day_90,Intraocular Pressure,27.0,torr
+1740,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OD,Day_135,Intraocular Pressure,21.0,torr
+1741,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OD,Day_0,Intraocular Pressure,19.0,torr
+1742,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OD,Day_45,Intraocular Pressure,26.0,torr
+1743,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OD,Day_90,Intraocular Pressure,25.0,torr
+1744,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OD,Day_135,Intraocular Pressure,23.0,torr
+1745,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OD,Day_0,Intraocular Pressure,20.0,torr
+1746,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OD,Day_45,Intraocular Pressure,27.0,torr
+1747,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OD,Day_90,Intraocular Pressure,27.0,torr
+1748,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OD,Day_0,Intraocular Pressure,22.0,torr
+1749,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OD,Day_45,Intraocular Pressure,28.0,torr
+1750,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OD,Day_90,Intraocular Pressure,28.0,torr
+1751,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OD,Day_135,Intraocular Pressure,22.0,torr
+1752,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OD,Day_0,Intraocular Pressure,19.0,torr
+1753,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OD,Day_45,Intraocular Pressure,24.0,torr
+1754,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OD,Day_90,Intraocular Pressure,30.0,torr
+1755,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OD,Day_0,Intraocular Pressure,20.0,torr
+1756,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OD,Day_45,Intraocular Pressure,27.0,torr
+1757,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OD,Day_90,Intraocular Pressure,26.0,torr
+1758,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OD,Day_135,Intraocular Pressure,18.0,torr
+1759,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OD,Day_0,Intraocular Pressure,23.0,torr
+1760,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OD,Day_45,Intraocular Pressure,28.0,torr
+1761,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OD,Day_90,Intraocular Pressure,23.0,torr
+1762,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OD,Day_135,Intraocular Pressure,26.0,torr
+1763,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OD,Day_0,Intraocular Pressure,22.0,torr
+1764,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OD,Day_45,Intraocular Pressure,25.0,torr
+1765,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OD,Day_90,Intraocular Pressure,23.0,torr
+1766,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OD,Day_0,Intraocular Pressure,20.0,torr
+1767,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OD,Day_45,Intraocular Pressure,24.0,torr
+1768,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OD,Day_90,Intraocular Pressure,24.0,torr
+1769,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OD,Day_135,Intraocular Pressure,18.0,torr
+1770,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OD,Day_0,Intraocular Pressure,24.0,torr
+1771,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OD,Day_45,Intraocular Pressure,28.0,torr
+1772,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OD,Day_90,Intraocular Pressure,25.0,torr
+1773,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OD,Day_135,Intraocular Pressure,19.0,torr
+1774,OSD-679,Hindlimb Unloading Tonometry IOP,MT304_OS,Day_45,Intraocular Pressure,24.0,torr
+1775,OSD-679,Hindlimb Unloading Tonometry IOP,MT304_OS,Day_90,Intraocular Pressure,25.0,torr
+1776,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OS,Day_0,Intraocular Pressure,18.0,torr
+1777,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OS,Day_45,Intraocular Pressure,23.0,torr
+1778,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OS,Day_90,Intraocular Pressure,24.0,torr
+1779,OSD-679,Hindlimb Unloading Tonometry IOP,MT321_OS,Day_135,Intraocular Pressure,18.0,torr
+1780,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OS,Day_0,Intraocular Pressure,23.0,torr
+1781,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OS,Day_45,Intraocular Pressure,26.0,torr
+1782,OSD-679,Hindlimb Unloading Tonometry IOP,MT363_OS,Day_90,Intraocular Pressure,28.0,torr
+1783,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OS,Day_0,Intraocular Pressure,19.0,torr
+1784,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OS,Day_45,Intraocular Pressure,26.0,torr
+1785,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OS,Day_90,Intraocular Pressure,25.0,torr
+1786,OSD-679,Hindlimb Unloading Tonometry IOP,MT335_OS,Day_135,Intraocular Pressure,20.0,torr
+1787,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OS,Day_0,Intraocular Pressure,18.0,torr
+1788,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OS,Day_45,Intraocular Pressure,25.0,torr
+1789,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OS,Day_90,Intraocular Pressure,24.0,torr
+1790,OSD-679,Hindlimb Unloading Tonometry IOP,MT334_OS,Day_135,Intraocular Pressure,18.0,torr
+1791,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OS,Day_0,Intraocular Pressure,13.0,torr
+1792,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OS,Day_45,Intraocular Pressure,20.0,torr
+1793,OSD-679,Hindlimb Unloading Tonometry IOP,MT361_OS,Day_90,Intraocular Pressure,28.0,torr
+1794,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OS,Day_0,Intraocular Pressure,17.0,torr
+1795,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OS,Day_45,Intraocular Pressure,19.0,torr
+1796,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OS,Day_90,Intraocular Pressure,27.0,torr
+1797,OSD-679,Hindlimb Unloading Tonometry IOP,MT329_OS,Day_135,Intraocular Pressure,13.0,torr
+1798,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OS,Day_0,Intraocular Pressure,20.0,torr
+1799,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OS,Day_45,Intraocular Pressure,25.0,torr
+1800,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OS,Day_90,Intraocular Pressure,28.0,torr
+1801,OSD-679,Hindlimb Unloading Tonometry IOP,MT319_OS,Day_135,Intraocular Pressure,16.0,torr
+1802,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OS,Day_0,Intraocular Pressure,23.0,torr
+1803,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OS,Day_45,Intraocular Pressure,28.0,torr
+1804,OSD-679,Hindlimb Unloading Tonometry IOP,MT365_OS,Day_90,Intraocular Pressure,25.0,torr
+1805,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OS,Day_0,Intraocular Pressure,19.0,torr
+1806,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OS,Day_45,Intraocular Pressure,25.0,torr
+1807,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OS,Day_90,Intraocular Pressure,26.0,torr
+1808,OSD-679,Hindlimb Unloading Tonometry IOP,MT324_OS,Day_135,Intraocular Pressure,23.0,torr
+1809,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OS,Day_0,Intraocular Pressure,16.0,torr
+1810,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OS,Day_45,Intraocular Pressure,21.0,torr
+1811,OSD-679,Hindlimb Unloading Tonometry IOP,MT359_OS,Day_90,Intraocular Pressure,26.0,torr
+1812,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OS,Day_0,Intraocular Pressure,21.0,torr
+1813,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OS,Day_45,Intraocular Pressure,29.0,torr
+1814,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OS,Day_90,Intraocular Pressure,27.0,torr
+1815,OSD-679,Hindlimb Unloading Tonometry IOP,MT330_OS,Day_135,Intraocular Pressure,23.0,torr
+1816,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OS,Day_0,Intraocular Pressure,22.0,torr
+1817,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OS,Day_45,Intraocular Pressure,28.0,torr
+1818,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OS,Day_90,Intraocular Pressure,24.0,torr
+1819,OSD-679,Hindlimb Unloading Tonometry IOP,MT320_OS,Day_135,Intraocular Pressure,21.0,torr
+1820,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OS,Day_0,Intraocular Pressure,22.0,torr
+1821,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OS,Day_45,Intraocular Pressure,25.0,torr
+1822,OSD-679,Hindlimb Unloading Tonometry IOP,MT328_OS,Day_90,Intraocular Pressure,22.0,torr
+1823,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OS,Day_0,Intraocular Pressure,23.0,torr
+1824,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OS,Day_45,Intraocular Pressure,23.0,torr
+1825,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OS,Day_90,Intraocular Pressure,22.0,torr
+1826,OSD-679,Hindlimb Unloading Tonometry IOP,MT322_OS,Day_135,Intraocular Pressure,17.0,torr
+1827,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OS,Day_0,Intraocular Pressure,23.0,torr
+1828,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OS,Day_45,Intraocular Pressure,24.0,torr
+1829,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OS,Day_90,Intraocular Pressure,23.0,torr
+1830,OSD-679,Hindlimb Unloading Tonometry IOP,MT336_OS,Day_135,Intraocular Pressure,20.0,torr

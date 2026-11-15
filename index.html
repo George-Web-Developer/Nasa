@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — Orbital Crew Physiology &amp; Autonomous Health Monitoring</title>
+  <meta name="description" content="NASA Space Apps 2026 physiological, sensorimotor, and environmental health monitoring workbench grounded in NASA flight medicine baselines.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing-body">
+  <header id="appHeader"></header>
+
+  <main>
+    <!-- Above-the-Fold Smoked Basalt Hero -->
+    <section class="basalt-hero" id="heroStage">
+      <div class="hero-bg-clip" aria-hidden="true">
+        <div class="grid-overlay-dark"></div>
+      </div>
+
+      <div class="hero-container">
+        <div>
+          <h1 class="hero-masthead">BIO ASTRO<br>LAB</h1>
+          <p class="hero-brief">
+            Hardware-free physical &amp; movement triage for spaceflight crews, grounded in NASA flight medicine baselines.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="scan.html" class="btn-primary">Start Health Scan &rarr;</a>
+          </div>
+        </div>
+
+        <div class="astronaut-stage">
+          <svg class="orbit-svg" viewBox="0 0 560 560" fill="none" aria-hidden="true">
+            <circle cx="280" cy="280" r="155" stroke="rgba(255,255,255,0.14)" stroke-dasharray="4 6"></circle>
+            <circle cx="280" cy="280" r="215" stroke="rgba(255,255,255,0.10)"></circle>
+            <circle cx="280" cy="280" r="270" stroke="rgba(209,77,40,0.34)" stroke-dasharray="2 8"></circle>
+            <line x1="20" y1="280" x2="540" y2="280" stroke="rgba(255,255,255,0.09)"></line>
+            <line x1="280" y1="20" x2="280" y2="540" stroke="rgba(255,255,255,0.09)"></line>
+          </svg>
+          <div class="astronaut-figure-wrap" id="heroAstronautWrap">
+            <img id="heroAstronaut" src="assets/astronaut-eva.png" alt="NASA Artemis III EVA Spacesuit Cutout">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Archival Mineral Paper Fold: Glide Choreography + Purpose & Target Crew -->
+    <section class="paper-band" id="missionBand">
+      <div class="section-inner">
+        <div class="glide-corridor">
+          <div class="glide-anchor-left" id="glideTargetAnchor"></div>
+
+          <div>
+            <div class="section-header-rule">
+              <h2 class="section-title">How It Works (3 Simple Steps)</h2>
+            </div>
+
+            <div class="purpose-grid-3">
+            <article class="purpose-col">
+              <h3><span class="purpose-num mono-num">01</span>Enter 9 Quick Vitals</h3>
+              <p>
+                Record key vitals and environmental metrics, or load calibrated crew baselines.
+              </p>
+            </article>
+            <article class="purpose-col">
+              <h3><span class="purpose-num mono-num">02</span>Quick Camera Check</h3>
+              <p>
+                Assess posture, gait balance, and eye fatigue through computer vision without wearable sensors.
+              </p>
+            </article>
+            <article class="purpose-col">
+              <h3><span class="purpose-num mono-num">03</span>Clinical Decision Logic</h3>
+              <p>
+                Obtain readiness scores, inspect affected systems on the body hologram, and follow clinical countermeasures.
+              </p>
+            </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Archival System Modules Directory -->
+    <section class="paper-band" style="background: var(--bg-paper-card);">
+      <div class="section-inner">
+        <div class="section-header-rule">
+          <h2 class="section-title">3-Stage Assessment Flow</h2>
+        </div>
+
+        <div class="cards-grid-3">
+          <article class="ledger-card">
+            <div class="mono-num" style="font-size:11px;color:var(--accent-vermilion);margin-bottom:8px;">STAGE 01 · VITALS &amp; HABITAT</div>
+            <h3 style="font-size:18px;margin-bottom:8px;">9 Clinical &amp; Cabin Readings</h3>
+            <p style="font-size:13.5px;color:var(--ink-muted-paper);line-height:1.55;margin-bottom:14px;">
+              Select crew profile and enter clinical telemetry in seconds.
+            </p>
+            <a href="scan.html" class="btn-secondary">Open Scan Stage 1 &rarr;</a>
+          </article>
+
+          <article class="ledger-card">
+            <div class="mono-num" style="font-size:11px;color:var(--accent-vermilion);margin-bottom:8px;">STAGE 02 · CAMERA SCAN</div>
+            <h3 style="font-size:18px;margin-bottom:8px;">Balance, Gait &amp; Eye Fatigue</h3>
+            <p style="font-size:13.5px;color:var(--ink-muted-paper);line-height:1.55;">
+              Check upright balance, gait symmetry, eye fatigue, and visor alignment.
+            </p>
+          </article>
+
+          <article class="ledger-card">
+            <div class="mono-num" style="font-size:11px;color:var(--accent-vermilion);margin-bottom:8px;">STAGE 03 · DECISION &amp; TRENDS</div>
+            <h3 style="font-size:18px;margin-bottom:8px;">Organ Map, Actions &amp; History</h3>
+            <p style="font-size:13.5px;color:var(--ink-muted-paper);line-height:1.55;">
+              Review immediate countermeasures, inspect the 5-system body map, and monitor trends.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script defer src="nasa-data.js"></script>
+  <script defer src="ai-model.js"></script>
+  <script defer src="app-shell.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script defer src="landing.js"></script>
+</body>
+</html>

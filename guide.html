@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — NASA HRP Clinical Guide &amp; Emergency Protocols</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-shell">
+  <header id="appHeader"></header>
+
+  <main class="workspace-main">
+    <div class="workspace-wrap">
+      <div class="page-header-strip">
+        <div>
+          <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">SMART SPACE HEALTH HANDBOOK</span>
+          <h1 data-i18n="guide.title">NASA Space Health Guide &amp; Action Hub</h1>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:flex-end;">
+          <select id="personalSourceSelect" class="input-field" aria-label="Select crew data source" style="width:auto;min-width:220px;max-width:310px;"></select>
+          <a href="scan.html" class="btn-primary" style="white-space:nowrap;" data-i18n="guide.scan">Run Crew Health Scan &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Clear explanation of what NASA Guide does -->
+      <section class="guide-purpose-banner" aria-label="How NASA Guide works">
+        <div style="max-width:780px;">
+          <strong style="font-size:14px;display:block;margin-bottom:3px;">What This Page Does</strong>
+          <p style="font-size:13px;color:var(--ink-muted-paper);line-height:1.45;margin:0;">
+            1. <strong>Personal Action Plan:</strong> Automatically checks your latest Scan vitals and tells you only what steps to take right now. &nbsp;&bull;&nbsp;
+            2. <strong>Topic Explorer:</strong> Pick a specific NASA topic below (Emergency SOS, Body Organs, Space Hazards, or Clinical Risks) and click any row to open details — no long walls of text.
+          </p>
+        </div>
+      </section>
+
+      <!-- Personalized Action Guide built from recorded Physical & Habitat telemetry -->
+      <section id="personalGuideSection" style="display:flex;flex-direction:column;gap:18px;margin-bottom:26px;">
+        <div id="personalSnapshotCard" class="ledger-card"></div>
+        <div id="personalCrossPlanWrap" style="display:flex;flex-direction:column;gap:12px;"></div>
+        <div id="personalHrpWrap" style="display:flex;flex-direction:column;gap:12px;"></div>
+      </section>
+
+      <!-- Focused Interactive NASA Topic Explorer -->
+      <section id="referenceLibraryDrawer" class="ledger-card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:14px;">
+          <div>
+            <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">INTERACTIVE TOPIC EXPLORER</span>
+            <h2 style="font-size:18px;margin-top:2px;">Browse Specific NASA Health Topics (Click Any Item to Expand)</h2>
+          </div>
+          <span class="mono-num badge badge-ghost" id="guideMatchCount" style="font-size:12px;">38 items</span>
+        </div>
+
+        <!-- Topic Hub Shortcut Tiles -->
+        <div class="guide-topic-grid" id="guideCategoryTabs">
+          <button type="button" class="guide-topic-tile active" data-guide-tab="all">
+            <span class="mono-num" style="font-size:10.5px;color:var(--accent-vermilion-paper);">ALL TOPICS · 38</span>
+            <strong style="font-size:14.5px;">Full Index View</strong>
+            <span style="font-size:12px;color:var(--ink-muted-paper);">Compact clickable list of all topics</span>
+          </button>
+          <button type="button" class="guide-topic-tile" data-guide-tab="protocols">
+            <span class="mono-num" style="font-size:10.5px;color:var(--accent-vermilion-paper);">URGENT · 6</span>
+            <strong style="font-size:14.5px;">Emergency Checklists</strong>
+            <span style="font-size:12px;color:var(--ink-muted-paper);">Hypoxia, SANS, Chest pain, Radiation</span>
+          </button>
+          <button type="button" class="guide-topic-tile" data-guide-tab="systems">
+            <span class="mono-num" style="font-size:10.5px;color:var(--accent-nominal);">ANATOMY · 5</span>
+            <strong style="font-size:14.5px;">Body Organs &amp; Systems</strong>
+            <span style="font-size:12px;color:var(--ink-muted-paper);">Brain, Heart, Immune, Kidneys, Joints</span>
+          </button>
+          <button type="button" class="guide-topic-tile" data-guide-tab="hazards">
+            <span class="mono-num" style="font-size:10.5px;color:var(--ink-muted-paper);">RIDGE · 5</span>
+            <strong style="font-size:14.5px;">5 Space Hazards</strong>
+            <span style="font-size:12px;color:var(--ink-muted-paper);">Radiation, Gravity, Isolation, Cabin</span>
+          </button>
+          <button type="button" class="guide-topic-tile" data-guide-tab="hrp">
+            <span class="mono-num" style="font-size:10.5px;color:var(--ink-muted-paper);">INDEX · 22</span>
+            <strong style="font-size:14.5px;">NASA HRP Risk Index</strong>
+            <span style="font-size:12px;color:var(--ink-muted-paper);">22 space medical risks &amp; context</span>
+          </button>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-bottom:18px;" class="guide-filter-row">
+          <input id="guideSearchInput" class="input-field" type="search" placeholder="Quick search by keyword (e.g. sleep, heart, radiation, SANS, CO2)...">
+          <select id="hrpElementSelect" class="input-field" aria-label="Filter by NASA HRP Element" style="min-width:210px;">
+            <option value="all">All HRP Elements</option>
+          </select>
+        </div>
+
+        <div id="guideSectionsWrap" style="display:flex;flex-direction:column;gap:20px;"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script src="nasa-data.js"></script>
+  <script src="ai-model.js"></script>
+  <script src="app-shell.js"></script>
+  <script src="guide.js"></script>
+</body>
+</html>

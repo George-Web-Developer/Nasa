@@ -1,0 +1,199 @@
+id,risk_id,drm_category,mission_type_duration,ops_lxc,ops_disposition,lth_lxc,lth_disposition
+1,77,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+2,77,Low Earth Orbit,Short (<30 days),1x2,Accepted,1x1,Accepted
+3,77,Long (30 days-1 year),1x2,Accepted,2x2,Requires Characterization,
+4,77,Lunar Orbital,Short (<30 days),1x2,Accepted,1x1,Accepted
+5,77,Long (30 days-1 year),2x2,Requires Characterization,4x2,Requires Characterization,
+6,77,Lunar Orbital + Surface,Short (<30 days),2x3,Accepted,1x1,Accepted
+7,77,Long (30 days-1 year),3x3,Requires Characterization,4x2,Requires Characterization,
+8,77,Mars,Preparatory (<1 year),2x2,Requires Characterization,4x2,Requires Characterization
+9,77,Mars Planetary (730-1224 days),4x4,Requires Characterization,5x2,Requires Characterization,
+10,78,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+11,78,Low Earth Orbit,Short (<30 days),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+12,78,Long (30 days-1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable,
+13,78,Lunar Orbital,Short (<30 days),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+14,78,Long (30 days-1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable,
+15,78,Lunar Orbital + Surface,Short (<30 days),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+16,78,Long (30 days-1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable,
+17,78,Mars,Preparatory (<1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+18,78,Mars Planetary (730-1224 days),Not Applicable,Not Applicable,Not Applicable,Not Applicable,
+19,80,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+20,80,Low Earth Orbit,Short (<30 days),2x3,Accepted,2x2,Accepted
+21,80,Long (30 days-1 year),2x3,Accepted with Monitoring,2x2,Accepted,
+22,80,Lunar Orbital,Short (<30 days),2x3,Accepted with Monitoring,2x2,Accepted
+23,80,Long (30 days-1 year),2x3,Accepted with Monitoring,2x2,Accepted,
+24,80,Lunar Orbital + Surface,Short (<30 days),2x3,Accepted with Monitoring,2x2,Accepted
+25,80,Long (30 days-1 year),2x3,Accepted with Monitoring,2x2,Accepted,
+26,80,Mars,Preparatory (<1 year),2x3,Accepted with Monitoring,2x2,Accepted
+27,80,Mars Planetary (730-1224 days),4x3,Requires Mitigation,4x3,Requires Mitigation,
+28,81,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+29,81,Low Earth Orbit,Short (<30 days),1x4,Accepted with Monitoring,1x3,Accepted with Monitoring
+30,81,Long (30 days-1 year),3x4,Accepted with Monitoring,2x3,Accepted with Monitoring,
+31,81,Lunar Orbital,Short (<30 days),1x4,Accepted with Monitoring,1x3,Accepted with Monitoring
+32,81,Long (30 days-1 year),3x4,Accepted with Monitoring,2x3,Accepted with Monitoring,
+33,81,Lunar Orbital + Surface,Short (<30 days),1x4,Accepted with Monitoring,1x3,Accepted with Monitoring
+34,81,Long (30 days-1 year),3x4,Accepted with Monitoring,2x3,Accepted with Monitoring,
+35,81,Mars,Preparatory (<1 year),3x4,Requires Mitigation,3x4,Requires Mitigation
+36,81,Mars Planetary (730-1224 days),4x4,Requires Mitigation,4x4,Requires Mitigation,
+37,82,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+38,82,Low Earth Orbit,Short (<30 days),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+39,82,Long (30 days-1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable,
+40,82,Lunar Orbital,Short (<30 days),1x2,Accepted,1x2,Accepted
+41,82,Long (30 days-1 year),1x2,Accepted,1x2,Accepted,
+42,82,Lunar Orbital + Surface,Short (<30 days),2x1,Accepted with Monitoring,2x2,Accepted with Monitoring
+43,82,Long (30 days-1 year),3x3,Requires Mitigation,3x4,Requires Mitigation,
+44,82,Mars,Preparatory (<1 year),Not Applicable,Not Applicable,Not Applicable,Not Applicable
+45,82,Mars Planetary (730-1224 days),4x4,Requires Characterization,4x4,Requires Characterization,
+46,84,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+47,84,Low Earth Orbit,Short (<30 days),4x2,Accepted,5x2,Accepted with Optimization
+48,84,Long (30 days-1 year),4x2,Accepted,5x2,Accepted with Optimization,
+49,84,Lunar Orbital,Short (<30 days),4x3,Accepted with Optimization,5x2,Accepted with Optimization
+50,84,Long (30 days-1 year),4x3,Accepted with Optimization,5x2,Accepted with Optimization,
+51,84,Lunar Orbital + Surface,Short (<30 days),5x4,Requires Mitigation,5x2,Accepted with Optimization
+52,84,Long (30 days-1 year),5x4,Requires Mitigation,5x2,Accepted with Optimization,
+53,84,Mars,Preparatory (<1 year),4x3,Accepted with Optimization,5x2,Accepted with Optimization
+54,84,Mars Planetary (730-1224 days),5x4,Requires Mitigation,5x2,Accepted with Optimization,
+55,85,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+56,85,Low Earth Orbit,Short (<30 days),4x2,Accepted with Monitoring,4x1,Accepted with Monitoring
+57,85,Long (30 days-1 year),4x2,Accepted with Monitoring,4x1,Accepted with Monitoring,
+58,85,Lunar Orbital,Short (<30 days),4x2,Accepted with Monitoring,4x1,Accepted with Monitoring
+59,85,Long (30 days-1 year),4x2,Accepted with Monitoring,4x2,Requires Characterization,
+60,85,Lunar Orbital + Surface,Short (<30 days),4x2,Accepted with Monitoring,4x1,Accepted with Monitoring
+61,85,Long (30 days-1 year),4x3,Requires Mitigation,4x2,Requires Mitigation,
+62,85,Mars,Preparatory (<1 year),4x3,Requires Mitigation,4x2,Requires Characterization
+63,85,Mars Planetary (730-1224 days),4x3,Requires Mitigation,4x2,Requires Characterization,
+64,88,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+65,88,Low Earth Orbit,Short (<30 days),1x2,Accepted,1x2,Requires Characterization
+66,88,Long (30 days-1 year),1x2,Accepted,2x2,Requires Characterization,
+67,88,Lunar Orbital,Short (<30 days),1x2,Accepted with Monitoring,1x2,Requires Characterization
+68,88,Long (30 days-1 year),1x2,Accepted with Monitoring,2x2,Requires Characterization,
+69,88,Lunar Orbital + Surface,Short (<30 days),3x5,Requires Mitigation/Standard Refinement,1x2,Requires Characterization
+70,88,Long (30 days-1 year),3x5,Requires Mitigation/Standard Refinement,2x2,Requires Characterization,
+71,88,Mars,Preparatory (<1 year),1x2,Accepted with Monitoring,1x2,Requires Characterization
+72,88,Mars Planetary (730-1224 days),4x5,Requires Mitigation/Standard Refinement,2x2,Requires Characterization,
+73,95,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+74,95,Low Earth Orbit,Short (<30 days),3x2,Accepted,3x2,Accepted
+75,95,Long (30 days-1 year),4x2,Accepted,4x2,Accepted,
+76,95,Lunar Orbital,Short (<30 days),4x2,Accepted,3x2,Accepted
+77,95,Long (30 days-1 year),5x3,Requires Mitigation,4x2,Requires Characterization,
+78,95,Lunar Orbital + Surface,Short (<30 days),4x3,Requires Characterization,4x2,Requires Characterization
+79,95,Long (30 days-1 year),5x4,Requires Mitigation,4x4,Requires Characterization,
+80,95,Mars,Preparatory (<1 year),5x4,Requires Mitigation,4x4,Requires Characterization
+81,95,Mars Planetary (730-1224 days),5x4,Requires Mitigation,5x4,Requires Characterization,
+82,96,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+83,96,Low Earth Orbit,Short (<30 days),1x1,Accepted,3x1,Accepted
+84,96,Long (30 days-1 year),1x1,Accepted,3x2,Requires Characterization,
+85,96,Lunar Orbital,Short (<30 days),1x1,Accepted,3x1,Accepted
+86,96,Long (30 days-1 year),1x1,Accepted,3x2,Requires Characterization,
+87,96,Lunar Orbital + Surface,Short (<30 days),1x1,Accepted,3x1,Accepted
+88,96,Long (30 days-1 year),1x1,Accepted,3x2,Requires Characterization,
+89,96,Mars,Preparatory (<1 year),1x1,Accepted,3x3,Requires Mitigation
+90,96,Mars Planetary (730-1224 days),1x1,Accepted,3x3,Requires Mitigation,
+91,99,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+92,99,Low Earth Orbit,Short (<30 days),4x1,Accepted with Monitoring,1x3,Accepted with Monitoring
+93,99,Long (30 days-1 year),5x2,Requires Mitigation,2x3,Accepted with Monitoring,
+94,99,Lunar Orbital,Short (<30 days),4x2,Requires Characterization,1x3,Accepted with Monitoring
+95,99,Long (30 days-1 year),5x2,Requires Mitigation,2x3,Requires Characterization,
+96,99,Lunar Orbital + Surface,Short (<30 days),4x2,Requires Characterization,1x3,Accepted with Monitoring
+97,99,Long (30 days-1 year),5x2,Requires Mitigation,2x3,Requires Characterization,
+98,99,Mars,Preparatory (<1 year),5x3,Requires Mitigation,2x3,Requires Characterization
+99,99,Mars Planetary (730-1224 days),5x3,Requires Mitigation,2x5,Requires Mitigation,
+100,100,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+101,100,Low Earth Orbit,Short (<30 days),5x2,Accepted with Optimization,3x1,Accepted with Monitoring
+102,100,Long (30 days-1 year),5x2,Accepted with Optimization,3x1,Accepted with Monitoring,
+103,100,Lunar Orbital,Short (<30 days),5x2,Requires Characterization,3x1,Accepted with Monitoring
+104,100,Long (30 days-1 year),5x2,Requires Characterization,3x1,Accepted with Monitoring,
+105,100,Lunar Orbital + Surface,Short (<30 days),5x2,Requires Characterization,3x1,Accepted with Monitoring
+106,100,Long (30 days-1 year),5x2,Requires Characterization,3x1,Accepted with Monitoring,
+107,100,Mars,Preparatory (<1 year),5x2,Requires Mitigation,4x2,Requires Mitigation
+108,100,Mars Planetary (730-1224 days),5x2,Requires Mitigation,4x2,Requires Mitigation,
+109,101,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+110,101,Low Earth Orbit,Short (<30 days),4x2,Accepted with Monitoring,Not Applicable,Not Applicable
+111,101,Long (30 days-1 year),4x2,Accepted with Monitoring,Not Applicable,Not Applicable,
+112,101,Lunar Orbital,Short (<30 days),4x2,Requires Mitigation,Not Applicable,Not Applicable
+113,101,Long (30 days-1 year),5x3,Requires Mitigation,Not Applicable,Not Applicable,
+114,101,Lunar Orbital + Surface,Short (<30 days),5x3,Accepted with Monitoring,Not Applicable,Not Applicable
+115,101,Long (30 days-1 year),5x3,Requires Mitigation,Not Applicable,Not Applicable,
+116,101,Mars,Preparatory (<1 year),5x4,Requires Mitigation,Not Applicable,Not Applicable
+117,101,Mars Planetary (730-1224 days),5x5,Requires Mitigation,Not Applicable,Not Applicable,
+118,105,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+119,105,Low Earth Orbit,Short (<30 days),4x1,Accepted,2x2,Accepted
+120,105,Long (30 days-1 year),4x3,Accepted with Monitoring,4x3,Requires Mitigation,
+121,105,Lunar Orbital,Short (<30 days),4x1,Accepted,2x2,Accepted
+122,105,Long (30 days-1 year),4x3,Accepted with Monitoring,4x3,Requires Mitigation,
+123,105,Lunar Orbital + Surface,Short (<30 days),4x1,Accepted,2x2,Accepted
+124,105,Long (30 days-1 year),4x3,Accepted with Monitoring,4x3,Requires Mitigation,
+125,105,Mars,Preparatory (<1 year),4x3,Accepted with Monitoring,4x3,Requires Mitigation
+126,105,Mars Planetary (730-1224 days),4x4,Requires Mitigation,4x5,Requires Mitigation,
+127,167,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+128,167,Low Earth Orbit,Short (<30 days),4x3,Accepted with Optimization,3x2,Accepted
+129,167,Long (30 days-1 year),4x3,Accepted with Optimization,3x2,Accepted,
+130,167,Lunar Orbital,Short (<30 days),4x3,Accepted with Optimization,3x2,Accepted with Optimization
+131,167,Long (30 days-1 year),4x3,Requires Mitigation,3x2,Requires Mitigation,
+132,167,Lunar Orbital + Surface,Short (<30 days),4x4,Accepted with Optimization,3x4,Accepted with Optimization
+133,167,Long (30 days-1 year),4x4,Requires Mitigation,4x4,Requires Mitigation,
+134,167,Mars,Preparatory (<1 year),4x3,Requires Mitigation,3x2,Requires Mitigation
+135,167,Mars Planetary (730-1224 days),4x4,Requires Mitigation,4x4,Requires Mitigation,
+136,168,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+137,168,Low Earth Orbit,Short (<30 days),2x2,Accepted,2x1,Accepted
+138,168,Long (30 days-1 year),2x2,Accepted,2x1,Accepted,
+139,168,Lunar Orbital,Short (<30 days),2x2,Accepted,2x1,Accepted
+140,168,Long (30 days-1 year),2x2,Accepted,2x1,Accepted,
+141,168,Lunar Orbital + Surface,Short (<30 days),5x3,Requires Mitigation,2x1,Accepted
+142,168,Long (30 days-1 year),5x3,Requires Mitigation,2x1,Accepted,
+143,168,Mars,Preparatory (<1 year),2x2,Accepted,2x1,Accepted
+144,168,Mars Planetary (730-1224 days),5x3,Requires Mitigation,2x1,Accepted,
+145,173,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+146,173,Low Earth Orbit,Short (<30 days),3x2,Accepted with Monitoring,2x1,Accepted
+147,173,Long (30 days-1 year),3x2,Accepted with Monitoring,2x2,Requires Characterization,
+148,173,Lunar Orbital,Short (<30 days),3x2,Accepted with Monitoring,2x1,Accepted
+149,173,Long (30 days-1 year),3x2,Accepted with Monitoring,2x2,Requires Characterization,
+150,173,Lunar Orbital + Surface,Short (<30 days),3x2,Accepted with Monitoring,2x1,Accepted
+151,173,Long (30 days-1 year),3x3,Accepted with Monitoring,2x2,Requires Characterization,
+152,173,Mars,Preparatory (<1 year),3x3,Accepted with Monitoring,2x2,Requires Characterization
+153,173,Mars Planetary (730-1224 days),3x3,Accepted with Monitoring,2x2,Requires Characterization,
+154,175,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+155,175,Low Earth Orbit,Short (<30 days),5x2,Accepted,Not Applicable,Not Applicable
+156,175,Long (30 days-1 year),5x2,Accepted,Not Applicable,Not Applicable,
+157,175,Lunar Orbital,Short (<30 days),5x2,Requires Mitigation/Standard Refinement,Not Applicable,Not Applicable
+158,175,Long (30 days-1 year),5x2,Requires Mitigation/Standard Refinement,Not Applicable,Not Applicable,
+159,175,Lunar Orbital + Surface,Short (<30 days),5x3,Requires Mitigation,Not Applicable,Not Applicable
+160,175,Long (30 days-1 year),5x3,Requires Mitigation,Not Applicable,Not Applicable,
+161,175,Mars,Preparatory (<1 year),5x4,Requires Mitigation,Not Applicable,Not Applicable
+162,175,Mars Planetary (730-1224 days),5x5,Requires Mitigation,Not Applicable,Not Applicable,
+163,176,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+164,176,Low Earth Orbit,Short (<30 days),2x2,Accepted with Monitoring,1x1,Accepted
+165,176,Long (30 days-1 year),5x2,Accepted with Optimization,3x2,Accepted with Monitoring,
+166,176,Lunar Orbital,Short (<30 days),5x2,Accepted with Optimization,3x2,Accepted with Monitoring
+167,176,Long (30 days-1 year),5x3,Requires Mitigation,4x2,Requires Mitigation,
+168,176,Lunar Orbital + Surface,Short (<30 days),5x3,Requires Mitigation,3x2,Accepted with Monitoring
+169,176,Long (30 days-1 year),5x4,Requires Mitigation,4x3,Requires Mitigation,
+170,176,Mars,Preparatory (<1 year),5x4,Requires Mitigation,5x3,Requires Mitigation
+171,176,Mars Planetary (730-1224 days),5x5,Requires Mitigation,5x3,Requires Mitigation,
+172,177,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+173,177,Low Earth Orbit,Short (<30 days),1x1,Accepted,1x1,Accepted
+174,177,Long (30 days-1 year),1x1,Accepted,1x1,Accepted,
+175,177,Lunar Orbital,Short (<30 days),2x1,Accepted,1x1,Accepted
+176,177,Long (30 days-1 year),3x2,Accepted with Optimization,2x2,Accepted with Monitoring,
+177,177,Lunar Orbital + Surface,Short (<30 days),3x1,Accepted with Optimization,2x1,Accepted with Monitoring
+178,177,Long (30 days-1 year),4x2,Accepted with Optimization,2x2,Accepted with Monitoring,
+179,177,Mars,Preparatory (<1 year),4x3,Requires Characterization,3x2,Accepted with Monitoring
+180,177,Mars Planetary (730-1224 days),5x3,Requires Mitigation,5x3,Requires Mitigation,
+181,179,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+182,179,Low Earth Orbit,Short (<30 days),3x3,Requires Characterization,1x2,Accepted
+183,179,Long (30 days-1 year),4x3,Requires Characterization,1x2,Accepted with Monitoring,
+184,179,Lunar Orbital,Short (<30 days),3x3,Requires Characterization,1x2,Accepted with Monitoring
+185,179,Long (30 days-1 year),4x3,Requires Characterization,1x2,Accepted with Monitoring,
+186,179,Lunar Orbital + Surface,Short (<30 days),3x3,Requires Characterization,1x2,Accepted with Monitoring
+187,179,Long (30 days-1 year),4x3,Requires Characterization,1x2,Accepted with Monitoring,
+188,179,Mars,Preparatory (<1 year),4x3,Requires Characterization,1x2,Accepted with Monitoring
+189,179,Mars Planetary (730-1224 days),4x4,Requires Mitigation/Standard Refinement,2x4,Requires Mitigation/Standard Refinement,
+190,180,LxC,Risk Disposition *,LxC,Risk Disposition *,,
+191,180,Low Earth Orbit,Short (<30 days),5x1,Accepted with Optimization,3x1,Accepted
+192,180,Long (30 days-1 year),5x1,Requires Characterization,5x2,Accepted with Optimization,
+193,180,Lunar Orbital,Short (<30 days),5x1,Accepted with Optimization,3x1,Accepted
+194,180,Long (30 days-1 year),5x1,Requires Characterization,5x2,Accepted with Optimization,
+195,180,Lunar Orbital + Surface,Short (<30 days),5x2,Requires Characterization,3x1,Accepted with Optimization
+196,180,Long (30 days-1 year),5x3,Requires Mitigation,5x2,Requires Characterization,
+197,180,Mars,Preparatory (<1 year),5x2,Requires Mitigation,5x2,Requires Characterization
+198,180,Mars Planetary (730-1224 days),5x4,Requires Mitigation,5x3,Requires Mitigation,

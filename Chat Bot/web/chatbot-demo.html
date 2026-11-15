@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astronaut Check-in Assistant - Teammate Integration Demo</title>
+  
+  <!-- Web Component Script -->
+  <script src="/widget.js"></script>
+
+  <style>
+    :root {
+      --demo-bg: #050914;
+      --demo-card: rgba(13, 23, 42, 0.85);
+      --demo-border: rgba(0, 240, 255, 0.22);
+      --demo-accent: #00f0ff;
+      --demo-accent-dim: rgba(0, 240, 255, 0.12);
+      --demo-text: #f8fafc;
+      --demo-text-muted: #94a3b8;
+      --demo-header-bg: #0a1124;
+      --demo-glow: 0 0 20px rgba(0, 240, 255, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--demo-bg);
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(99, 102, 241, 0.06) 0%, transparent 40%),
+        linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+      color: var(--demo-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      min-height: 100vh;
+      padding-bottom: 60px;
+    }
+
+    /* Top Navigation HUD */
+    .demo-navbar {
+      background: var(--demo-header-bg);
+      border-bottom: 1px solid var(--demo-border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(12px);
+    }
+
+    .demo-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .demo-brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #0284c7, var(--demo-accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      box-shadow: 0 0 14px var(--demo-accent-dim);
+    }
+
+    .demo-brand-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+
+    .demo-brand-sub {
+      font-size: 11px;
+      color: var(--demo-accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .demo-nav-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .demo-select, .demo-input {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--demo-border);
+      color: var(--demo-text);
+      padding: 7px 12px;
+      border-radius: 8px;
+      font-size: 12.5px;
+      outline: none;
+    }
+    .demo-select:focus, .demo-input:focus {
+      border-color: var(--demo-accent);
+    }
+
+    /* Main Container Grid */
+    .demo-container {
+      max-width: 1400px;
+      margin: 24px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 1080px) {
+      .demo-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Cards */
+    .demo-card {
+      background: var(--demo-card);
+      border: 1px solid var(--demo-border);
+      border-radius: 16px;
+      padding: 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .demo-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 12px;
+    }
+
+    .demo-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--demo-accent);
+    }
+
+    .demo-badge {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--demo-accent-dim);
+      color: var(--demo-accent);
+      border: 1px solid var(--demo-accent);
+      font-weight: 600;
+    }
+
+    /* Mode Switcher Tabs */
+    .mode-tab-bar {
+      display: flex;
+      gap: 8px;
+      background: rgba(15, 23, 42, 0.8);
+      padding: 6px;
+      border-radius: 10px;
+      border: 1px solid var(--demo-border);
+    }
+
+    .mode-tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--demo-text-muted);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .mode-tab-btn.active {
+      background: var(--demo-accent-dim);
+      color: var(--demo-accent);
+      border: 1px solid var(--demo-accent);
+    }
+
+    /* Simulation Dashboard Preview */
+    .sim-dashboard {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #090e1a;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sim-dash-tabs {
+      display: flex;
+      background: #0d1629;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .sim-dash-tab {
+      padding: 10px 16px;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: var(--demo-text-muted);
+      cursor: pointer;
+      border-right: 1px solid rgba(255, 255, 255, 0.05);
+      transition: background 0.2s, color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .sim-dash-tab.active {
+      background: rgba(0, 240, 255, 0.08);
+      color: var(--demo-accent);
+      border-bottom: 2px solid var(--demo-accent);
+    }
+
+    .sim-dash-pane {
+      flex: 1;
+      display: none;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .sim-dash-pane.active {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sim-dash-pane.flush {
+      padding: 0;
+    }
+
+    /* Teammate Telemetry Mock View */
+    .telemetry-mock-box {
+      border: 1px dashed rgba(0, 240, 255, 0.3);
+      border-radius: 12px;
+      padding: 24px;
+      background: rgba(0, 240, 255, 0.02);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      height: 100%;
+    }
+
+    .telemetry-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      width: 100%;
+      margin-top: 16px;
+    }
+
+    .telemetry-stat {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .telemetry-stat-val {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--demo-accent);
+      margin-top: 4px;
+    }
+
+    /* Control Buttons */
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .demo-btn {
+      background: rgba(15, 23, 42, 0.8);
+      color: var(--demo-text);
+      border: 1px solid var(--demo-border);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .demo-btn:hover {
+      background: var(--demo-accent-dim);
+      border-color: var(--demo-accent);
+      color: var(--demo-accent);
+    }
+
+    .demo-btn.active-task {
+      background: rgba(239, 68, 68, 0.15);
+      border-color: #ef4444;
+      color: #fca5a5;
+    }
+
+    .demo-btn.success {
+      border-color: #10b981;
+      color: #6ee7b7;
+    }
+
+    /* Event Log Terminal */
+    .log-terminal {
+      background: #040711;
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 12px;
+      height: 380px;
+      overflow-y: auto;
+      padding: 12px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .log-entry {
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.02);
+      border-left: 3px solid var(--demo-accent);
+      line-height: 1.4;
+      word-break: break-all;
+    }
+
+    .log-entry.session { border-left-color: #38bdf8; }
+    .log-entry.question { border-left-color: #a855f7; }
+    .log-entry.message { border-left-color: #10b981; }
+    .log-entry.task { border-left-color: #f59e0b; }
+    .log-entry.escalate { border-left-color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+    .log-entry.session-ended { border-left-color: #6366f1; }
+
+    .log-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+
+    .log-badge {
+      font-weight: 700;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .log-time {
+      color: var(--demo-text-muted);
+      font-size: 10px;
+    }
+
+    .log-payload {
+      color: #cbd5e1;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top HUD Bar -->
+  <header class="demo-navbar">
+    <div class="demo-brand">
+      <div class="demo-brand-logo">🚀</div>
+      <div>
+        <h1 class="demo-brand-title">AstroCheck Widget HUD</h1>
+        <p class="demo-brand-sub">Teammate Integration & Event Bridge Contract</p>
+      </div>
+    </div>
+
+    <div class="demo-nav-controls">
+      <label for="astronautSelect" style="font-size: 12px; color: var(--demo-text-muted);">Astronaut:</label>
+      <select class="demo-select" id="astronautSelect">
+        <option value="1" data-lang="en">Dr. Sarah Al-Mansoor (English, ID: 1)</option>
+        <option value="2" data-lang="ar">رائد الفضاء عمر الفاروق (Arabic RTL, ID: 2)</option>
+      </select>
+
+      <label for="missionDayInput" style="font-size: 12px; color: var(--demo-text-muted);">Day:</label>
+      <input type="number" class="demo-input" id="missionDayInput" value="42" style="width: 60px;" min="1" />
+
+      <button class="demo-btn" id="themeToggleBtn">🌗 Toggle Theme</button>
+    </div>
+  </header>
+
+  <!-- Main View Grid -->
+  <main class="demo-container">
+    
+    <!-- LEFT COLUMN: Widget Modes Preview -->
+    <div class="demo-card">
+      <div class="demo-card-header">
+        <h2 class="demo-card-title">🖥️ Widget Display Modes</h2>
+        <span class="demo-badge" id="currentModeBadge">Mode: Tab</span>
+      </div>
+
+      <!-- Mode Selector Switcher -->
+      <div class="mode-tab-bar">
+        <button class="mode-tab-btn active" data-mode="tab">Tab Mode (Dashboard)</button>
+        <button class="mode-tab-btn" data-mode="inline">Inline Mode (Box Flow)</button>
+        <button class="mode-tab-btn" data-mode="floating">Floating Mode (Corner Bubble)</button>
+      </div>
+
+      <!-- Simulated Teammate Dashboard View -->
+      <div class="sim-dashboard" id="dashboardContainer">
+        <div class="sim-dash-tabs">
+          <div class="sim-dash-tab" data-dash="camera">📹 Mic & Cam Telemetry</div>
+          <div class="sim-dash-tab active" data-dash="checkin">💬 Psychological Check-in Tab</div>
+          <div class="sim-dash-tab" data-dash="vitals">📊 Health Vitals HUD</div>
+        </div>
+
+        <!-- Camera Tab View Mock -->
+        <div class="sim-dash-pane" id="paneCamera">
+          <div class="telemetry-mock-box">
+            <div style="font-size: 42px;">🎥</div>
+            <h3 style="color: var(--demo-accent);">Teammate Camera / Microphone Stream</h3>
+            <p style="font-size: 13px; color: var(--demo-text-muted); max-width: 380px;">
+              Your teammate's facial action unit analyzer and acoustic voice stress extractor run here in localhost:8000.
+            </p>
+            <div class="telemetry-grid">
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">Voice F0 Pitch</div>
+                <div class="telemetry-stat-val">124 Hz</div>
+              </div>
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">Facial Affect</div>
+                <div class="telemetry-stat-val">Nominal</div>
+              </div>
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">Speech Rate</div>
+                <div class="telemetry-stat-val">3.8 syl/s</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Psychological Check-in Tab View (Houses <astro-chat mode="tab">) -->
+        <div class="sim-dash-pane flush active" id="paneCheckin">
+          <astro-chat
+            id="chatWidgetTab"
+            mode="tab"
+            astronaut-id="1"
+            mission-day="42"
+            language="en"
+            theme="dark"
+          ></astro-chat>
+        </div>
+
+        <!-- Vitals Tab View Mock -->
+        <div class="sim-dash-pane" id="paneVitals">
+          <div class="telemetry-mock-box">
+            <div style="font-size: 42px;">❤️</div>
+            <h3 style="color: var(--demo-accent);">Autonomic Vitals Telemetry</h3>
+            <div class="telemetry-grid">
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">Resting Heart Rate</div>
+                <div class="telemetry-stat-val">64 bpm</div>
+              </div>
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">HRV (RMSSD)</div>
+                <div class="telemetry-stat-val">48.2 ms</div>
+              </div>
+              <div class="telemetry-stat">
+                <div style="font-size: 11px; color: var(--demo-text-muted);">Sleep Efficiency</div>
+                <div class="telemetry-stat-val">88.5%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container for Inline Mode preview -->
+      <div id="inlineContainer" style="display: none; height: 620px;">
+        <astro-chat
+          id="chatWidgetInline"
+          mode="inline"
+          astronaut-id="1"
+          mission-day="42"
+          language="en"
+          theme="dark"
+        ></astro-chat>
+      </div>
+
+      <!-- Container for Floating Mode preview -->
+      <div id="floatingContainer" style="display: none;">
+        <p style="font-size: 13px; color: var(--demo-text-muted); margin-bottom: 12px;">
+          Floating mode active! Look for the glowing round launcher button at the <strong>bottom-right</strong> (or bottom-left in Arabic RTL). Clicking it toggles the chat panel, unread badge clears upon opening, and pressing <kbd>Esc</kbd> closes it.
+        </p>
+        <astro-chat
+          id="chatWidgetFloating"
+          mode="floating"
+          astronaut-id="1"
+          mission-day="42"
+          language="en"
+          theme="dark"
+        ></astro-chat>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: Event Simulator & Real-Time Contract Log -->
+    <div class="demo-card">
+      <div class="demo-card-header">
+        <h2 class="demo-card-title">⚡ Host-Page Event Bridge Simulator</h2>
+        <span class="demo-badge">Contract Testbench</span>
+      </div>
+
+      <!-- Simulated Tasks Triggers -->
+      <div>
+        <div style="font-size: 12.5px; font-weight: 600; color: var(--demo-text-muted); margin-bottom: 8px;">
+          1. Task Lifecycle Events (fires 'astro:task')
+        </div>
+        <div class="btn-group">
+          <button class="demo-btn" id="btnStartReaction">
+            ▶️ Start: Reaction Time Task
+          </button>
+          <button class="demo-btn" id="btnEndReaction">
+            ⏹️ End: Reaction Time Task
+          </button>
+          <button class="demo-btn" id="btnStartEVA">
+            ▶️ Start: EVA Checklist
+          </button>
+          <button class="demo-btn" id="btnEndEVA">
+            ⏹️ End: EVA Checklist
+          </button>
+        </div>
+      </div>
+
+      <!-- Simulated Context & Telemetry -->
+      <div>
+        <div style="font-size: 12.5px; font-weight: 600; color: var(--demo-text-muted); margin-bottom: 8px;">
+          2. Host Context & Telemetry Summary
+        </div>
+        <div class="btn-group">
+          <button class="demo-btn" id="btnSendContext">
+            🧭 Fire 'astro:context' (Tab & Notes)
+          </button>
+          <button class="demo-btn" id="btnSendSignals">
+            🎙️ Fire 'astro:signals-summary' (Camera/Mic)
+          </button>
+          <button class="demo-btn success" id="btnPostSignalsApi">
+            📡 POST /sessions/{id}/signals (Backend)
+          </button>
+        </div>
+      </div>
+
+      <!-- Global window.AstroChat API Controls -->
+      <div>
+        <div style="font-size: 12.5px; font-weight: 600; color: var(--demo-text-muted); margin-bottom: 8px;">
+          3. JavaScript window.AstroChat API Calls
+        </div>
+        <div class="btn-group">
+          <button class="demo-btn" onclick="window.AstroChat.open()">AstroChat.open()</button>
+          <button class="demo-btn" onclick="window.AstroChat.close()">AstroChat.close()</button>
+          <button class="demo-btn" onclick="alert('Session ID: ' + window.AstroChat.getSessionId())">
+            AstroChat.getSessionId()
+          </button>
+          <button class="demo-btn" onclick="window.AstroChat.sendSystemNote('Manual note from flight doc')">
+            AstroChat.sendSystemNote(...)
+          </button>
+          <button class="demo-btn" onclick="window.AstroChat.endSession()">
+            AstroChat.endSession()
+          </button>
+        </div>
+      </div>
+
+      <!-- Real-time Dispatched Events Log -->
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div style="font-size: 12.5px; font-weight: 600; color: var(--demo-accent);">
+            4. Live Window Event Contract Log (Bubbles & Composed)
+          </div>
+          <button class="demo-btn" id="btnClearLog" style="padding: 4px 8px; font-size: 11px;">
+            Clear Log
+          </button>
+        </div>
+
+        <div class="log-terminal" id="logTerminal">
+          <div class="log-entry session">
+            <div class="log-header">
+              <span class="log-badge" style="color: #38bdf8;">READY</span>
+              <span class="log-time">Now</span>
+            </div>
+            <div class="log-payload">Waiting for host bridge events from &lt;astro-chat&gt;...</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Scientific Attribution & Sources Footer -->
+  <footer class="demo-footer" style="max-width: 1300px; margin: 30px auto 0; padding: 22px 26px; background: rgba(10, 17, 36, 0.9); border: 1px solid var(--demo-border); border-radius: 12px; font-size: 13px; color: var(--demo-text-muted); line-height: 1.6; backdrop-filter: blur(12px); box-shadow: var(--demo-glow);">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; margin-bottom: 12px; border-bottom: 1px solid rgba(0, 240, 255, 0.15); padding-bottom: 10px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="color: var(--demo-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px;">🔬 NASA Space Apps Challenge 2026</span>
+        <span>•</span>
+        <span style="color: #fff; font-weight: 500;">Health Monitoring Software</span>
+      </div>
+      <div style="display: flex; gap: 20px;">
+        <a href="/docs" target="_blank" style="color: var(--demo-accent); text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 4px;">📖 API Docs</a>
+        <a href="/sources" target="_blank" style="color: var(--demo-accent); text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 4px;">📚 Verified Sources (SOURCES.md)</a>
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 12px; color: #94a3b8;">
+      <strong style="color: #e2e8f0;">Scientific Grounding & Non-Diagnostic Notice:</strong> All behavioral countermeasure protocols and psychological check-in workflows in the <code>&lt;astro-chat&gt;</code> assistant are summarized non-diagnostic guidance derived from peer-reviewed spaceflight literature and public-domain resources from <strong>NASA Human Research Program (HRP)</strong>, the <strong>World Health Organization (WHO)</strong>, <strong>NIMH</strong>, <strong>NHLBI</strong>, and <strong>CDC</strong>. Conversational screening items adapt validated instruments (PHQ-2, GAD-2, PSS) and the Psychomotor Vigilance Task (PVT-B) strictly as non-diagnostic ordinal tracking indicators. This software is an operational early-warning decision-support tool and does not provide clinical diagnoses, psychiatric labels, or medical prescriptions.
+    </p>
+  </footer>
+
+  <script>
+    // State references
+    const logTerminal = document.getElementById("logTerminal");
+    const astronautSelect = document.getElementById("astronautSelect");
+    const missionDayInput = document.getElementById("missionDayInput");
+    const themeToggleBtn = document.getElementById("themeToggleBtn");
+    const currentModeBadge = document.getElementById("currentModeBadge");
+    
+    const dashboardContainer = document.getElementById("dashboardContainer");
+    const inlineContainer = document.getElementById("inlineContainer");
+    const floatingContainer = document.getElementById("floatingContainer");
+
+    const chatWidgetTab = document.getElementById("chatWidgetTab");
+    const chatWidgetInline = document.getElementById("chatWidgetInline");
+    const chatWidgetFloating = document.getElementById("chatWidgetFloating");
+
+    let currentActiveMode = "tab";
+    let isDarkTheme = true;
+
+    // Helper: log to terminal
+    function logEvent(name, detail) {
+      const entry = document.createElement("div");
+      let typeClass = "message";
+      if (name.includes("session-ended")) typeClass = "session-ended";
+      else if (name.includes("session")) typeClass = "session";
+      else if (name.includes("question")) typeClass = "question";
+      else if (name.includes("task")) typeClass = "task";
+      else if (name.includes("escalate")) typeClass = "escalate";
+
+      entry.className = `log-entry ${typeClass}`;
+      
+      const now = new Date().toLocaleTimeString();
+      entry.innerHTML = `
+        <div class="log-header">
+          <span class="log-badge" style="color: var(--demo-accent);">${name}</span>
+          <span class="log-time">${now}</span>
+        </div>
+        <div class="log-payload">${JSON.stringify(detail, null, 2)}</div>
+      `;
+      logTerminal.insertBefore(entry, logTerminal.firstChild);
+    }
+
+    // ----------------------------------------------------
+    // Listen for all window events dispatched by <astro-chat>
+    // ----------------------------------------------------
+    const contractEvents = [
+      "astro:session",
+      "astro:question",
+      "astro:message",
+      "astro:session-ended",
+      "astro:escalate",
+      "astro:task",
+      "astro:context",
+      "astro:signals-summary"
+    ];
+
+    contractEvents.forEach(evtName => {
+      window.addEventListener(evtName, (e) => {
+        logEvent(evtName, e.detail || {});
+      });
+    });
+
+    document.getElementById("btnClearLog").addEventListener("click", () => {
+      logTerminal.innerHTML = "";
+    });
+
+    // ----------------------------------------------------
+    // Mode Switcher Controls
+    // ----------------------------------------------------
+    const modeTabs = document.querySelectorAll(".mode-tab-btn");
+    modeTabs.forEach(btn => {
+      btn.addEventListener("click", () => {
+        modeTabs.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentActiveMode = btn.dataset.mode;
+        currentModeBadge.textContent = `Mode: ${currentActiveMode.charAt(0).toUpperCase() + currentActiveMode.slice(1)}`;
+
+        dashboardContainer.style.display = currentActiveMode === "tab" ? "flex" : "none";
+        inlineContainer.style.display = currentActiveMode === "inline" ? "block" : "none";
+        floatingContainer.style.display = currentActiveMode === "floating" ? "block" : "none";
+      });
+    });
+
+    // ----------------------------------------------------
+    // Simulated Teammate Dashboard Tabs
+    // ----------------------------------------------------
+    const dashTabs = document.querySelectorAll(".sim-dash-tab");
+    dashTabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        dashTabs.forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+
+        const target = tab.dataset.dash;
+        document.getElementById("paneCamera").classList.toggle("active", target === "camera");
+        document.getElementById("paneCheckin").classList.toggle("active", target === "checkin");
+        document.getElementById("paneVitals").classList.toggle("active", target === "vitals");
+
+        // Fire 'astro:context' notifying widget of current tab
+        window.dispatchEvent(new CustomEvent("astro:context", {
+          detail: { current_tab: target, note: `Astronaut viewed tab: ${target}` },
+          bubbles: true,
+          composed: true,
+        }));
+      });
+    });
+
+    // ----------------------------------------------------
+    // Simulated Host Task Events
+    // ----------------------------------------------------
+    document.getElementById("btnStartReaction").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:task", {
+        detail: {
+          task: "Reaction Time Test",
+          phase: "started",
+          info: { duration_sec: 90, trials: 30 }
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    document.getElementById("btnEndReaction").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:task", {
+        detail: {
+          task: "Reaction Time Test",
+          phase: "ended",
+          info: { average_latency_ms: 238, score: 96 }
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    document.getElementById("btnStartEVA").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:task", {
+        detail: {
+          task: "EVA Maintenance Checklist",
+          phase: "started",
+          info: { suit_check: "nominal", airlock: "sealed" }
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    document.getElementById("btnEndEVA").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:task", {
+        detail: {
+          task: "EVA Maintenance Checklist",
+          phase: "ended",
+          info: { completed_items: 24, all_nominal: true }
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    // ----------------------------------------------------
+    // Context & Telemetry Events
+    // ----------------------------------------------------
+    document.getElementById("btnSendContext").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:context", {
+        detail: {
+          current_tab: "cognitive_eval",
+          note: "Astronaut completed rest cycle nominal; preparing for orbital docking."
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    document.getElementById("btnSendSignals").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("astro:signals-summary", {
+        detail: {
+          recent: {
+            voice_stress_index: 0.38,
+            face_fatigue_score: 0.34,
+            heart_rate_bpm: 72,
+            acoustic_strain: false
+          }
+        },
+        bubbles: true,
+        composed: true,
+      }));
+    });
+
+    document.getElementById("btnPostSignalsApi").addEventListener("click", async () => {
+      const sessionId = window.AstroChat.getSessionId();
+      if (!sessionId) {
+        alert("No active session ID yet. Wait for session to start or click AstroChat.startSession().");
+        return;
+      }
+      try {
+        const res = await fetch(`/sessions/${sessionId}/signals`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            signals: {
+              voice_pitch_hz: 128.4,
+              pitch_variability_st: 2.1,
+              speech_rate_sps: 3.4,
+              facial_action_units: { AU04: 0.1, AU12: 0.6 },
+              resting_hr_bpm: 68
+            }
+          }),
+        });
+        const data = await res.json();
+        alert(`Signals saved for session ${sessionId}! Record ID: ${data.id}`);
+      } catch (e) {
+        alert("Error saving signals: " + e.message);
+      }
+    });
+
+    // ----------------------------------------------------
+    // Astronaut / Language / Mission Day updates
+    // ----------------------------------------------------
+    function syncAttributes() {
+      const selectedOption = astronautSelect.options[astronautSelect.selectedIndex];
+      const astroId = astronautSelect.value;
+      const lang = selectedOption.dataset.lang;
+      const day = missionDayInput.value || "42";
+
+      [chatWidgetTab, chatWidgetInline, chatWidgetFloating].forEach(w => {
+        w.setAttribute("astronaut-id", astroId);
+        w.setAttribute("mission-day", day);
+        w.setAttribute("language", lang);
+      });
+    }
+
+    astronautSelect.addEventListener("change", syncAttributes);
+    missionDayInput.addEventListener("input", syncAttributes);
+
+    // Theme Toggle
+    themeToggleBtn.addEventListener("click", () => {
+      isDarkTheme = !isDarkTheme;
+      const themeVal = isDarkTheme ? "dark" : "light";
+      [chatWidgetTab, chatWidgetInline, chatWidgetFloating].forEach(w => {
+        w.setAttribute("theme", themeVal);
+      });
+    });
+  </script>
+</body>
+</html>

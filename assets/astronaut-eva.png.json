@@ -1,0 +1,10 @@
+{
+  "asset": "assets/astronaut-eva.png",
+  "source": "NASA Image and Video Library (Public Domain)",
+  "nasa_id": "axemu-prada-spacesuit-mockup-20241007-423",
+  "source_url": "https://images-assets.nasa.gov/image/axemu-prada-spacesuit-mockup-20241007-423/axemu-prada-spacesuit-mockup-20241007-423~large.jpg",
+  "dimensions_px": [637, 1415],
+  "processing": "Isolated transparent alpha matte + subpixel nearest-interior edge decontamination via scratch/make_cutout.py; visually inspected over both #0F1114 and #FAF9F4 grounds.",
+  "license": "NASA Public Domain (Media Usage Guidelines)",
+  "selected_palette_pairing": "Orbital Observatory Photolithograph (#0F1114 Smoked Basalt -> #EAE5DA Archival Mineral Paper + #D14D28 Vermilion)"
+}

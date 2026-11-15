@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — Multi-Stage Astronaut Health Scan</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-shell">
+  <header id="appHeader"></header>
+
+  <main class="workspace-main">
+    <div class="workspace-wrap">
+      <div class="page-header-strip">
+        <div>
+          <h1 data-i18n="scan.title">Crew Physical Health Scan</h1>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <label for="crewProfileSelect" class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);">CREW MEMBER:</label>
+          <select id="crewProfileSelect" class="input-field" style="width:auto;min-width:210px;padding:7px 10px;font-size:12.5px;"></select>
+        </div>
+      </div>
+
+      <!-- STAGE 1: 9 Clinical & Environmental Inputs & Quick Mission Presets -->
+      <section id="stage1Panel">
+        <div class="ledger-card" style="margin-bottom:20px;">
+          <div style="margin-bottom:12px;">
+            <strong style="font-size:14px;" data-i18n="scan.presets.title">Quick Mission Presets</strong>
+          </div>
+          <div class="preset-strip" id="presetButtonsWrap"></div>
+
+          <!-- Grouped 9-Input Stage 1 Form -->
+          <form id="vitalsForm" novalidate>
+            <div class="form-grid-13">
+              <div class="field-group">
+                <label for="inputGlucose">Blood Glucose <span class="unit">mg/dL</span></label>
+                <input id="inputGlucose" type="number" step="0.1" class="input-field" placeholder="e.g. 94">
+              </div>
+              <div class="field-group">
+                <label for="inputBP">Blood Pressure (SYS/DIA) <span class="unit">mmHg</span></label>
+                <input id="inputBP" type="text" class="input-field" placeholder="e.g. 118/76">
+                <span id="bpValidationError" class="input-error hidden">Enter valid systolic/diastolic format like 118/76 (60-240 / 35-150).</span>
+              </div>
+              <div class="field-group">
+                <label for="inputTemp">Core Body Temperature <span class="unit">&deg;C</span></label>
+                <input id="inputTemp" type="number" step="0.1" class="input-field" placeholder="e.g. 36.8">
+              </div>
+
+              <div class="field-group">
+                <label for="inputHeartRate">Heart Rate <span class="unit">BPM</span></label>
+                <input id="inputHeartRate" type="number" step="1" class="input-field" placeholder="Manual or Stage 2 rPPG">
+              </div>
+              <div class="field-group">
+                <label for="inputSpO2">Blood Oxygen (SpO2) <span class="unit">%</span></label>
+                <input id="inputSpO2" type="number" step="0.1" class="input-field" placeholder="e.g. 98.5">
+              </div>
+              <div class="field-group">
+                <label for="inputSleep">Recent Sleep Duration <span class="unit">hrs</span></label>
+                <input id="inputSleep" type="number" step="0.1" class="input-field" placeholder="e.g. 7.5">
+              </div>
+
+              <div class="field-group">
+                <label for="inputMood">Behavioral Mood Index <span class="unit">1-4</span></label>
+                <select id="inputMood" class="input-field">
+                  <option value="">Unmeasured</option>
+                  <option value="1">1 — Alert &amp; Resilient (Optimal)</option>
+                  <option value="2">2 — Calm / Mild Load (Monitor)</option>
+                  <option value="3">3 — Fatigued / High Strain (Caution)</option>
+                  <option value="4">4 — Acute Stress Overload (Critical)</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="inputRadiation">RIDGE Radiation Dose <span class="unit">mSv/day</span></label>
+                <input id="inputRadiation" type="number" step="0.01" class="input-field" placeholder="e.g. 0.55">
+              </div>
+              <div class="field-group">
+                <label for="inputCO2">Cabin ppCO2 <span class="unit">mmHg</span></label>
+                <input id="inputCO2" type="number" step="0.1" class="input-field" placeholder="e.g. 1.5">
+              </div>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--border-paper);">
+              <span class="mono-num" style="font-size:12px;color:var(--ink-muted-paper);">
+                STAGE 1 STATUS: <strong id="stage1SummaryText">0 / 9 inputs measured</strong>
+              </span>
+              <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <button type="button" id="toStage2Btn" class="btn-primary" data-i18n="scan.stage2.btn">Continue to Stage 2 Camera Check &rarr;</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- STAGE 2: Smoked Basalt Camera Biomechanics HUD, rPPG & Visor Preview -->
+      <section id="stage2Panel" class="hidden" aria-label="Stage 2 Vision HUD">
+        <div class="scan-split-grid">
+          <!-- Left: #0F1114 Smoked Basalt Camera HUD -->
+          <div class="hud-stage">
+            <div class="hud-controls-bar">
+              <div>
+                <div class="mono-num" style="font-size:11px;color:#E77C5D;letter-spacing:0.06em;">CAMERA MOVEMENT &amp; EYE CHECK</div>
+                <strong id="modelStatusNotice" style="font-size:13px;">Ready for live camera scan or practice demo</strong>
+              </div>
+
+              <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+                <div class="mode-toggle-group" role="group" aria-label="Scan Mode">
+                  <button type="button" id="scanModeWalkBtn" class="mode-toggle-btn active">Walk (Gait)</button>
+                  <button type="button" id="scanModeStaticBtn" class="mode-toggle-btn">Stand Still (Balance)</button>
+                </div>
+                <select id="scanDurationSelect" class="env-select" aria-label="Scan Duration">
+                  <option value="15">15s Quick</option>
+                  <option value="30" selected>30s Standard</option>
+                  <option value="90">90s Extended</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="camera-viewport" id="cameraBox">
+              <video id="webcam" class="hidden" playsinline muted></video>
+              <canvas id="visionCanvas" class="hidden"></canvas>
+
+              <div id="hudLiveOverlay" class="hud-live-overlay hidden" aria-hidden="true">
+                <div class="hud-overlay-top">
+                  <div id="hudLockPill" class="hud-pill" data-lock="partial">
+                    <span class="hud-pill-dot"></span>
+                    <span id="hudLockLabel">ALIGNING FACE &amp; SHOULDERS</span>
+                  </div>
+                  <div class="hud-pill">
+                    <span id="hudResFpsLabel">CALIBRATING · -- FPS</span>
+                  </div>
+                </div>
+                <div id="hudFramingGuide" class="hud-framing-guide" data-tone="neutral">
+                  Center your face and keep both shoulders visible inside the frame
+                </div>
+              </div>
+
+              <div id="cameraIdleState" class="camera-overlay-state">
+                <span class="mono-num" style="font-size:11px;color:#38B07B;letter-spacing:0.1em;margin-bottom:8px;">CAMERA BIOMECHANICS</span>
+                <h2 style="font-size:20px;margin-bottom:8px;">Camera Standby</h2>
+                <p style="font-size:13px;color:#A5A9B0;max-width:440px;margin-bottom:16px;line-height:1.5;">
+                  Walk or stand naturally in front of your webcam. We measure balance, leg symmetry, and eye fatigue cleanly with no wearable sensors.
+                </p>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+                  <button type="button" id="startCameraBtn" class="btn-primary">Start Live Camera Scan</button>
+                  <button type="button" id="replayDemoBtn" class="btn-dark-ghost">Run Practice Demo</button>
+                </div>
+              </div>
+
+              <div id="cameraLoadingState" class="camera-overlay-state hidden">
+                <p class="mono-num">Preparing camera tracking models...</p>
+              </div>
+
+              <div id="cameraErrorState" class="camera-overlay-state hidden">
+                <span class="badge badge-critical" style="margin-bottom:10px;">WEBCAM UNAVAILABLE / DENIED</span>
+                <p id="cameraErrorText" style="font-size:13px;max-width:440px;margin-bottom:14px;line-height:1.5;"></p>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+                  <button type="button" id="retryCameraBtn" class="btn-primary">Retry Camera</button>
+                  <button type="button" id="replayDemoFromErrBtn" class="btn-dark-ghost">Run Practice Demo</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Live Timer & Control Strip -->
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap;">
+              <div class="mono-num" style="font-size:12px;">
+                <span id="landmarkTrackingStatus">Standby (NaN)</span> ·
+                <span id="streamFps">-- FPS</span>
+                <span id="squatStatusWrap" class="hidden"> · Squats: <strong id="squatCountVal">0</strong></span>
+              </div>
+              <div class="mono-num" style="font-size:13px;font-weight:700;">
+                T-<span id="countdownTimer">00:30</span>
+              </div>
+            </div>
+            <div class="hud-timer-rail">
+              <div id="countdownProgressBar" class="hud-timer-fill"></div>
+            </div>
+
+            <div id="cameraActiveState" class="hidden" style="display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap;">
+              <button type="button" id="finishAnalyzeBtn" class="btn-primary">Finish &amp; Calculate Results</button>
+              <button type="button" id="stopCameraBtn" class="btn-dark-ghost">Stop Camera</button>
+            </div>
+
+            <div id="movementAnalysisBanner" class="hidden" style="background:#171C23;border:1px solid #38B07B;color:#EAE5DA;padding:10px 12px;border-radius:3px;font-size:12.5px;margin-bottom:12px;"></div>
+
+            <!-- 4 Live Kinematic & rPPG Metric Tiles -->
+            <div class="hud-metrics-grid">
+              <div class="hud-metric-tile">
+                <div class="m-label">Body Balance</div>
+                <div class="m-val" id="valPosture">--</div>
+                <div class="m-sub">Tilt <span id="valCoronalTilt">--°</span> · Head <span id="valSway">--°</span></div>
+                <span id="badgePosture" class="badge badge-ghost" style="margin-top:6px;">Standby</span>
+              </div>
+
+              <div class="hud-metric-tile">
+                <div class="m-label">Walking Symmetry</div>
+                <div class="m-val" id="valJoint">--</div>
+                <div class="m-sub">Diff <span id="valJointDelta">±--°</span> · <span id="valRepsCount">Pending</span></div>
+                <span id="badgeJoint" class="badge badge-ghost" style="margin-top:6px;">Standby</span>
+              </div>
+
+              <div class="hud-metric-tile">
+                <div class="m-label">Eye Fatigue (EAR)</div>
+                <div class="m-val" id="valEar">--</div>
+                <div class="m-sub"><span id="valFatigue">--</span> · <span id="valBlinkStatus">Standby</span></div>
+                <span id="badgeFatigue" class="badge badge-ghost" style="margin-top:6px;">Standby</span>
+              </div>
+
+              <div class="hud-metric-tile">
+                <div class="m-label">Camera Pulse (rPPG)</div>
+                <div class="m-val" id="valOpticalHr">-- BPM</div>
+                <canvas id="rppgWaveCanvas" width="160" height="32" style="width:100%;height:30px;display:block;margin:2px 0;"></canvas>
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:4px;">
+                  <span id="badgeOpticalSqi" class="badge badge-ghost">SQI --%</span>
+                  <button type="button" id="applyOpticalHrBtn" disabled class="btn-dark-ghost" style="padding:4px 8px;font-size:11px;">Use HR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Clean Visor Capture & Next Step Card (Full 5-organ hologram opens on Decision) -->
+          <aside class="hologram-card" aria-label="Visor Capture and Scan Summary" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <div>
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                <div>
+                  <div class="mono-num" style="font-size:11px;color:#E77C5D;letter-spacing:0.06em;">STAGE 2 · CAMERA SUMMARY</div>
+                  <strong style="font-size:15px;">Crew Visor &amp; Capture Check</strong>
+                </div>
+                <span class="mono-num" id="sumPosture" style="font-size:13px;color:#38B07B;">--</span>
+              </div>
+
+              <div class="visor-preview-stage">
+                <svg viewBox="0 0 120 120" style="width:136px;height:136px;display:block;margin:0 auto;" role="img" aria-label="Captured crew face visor preview">
+                  <defs>
+                    <clipPath id="hologramVisorClip"><circle cx="60" cy="60" r="48"></circle></clipPath>
+                  </defs>
+                  <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(56,176,123,0.35)" stroke-width="1" stroke-dasharray="3 4"></circle>
+                  <circle cx="60" cy="60" r="50" fill="#171C23" stroke="#38B07B" stroke-width="1.5"></circle>
+                  <circle cx="60" cy="60" r="48" fill="#12161C" stroke="#495B70" stroke-width="1"></circle>
+                  <image id="hologramVisorImg" x="12" y="12" width="96" height="96" preserveAspectRatio="xMidYMid slice" clip-path="url(#hologramVisorClip)" href=""></image>
+                </svg>
+                <p id="visorPreviewCaption" style="font-size:12px;color:#A5A9B0;margin-top:10px;line-height:1.45;">
+                  Face visor photo captures automatically once your full face is centered in camera.
+                </p>
+                <button type="button" id="retakeVisorBtn" class="btn-dark-ghost hidden" style="margin-top:8px;padding:5px 12px;font-size:11.5px;">Retake Visor Photo</button>
+              </div>
+
+              <div style="background:var(--bg-elevated-dark);border:1px solid var(--border-dark);padding:12px 14px;border-radius:3px;font-size:12.5px;display:flex;flex-direction:column;gap:8px;">
+                <strong style="color:#EAE5DA;">Evaluation Summary</strong>
+                <p style="color:#A5A9B0;line-height:1.45;margin:0;">
+                  Click below to synthesize vitals and camera metrics into the anatomical triage and readiness assessment.
+                </p>
+              </div>
+            </div>
+
+            <div style="display:flex;flex-direction:column;gap:8px;margin-top:16px;">
+              <button type="button" id="generateDecisionBtn" class="btn-primary" style="width:100%;" data-i18n="scan.decision.btn">
+                Run Clinical Evaluation &rarr;
+              </button>
+              <button type="button" id="backToStage1Btn" class="btn-dark-ghost" style="width:100%;" data-i18n="scan.back.btn">
+                &larr; Edit Stage 1 Vitals
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script src="nasa-data.js"></script>
+  <script src="ai-model.js"></script>
+  <script src="app-shell.js"></script>
+  <script src="vision.js"></script>
+  <script src="scan.js"></script>
+</body>
+</html>

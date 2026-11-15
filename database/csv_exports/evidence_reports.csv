@@ -1,0 +1,72 @@
+id,title,risk_id,pdf_url
+1,Report,77.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Bone%20Fracture%20Evidence%20Report_07-18-2024.pdf?rnd=0.314889980161046
+2,Report,78.0,https://humanresearchroadmap.nasa.gov/evidence/reports/IVD.pdf?rnd=0.741189744202974
+3,Report,80.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Host_Micro%20EB_Final%207-6-22.pdf?rnd=0.741189744202974
+4,Diagram,80.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Microhost%20MLD%20-%20August%202015.pdf?rnd=0.741189744202974
+5,Report,81.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Multiple%20Evidence%20Reports.pdf?rnd=0.391033068015721
+6,Diagram,81.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Renal%20MLD%20-%20February%202016.pdf?rnd=0.391033068015721
+7,Report,82.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Dust.pdf?rnd=0.0235796901507209
+8,Diagram,82.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Dust%20MLD%20-%20October%202014.pdf?rnd=0.0235796901507209
+9,Report,84.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Multiple%20Evidence%20Reports.pdf?rnd=0.123642511257735
+10,Diagram,84.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/EVA%20MLD%20-%20September%202016.pdf?rnd=0.123642511257735
+11,https://www.nasa.gov/sites/default/files/atoms/files/tp-20205007604.pdf),84.0,https://www.nasa.gov/sites/default/files/atoms/files/tp-20205007604.pdf)
+12,Report,85.0,https://humanresearchroadmap.nasa.gov/evidence/reports/IMMUNE%20EB%20Update%202021%20v02%20FINAL_6-15-22.pdf?rnd=0.554980546960132
+13,Diagram,85.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Immune%20MLD%20-%20December%202014.pdf?rnd=0.554980546960132
+14,Report,88.0,https://humanresearchroadmap.nasa.gov/evidence/reports/SM%20Evidence%20Report%202022_FINAL%206-13-2023.pdf?rnd=0.0783131523422492
+15,Diagram,88.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Sensorimotor%20MLD%20-%20June%202016.pdf?rnd=0.0783131523422492
+16,Report,95.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Medical.pdf?rnd=0.0235796901507209
+17,Report,96.0,https://humanresearchroadmap.nasa.gov/evidence/reports/HRP-ER-CANCER-SR-20260811.pdf?rnd=0.0626734365069649
+18,Report,99.0,https://humanresearchroadmap.nasa.gov/evidence/reports/HRP-ER-BMED-HFBP-20250210.pdf?rnd=0.187199977313727
+19,Diagram,99.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/BMed%20MLD%20-%20October%202015.pdf?rnd=0.187199977313727
+20,https://humanresearchroadmap.nasa.gov/evidence/reports/cns.pdf,99.0,https://humanresearchroadmap.nasa.gov/evidence/reports/cns.pdf
+21,Report,100.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Sleep.pdf?rnd=0.240464105382778
+22,Diagram,100.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Sleep%20MLD%20-%20December%202014.pdf?rnd=0.240464105382778
+23,Report,101.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Team%202022%20-Evidence%20Report%20FINAL_5-9-2024.pdf?rnd=0.856118472226019
+24,Diagram,101.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Team%20MLD%20-%20August%202015.pdf?rnd=0.856118472226019
+25,Report,105.0,https://humanresearchroadmap.nasa.gov/evidence/reports/SANS%20EB%202022%20FINAL_8-15-22.pdf?rnd=0.290698253685002
+26,Report,167.0,https://humanresearchroadmap.nasa.gov/evidence/reports/OP%20Dynamic%20Loads%20EB%20FINAL_11-30-22.pdf?rnd=0.315101746150805
+27,Diagram,167.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/OP%20MLD%20-%20May%202016.pdf?rnd=0.315101746150805
+28,Report,168.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Evidence%20Report%20Hypoxia%20and%20DCS_FINAL_1-8-2024.pdf?rnd=0.123642511257735
+29,Diagram,168.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Baselined%20MLD%20(as%20of%204-11-13)%20-%20DCS%20risk.pdf?rnd=0.123642511257735
+30,Report,173.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Evidence%20Report%20Hypoxia%20and%20DCS_FINAL_1-8-2024.pdf?rnd=0.0976181459136392
+31,Diagram,173.0,https://humanresearchroadmap.nasa.gov/Risks/logicDiagrams/Hypoxia%20MLD_September%202016.pdf?rnd=0.0976181459136392
+32,Report,175.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Risk%20of%20Inadequate%20HSIA%20approved%20FINAL_%206-13-2023.pdf?rnd=0.741189744202974
+33,Report,176.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Multiple%20Evidence%20Reports.pdf?rnd=0.891486713612213
+34,Report,177.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Multiple%20Evidence%20Reports.pdf?rnd=0.157178113775876
+35,Report,179.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Cardio%20Risk%20EB%202022%20FINAL_4-3-2023.pdf?rnd=0.755571891905541
+36,Report,180.0,https://humanresearchroadmap.nasa.gov/evidence/reports/Evidence%20report%20aerobic%20and%20muscle_FINAL%204-3-2024.pdf?rnd=0.59484810223563
+37,Artificial Gravity Countermeasure Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/other/AG%20Evidence%20Report.pdf
+38,"Central Nervous System, Behavioral Health, and Sensorimotor (CBS) Integrated Research Plan: Implementation Strategy",,"https://humanresearchroadmap.nasa.gov/evidence/other/Central%20Nervous%20System,%20Behavioral%20Health,%20and%20Sensorimotor%20(CBS)%20Integrated%20Research%20Plan%20Implementation%20Strategy.pdf"
+39,"Central Nervous System, Behavioral Health, and Sensorimotor (CBS) Integrated Research Plan: Problem Statement",,"https://humanresearchroadmap.nasa.gov/evidence/other/Central%20Nervous%20System,%20Behavioral%20Health,%20and%20Sensorimotor%20(CBS)%20Integrated%20Research%20Plan%20Problem%20Statement.pdf"
+40,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Medical.pdf
+41,Additional Info-Historical Acute Risk,,https://humanresearchroadmap.nasa.gov/evidence/other/Acute.pdf
+42,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Dust.pdf
+43,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Multiple%20Evidence%20Reports.pdf
+44,"Evidence Report-Pharm, 2011 (HRR Gaps Pharm-301, Pharm-601)",,https://humanresearchroadmap.nasa.gov/evidence/other/Pharm_2011.pdf
+45,"Evidence Report-Pharm, 2023 (HRR Gaps Pharm-101 to 501)",,https://humanresearchroadmap.nasa.gov/evidence/other/Pharm%20evidence%20report_12-20-23_FINAL.pdf
+46,Evidence Report-Pharm 2024,,https://humanresearchroadmap.nasa.gov/evidence/other/2024%20Renal%20Evidence%20Report_Final.pdf
+47,Evidence Report-Appendix A_DAG Content,,https://humanresearchroadmap.nasa.gov/evidence/other/Appendix%20A_DAG%20Content.pdf
+48,Evidence Report-Appendix B_Renal ConOps,,https://humanresearchroadmap.nasa.gov/evidence/other/Appendix%20B_Renal%20ConOps_Final%20For%20SMOCB%20Review.pdf
+49,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/HRP-ER-BMED-HFBP-20250210.pdf
+50,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Risk%20of%20Inadequate%20HSIA%20approved%20FINAL_%206-13-2023.pdf
+51,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/OP%20Dynamic%20Loads%20EB%20FINAL_11-30-22.pdf
+52,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Team%202022%20-Evidence%20Report%20FINAL_5-9-2024.pdf
+53,Additional Evidence,,https://humanresearchroadmap.nasa.gov/evidence/other/Team%20Additional%20Evidence.pdf
+54,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Sleep.pdf
+55,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/IVD.pdf
+56,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Host_Micro%20EB_Final%207-6-22.pdf
+57,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/SM%20Evidence%20Report%202022_FINAL%206-13-2023.pdf
+58,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Bone%20Fracture%20Evidence%20Report_07-18-2024.pdf
+59,Additional Info-Historical Osteo Risk,,https://humanresearchroadmap.nasa.gov/evidence/other/Osteo.pdf
+60,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Cardio%20Risk%20EB%202022%20FINAL_4-3-2023.pdf
+61,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/IMMUNE%20EB%20Update%202021%20v02%20FINAL_6-15-22.pdf
+62,Evidence Report-EVA,,https://humanresearchroadmap.nasa.gov/evidence/other/EVA%20Injury%20Evidence%20Report%20FINAL_6-14-2023.pdf
+63,Additional Evidence,,https://humanresearchroadmap.nasa.gov/evidence/other/2017_Integrated_EVA_Human_Research_Plan_12-19-16_website.pdf
+64,- Evidence Report-DCS/Hypoxia,,https://humanresearchroadmap.nasa.gov/evidence/other/Evidence%20Report%20Hypoxia%20and%20DCS_FINAL_1-8-2024.pdf
+65,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Evidence%20Report%20Hypoxia%20and%20DCS_FINAL_1-8-2024.pdf
+66,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/Evidence%20report%20aerobic%20and%20muscle_FINAL%204-3-2024.pdf
+67,Evidence Report-Food,,https://humanresearchroadmap.nasa.gov/evidence/other/Food%20HRP-Evidence%20Report%20FINAL_4-15-24.pdf
+68,Evidence Report-Nutrition,,https://humanresearchroadmap.nasa.gov/evidence/other/Nutrition%20ER_human_adaptation_2020_final.pdf
+69,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/SANS%20EB%202022%20FINAL_8-15-22.pdf
+70,Evidence Report,,https://humanresearchroadmap.nasa.gov/evidence/reports/HRP-ER-CANCER-SR-20260811.pdf
+71,link,,https://humanresearchroadmap.nasa.gov/Evidence/reports/EvidenceBook.pdf

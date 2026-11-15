@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "allowed_species": ["human"],
+  "allowed_dataset_roles": ["human_clinical"],
+  "forbidden_filename_patterns": [
+    "*_TRANSFORMED.csv",
+    "spaceflight_clinical_triage_*.csv",
+    "*DATADICTIONARY*.csv"
+  ],
+  "quarantined_datasets": [
+    {
+      "filename": "OSD-435_LSDS-22_Echocardiography_heart_SUBMITTED.csv",
+      "species": "mus_musculus",
+      "dataset_role": "preclinical_animal",
+      "reason": "Rodent echocardiography (mouse HR 300-539 bpm, acute Gy radiation) incompatible with human astronaut vitals."
+    },
+    {
+      "filename": "osdr_radiation_cardio_ml.csv",
+      "species": "mus_musculus",
+      "dataset_role": "preclinical_animal",
+      "reason": "Derived rodent OSD-435 table; excluded from human clinical triage model."
+    },
+    {
+      "filename": "osdr_muscle_grip_ml.csv",
+      "species": "rattus_norvegicus",
+      "dataset_role": "preclinical_animal",
+      "reason": "Rodent hindlimb unloading grip force (OSD-652); not human crew telemetry."
+    },
+    {
+      "filename": "osdr_sans_oct_retinal_ml.csv",
+      "species": "rattus_norvegicus",
+      "dataset_role": "preclinical_animal",
+      "reason": "Rodent retinal OCT (OSD-679); not mapped to human vitals."
+    },
+    {
+      "filename": "spaceflight_clinical_triage_dataset.csv",
+      "species": "human",
+      "dataset_role": "derived_training",
+      "reason": "Previously generated training dataset; excluded to prevent circular data leakage."
+    }
+  ],
+  "datasets": []
+}

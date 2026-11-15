@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — Clinical Evaluation &amp; Body Hologram</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-shell">
+  <header id="appHeader"></header>
+
+  <main class="workspace-main">
+    <div class="workspace-wrap">
+      <div class="page-header-strip">
+        <div>
+          <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">STAGE 03 · AUTONOMOUS TRIAGE SUMMARY</span>
+          <h1 data-i18n="decision.title">Physiological Decision &amp; Body Inspector</h1>
+        </div>
+        <div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;">
+          <a href="scan.html" class="btn-secondary" data-i18n="decision.back">&larr; Back to Scan</a>
+          <button type="button" id="printReportBtn" class="btn-secondary" data-i18n="decision.print">Print / Save PDF Report</button>
+          <button type="button" id="saveHistoryBtn" class="btn-primary" data-i18n="decision.save">Save to History</button>
+        </div>
+      </div>
+
+      <!-- Empty Session Recovery Banner -->
+      <section id="emptySessionBanner" class="env-context-banner hidden no-print">
+        <div>
+          <strong>No Active Check-in Telemetry Found</strong>
+          <p style="font-size:12.5px;color:var(--ink-muted-paper);margin-top:3px;">
+            Start a check-in in Scan (enter Stage 1 vitals and optional Stage 2 camera check), or load a sample profile below.
+          </p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <a href="scan.html" class="btn-primary" style="padding:7px 14px;font-size:12px;">Open Health Scan</a>
+          <button type="button" id="loadDecisionSampleBtn" class="btn-secondary" style="padding:7px 14px;font-size:12px;">Load Example Profile</button>
+        </div>
+      </section>
+
+      <!-- Top Verdict, Quick Takeaways & Top 3 NASA Risk Tags -->
+      <section class="ledger-card" style="margin-bottom:22px;">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--border-paper);">
+          <div>
+            <div class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);">
+              CREW: <strong id="decCrewText">C001</strong> · ENVIRONMENT: <span id="decEnvText">SPACE STATION</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-top:6px;flex-wrap:wrap;">
+              <span id="step3StatusBadge" class="badge badge-nominal" style="font-size:13px;padding:6px 14px;">STANDBY</span>
+              <span class="mono-num" style="font-size:13px;">Risk Score: <strong id="riskProbDisplay">--%</strong></span>
+              <span class="mono-num" style="font-size:13px;">Confidence: <strong id="confidenceDisplay">--%</strong></span>
+              <span class="mono-num" id="modelVersionDisplay" style="font-size:11.5px;color:var(--ink-muted-paper);">Clinical Protocol v3.0</span>
+            </div>
+          </div>
+          <a href="history.html" class="btn-secondary no-print" data-i18n="decision.history">Open History &amp; Trends &rarr;</a>
+        </div>
+
+        <!-- Top 3 Plain-Language Key Takeaways -->
+        <div id="decisionQuickTakeaways" class="quick-takeaways-box"></div>
+
+        <div style="margin-top:12px;">
+          <div class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);margin-bottom:6px;">TOP PRIORITY NASA RISK FLAGS</div>
+          <div id="decisionRiskBadges" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+        </div>
+      </section>
+
+      <!-- Top Split: Interactive Astronaut Hologram (Left) + Full-Width Feature Contributions (Right) -->
+      <div class="decision-top-grid">
+        <!-- Left: Hologram with Captured Visor & System Inspector -->
+        <aside class="hologram-card" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+              <div>
+                <div class="mono-num" style="font-size:11px;color:#E77C5D;letter-spacing:0.06em;">ANATOMICAL TRIAGE MAP</div>
+                <strong style="font-size:15px;">Astronaut Body Hologram</strong>
+              </div>
+              <span id="visorStatusTag" class="badge badge-ghost">Visor Empty</span>
+            </div>
+
+            <div class="hologram-svg-wrap" data-hologram-mount data-visor-clip="decisionVisorClip" data-visor-img="decisionVisorImg" data-grid="decHoloGrid"></div>
+
+            <div class="holo-pill-bar" aria-label="Select anatomical organ system">
+              <button type="button" class="holo-pill active" data-holo-pill="head">Head</button>
+              <button type="button" class="holo-pill" data-holo-pill="cardio">Heart</button>
+              <button type="button" class="holo-pill" data-holo-pill="immune">Immune</button>
+              <button type="button" class="holo-pill" data-holo-pill="renal">Renal</button>
+              <button type="button" class="holo-pill" data-holo-pill="musculoskeletal">Limbs</button>
+            </div>
+          </div>
+
+          <div id="holoSysDetailCard" style="background:var(--bg-elevated-dark);border:1px solid var(--border-dark);border-radius:3px;padding:12px;font-size:12.5px;margin-top:12px;">
+            <strong id="decHoloTitle" style="color:#EAE5DA;display:block;margin-bottom:5px;">Brain, Eyes &amp; Vestibular (SANS)</strong>
+            <p id="decHoloDesc" style="color:#A5A9B0;line-height:1.5;margin-bottom:8px;"></p>
+            <div id="decHoloCountermeasure" style="color:#38B07B;font-size:12px;line-height:1.45;"></div>
+          </div>
+        </aside>
+
+        <!-- Right: Spacious SHAP Feature Contributions & Analytical Charts -->
+        <section class="ledger-card" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;flex-wrap:wrap;gap:8px;">
+              <div>
+                <span class="mono-num" style="font-size:10.5px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">PHYSIOLOGICAL RISK ATTRIBUTION &amp; SYSTEM STRAIN</span>
+                <h2 style="font-size:17px;margin-top:2px;">Physiological Risk Drivers &amp; System Impact</h2>
+                <p style="font-size:12px;color:var(--ink-muted-paper);">Vermilion bars indicate elevated strain; emerald bars indicate protective baselines.</p>
+              </div>
+              <div style="display:flex;gap:6px;align-items:center;">
+                <span class="badge badge-nominal" style="font-size:10px;">▼ Protective</span>
+                <span class="badge badge-critical" style="font-size:10px;">▲ Risk Driver</span>
+              </div>
+            </div>
+
+            <div class="shap-chart-header-row">
+              <span>Biomarker Channel</span>
+              <span style="text-align:right;">Value</span>
+              <span style="text-align:center;">&larr; Protective | Risk Shift &rarr;</span>
+              <span style="text-align:right;">SHAP &Delta;</span>
+            </div>
+            <div id="shapWaterfallList" style="display:flex;flex-direction:column;gap:4px;"></div>
+          </div>
+
+          <div class="shap-subcharts-grid">
+            <div class="subchart-card">
+              <div class="subchart-title">
+                <span>5-Organ Strain Distribution</span>
+                <span style="color:var(--accent-vermilion-paper);">Click bar to focus</span>
+              </div>
+              <div id="organStrainChart" style="min-height:165px;display:flex;align-items:center;justify-content:center;"></div>
+            </div>
+
+            <div class="subchart-card">
+              <div class="subchart-title">
+                <span>Readiness &amp; Coverage</span>
+                <span id="channelCoveragePill" class="mono-num">0/13 Active</span>
+              </div>
+              <div id="readinessDonutChart" style="min-height:165px;display:flex;align-items:center;justify-content:center;"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Collapsible Countermeasure & What-If Simulator (Keeps page clean by default) -->
+      <details class="ledger-card simulator-drawer no-print">
+        <summary class="simulator-summary">
+          <div>
+            <span class="mono-num" style="font-size:10.5px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">OPTIONAL WHAT-IF CONTROLS</span>
+            <h2 style="font-size:17px;margin-top:2px;" data-i18n="decision.sim.toggle">Adjust Any Input Live (What-If Simulator)</h2>
+            <p style="font-size:12px;color:var(--ink-muted-paper);margin:2px 0 0;">Test how telemetry adjustments impact readiness scores.</p>
+          </div>
+          <span class="badge badge-ghost simulator-pill">Open 13 Controls &#9662;</span>
+        </summary>
+        <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border-paper);">
+          <div style="display:flex;justify-content:flex-end;margin-bottom:12px;">
+            <button type="button" id="resetBaselineBtn" class="btn-secondary" style="padding:7px 14px;font-size:12px;">Reset to Scanned Baseline</button>
+          </div>
+          <div id="whatIfGrid" class="sim-grid-wide"></div>
+        </div>
+      </details>
+    </div>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script src="nasa-data.js"></script>
+  <script src="ai-model.js"></script>
+  <script src="app-shell.js"></script>
+  <script src="decision.js"></script>
+</body>
+</html>

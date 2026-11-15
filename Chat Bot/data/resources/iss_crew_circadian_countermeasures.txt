@@ -1,0 +1,16 @@
+INTERNATIONAL SPACE STATION (ISS) CREW HEALTH CARE SYSTEM (CHeCS)
+CIRCADIAN LIGHTING COUNTERMEASURES AND SLEEP HYGIENE PROTOCOLS
+
+1. Circadian Challenges in Low-Earth Orbit:
+Because the ISS orbits the Earth approximately every 90 minutes, astronauts experience 16 sunrises and sunsets every 24 hours. Without strict behavioral and lighting countermeasures, the suprachiasmatic nucleus (SCN) becomes desynchronized, leading to fragmented sleep, daytime somnolence, and elevated cortisol.
+
+2. Solid-State Lighting Assemblies (SSLA) Dynamic Schedule:
+The crew quarters and common modules utilize variable-spectrum Solid-State Lighting:
+- General Lighting Spectrum (Nominal Work): 4000K correlated color temperature, balanced white light providing 400-500 lux for high-alertness operational hours.
+- Dynamic Blue-Depleted Pre-Sleep Spectrum: 2700K warm spectrum, blue-depleted light delivering less than 50 lux at eye level, initiated 45 minutes prior to scheduled sleep periods.
+- Wake-up Phase: High blue-enriched light (460-480nm wavelength) delivering 6500K bright spectrum for 30 minutes post-awakening to suppress residual melatonin and enhance cognitive reaction time.
+
+3. Crew Sleep Hygiene Directives:
+- Audio dampening: Crew members must verify white-noise acoustic dampeners in sleeping berths to buffer against ISS ventilation fans.
+- Sleep berth restraint tension: Secure body straps firmly across the chest and torso. Microgravity floating without tactile proprioceptive contact triggers sleep startle reflexes.
+- Electronic display curfew: Stow tablets and laptops 30 minutes before lights-out.

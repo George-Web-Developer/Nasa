@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Astro Lab — ASTRA Daily Muscle Missions</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-shell">
+  <header id="appHeader"></header>
+
+  <main class="workspace-main">
+    <div class="workspace-wrap">
+      <!-- Top Action Strip -->
+      <div class="page-header-strip">
+        <div>
+          <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);letter-spacing:0.06em;">MICROGRAVITY MUSCULOSKELETAL COUNTERMEASURES</span>
+          <h1>ASTRA Daily Muscle Missions</h1>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+          <button type="button" id="resetAstraTodayBtn" class="btn-secondary" style="font-size:12px;padding:6px 12px;">Reset Today's Tasks</button>
+          <button type="button" id="resetAstraSeedBtn" class="btn-outline" style="font-size:12px;padding:6px 12px;">Reset to NASA Seed</button>
+          <a href="tracking.html" class="btn-primary" style="white-space:nowrap;">&larr; Circadian Tracking</a>
+        </div>
+      </div>
+
+      <!-- 1. Daily Dashboard Banner -->
+      <section class="astra-banner" aria-label="ASTRA Mission Dashboard">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:16px;">
+          <div>
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+              <span class="badge badge-nominal mono-num" id="astraMissionStatus">MISSION NOMINAL</span>
+              <span class="mono-num" style="font-size:11.5px;color:var(--ink-muted-dark);" id="astraDateStr">Sol 48 · Cycle Week 7</span>
+            </div>
+            <h2 style="font-size:22px;font-weight:700;margin:0 0 6px;color:#fff;" id="astraMissionTitle">Day 1: Full Body Microgravity Conditioning</h2>
+            <p style="font-size:13px;color:var(--ink-muted-dark);max-width:680px;line-height:1.45;margin:0;" id="astraMissionSubtitle">
+              Prescribed countermeasure to combat antigravity extensor muscle atrophy and maintain mobility.
+            </p>
+          </div>
+
+          <div style="display:flex;gap:16px;text-align:right;">
+            <div>
+              <span class="mono-num" style="font-size:11px;color:var(--ink-muted-dark);display:block;">COMPLETION</span>
+              <strong class="mono-num" id="astraCompletionPct" style="font-size:28px;font-weight:700;color:var(--accent-nominal-dark);">75%</strong>
+            </div>
+            <div>
+              <span class="mono-num" style="font-size:11px;color:var(--ink-muted-dark);display:block;">TASKS DONE</span>
+              <strong class="mono-num" id="astraTaskRatio" style="font-size:28px;font-weight:700;color:#fff;">3 / 4</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Progress Bar -->
+        <div class="astra-progress-rail" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="astra-progress-fill" id="astraProgressBar" style="width: 75%;"></div>
+        </div>
+
+        <!-- Motivational Guidance Quote -->
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:8px;font-size:11.5px;color:var(--ink-muted-dark);">
+          <div id="astraMotivationQuote">
+            <span style="color:var(--accent-vermilion);">&#9656; NASA Flight Medicine:</span> "Regular high-load resistive training preserves bone mineral density and sarcomere density during long-duration flight."
+          </div>
+          <div class="mono-num" id="astraStreakCounter" style="color:var(--accent-nominal-dark);font-weight:600;">
+            🔥 14-Day Consistency Streak
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Seven-Day Exercise Schedule Strip -->
+      <section style="margin-bottom:20px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+          <span class="mono-num" style="font-size:11.5px;font-weight:700;color:var(--ink-muted-paper);">SEVEN-DAY ASTRONAUT TRAINING SCHEDULE (SELECT DAY)</span>
+          <span class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);">ARED · T2 · CEVIS PROTOCOLS</span>
+        </div>
+        <div class="day-selector-strip" id="astraDaySelectorStrip">
+          <!-- Populated by astra.js -->
+        </div>
+      </section>
+
+      <!-- 3. Category Filter Buttons -->
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:16px;">
+        <div style="display:flex;gap:6px;flex-wrap:wrap;" id="categoryFilterBar">
+          <button type="button" class="btn-outline active cat-filter-btn" data-cat="all" style="font-size:11.5px;padding:4px 10px;">All Tasks</button>
+          <button type="button" class="btn-outline cat-filter-btn" data-cat="Lower Body" style="font-size:11.5px;padding:4px 10px;">Lower Body</button>
+          <button type="button" class="btn-outline cat-filter-btn" data-cat="Upper Body – Push" style="font-size:11.5px;padding:4px 10px;">Upper Push</button>
+          <button type="button" class="btn-outline cat-filter-btn" data-cat="Upper Body – Pull" style="font-size:11.5px;padding:4px 10px;">Upper Pull</button>
+          <button type="button" class="btn-outline cat-filter-btn" data-cat="Core" style="font-size:11.5px;padding:4px 10px;">Core</button>
+          <button type="button" class="btn-outline cat-filter-btn" data-cat="Additional Training" style="font-size:11.5px;padding:4px 10px;">Cardio &amp; Mobility</button>
+        </div>
+        <div class="mono-num" style="font-size:11px;color:var(--ink-muted-paper);" id="activeDayFocusSummary">
+          Displaying Day 1: Full Body Training
+        </div>
+      </div>
+
+      <!-- 4. Interactive Exercise Checklist (Task Cards) -->
+      <section aria-label="Exercise Task Checklist">
+        <div class="exercise-cards-grid" id="exerciseCardsGrid">
+          <!-- Populated by astra.js -->
+        </div>
+      </section>
+
+      <!-- 5. Weekly Analytics & Gamification Grid -->
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:20px;margin-top:28px;align-items:start;">
+        <!-- Weekly Progress Analytics -->
+        <section class="ledger-card">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+            <div>
+              <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">ANALYTICS &amp; COMPLIANCE</span>
+              <h3 style="font-size:16px;margin:2px 0 0;">Weekly Exercise Analytics</h3>
+            </div>
+            <span class="badge badge-nominal mono-num">Target: 2.5 hrs/day</span>
+          </div>
+
+          <!-- KPI Mini Cards -->
+          <div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:10px;margin-bottom:14px;">
+            <div style="background:var(--bg-paper);padding:8px 10px;border:1px solid var(--border-paper);border-radius:4px;">
+              <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">WEEKLY CONSISTENCY</span>
+              <strong class="mono-num" id="statWeeklyConsistency" style="font-size:15px;color:var(--accent-nominal-dark);">92%</strong>
+            </div>
+            <div style="background:var(--bg-paper);padding:8px 10px;border:1px solid var(--border-paper);border-radius:4px;">
+              <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">TOTAL DURATION</span>
+              <strong class="mono-num" id="statTotalDuration" style="font-size:15px;">14.2 hrs</strong>
+            </div>
+            <div style="background:var(--bg-paper);padding:8px 10px;border:1px solid var(--border-paper);border-radius:4px;">
+              <span class="mono-num" style="font-size:10px;color:var(--ink-muted-paper);display:block;">GROUPS COVERED</span>
+              <strong class="mono-num" id="statGroupsCovered" style="font-size:15px;color:var(--accent-nominal);">5 of 5</strong>
+            </div>
+          </div>
+
+          <!-- Weekly Completion Chart -->
+          <div style="position:relative;height:220px;width:100%;background:var(--bg-paper);border:1px solid var(--border-paper);border-radius:4px;padding:10px;">
+            <canvas id="weeklyProgressChart"></canvas>
+          </div>
+        </section>
+
+        <!-- Gamification & Achievement Badges Rack -->
+        <section class="ledger-card">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border-paper);">
+            <div>
+              <span class="mono-num" style="font-size:11px;color:var(--accent-vermilion-paper);">COUNTERMEASURE BADGES</span>
+              <h3 style="font-size:16px;margin:2px 0 0;">Mission Badges &amp; Milestones</h3>
+            </div>
+            <span class="badge badge-ghost mono-num" id="unlockedBadgesCount">4 / 6 Unlocked</span>
+          </div>
+
+          <div class="badges-rack" id="badgesRack">
+            <!-- Populated by astra.js -->
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer id="appFooter"></footer>
+
+  <script src="nasa-data.js"></script>
+  <script src="ai-model.js"></script>
+  <script src="app-shell.js"></script>
+  <script src="assets/chart.umd.min.js"></script>
+  <script src="astra.js"></script>
+</body>
+</html>

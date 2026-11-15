@@ -1,0 +1,56 @@
+[
+  {
+    "name": "NASA 5 Hazards of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/hazards/",
+    "type": "educational_overview",
+    "what_it_contains": "Comprehensive breakdown of the five primary spaceflight hazards: Space Radiation, Isolation and Confinement, Distance from Earth, Gravity Fields (microgravity), and Hostile/Closed Environments.",
+    "project_use": "knowledge base / documentation",
+    "verified": true,
+    "http_status": 200
+  },
+  {
+    "name": "NASA Risks of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/risks/",
+    "type": "risk_framework",
+    "what_it_contains": "NASA Human Research Program (HRP) evidence reports detailing operational risks: Risk of Adverse Cognitive or Behavioral Conditions, Psychiatric Disorders, Sleep Loss, Circadian Desynchronization, Workload, and Fatigue.",
+    "project_use": "analysis / knowledge base",
+    "verified": true,
+    "http_status": 200
+  },
+  {
+    "name": "NASA Ongoing HRP Research in Space",
+    "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+    "type": "research_catalog",
+    "what_it_contains": "Active biomedical and behavioral research projects aboard the International Space Station, cognitive assessment batteries, behavioral countermeasures, and autonomic physiological tracking.",
+    "project_use": "dashboard / knowledge base",
+    "verified": true,
+    "http_status": 200
+  },
+  {
+    "name": "CSA: Monitoring Radiation for Astronaut Health",
+    "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+    "type": "agency_article",
+    "what_it_contains": "Canadian Space Agency technologies and research on measuring radiation exposure in space, bubble detectors, active neutron spectrometers, and monitoring astronaut health over long-duration missions.",
+    "project_use": "dashboard / documentation",
+    "verified": true,
+    "http_status": 200
+  },
+  {
+    "name": "CSA: Why Do We Conduct Science Experiments in Space?",
+    "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+    "type": "agency_article",
+    "what_it_contains": "Exploration of the unique microgravity space environment, physiological adaptations (cardiovascular, musculoskeletal, neurovestibular), psychological isolation, and medical countermeasures.",
+    "project_use": "documentation / knowledge base",
+    "verified": true,
+    "http_status": 200
+  },
+  {
+    "name": "NASA Space Apps 2026: Health Monitoring Software Challenge Introduction Video",
+    "url": "https://www.youtube.com/watch?v=RERG3gEmdC8",
+    "type": "challenge_video",
+    "what_it_contains": "Official NASA challenge introductory briefing detailing requirements for visual health assessment tools, self-monitoring software, multi-system integration, and clinical early warning principles.",
+    "project_use": "documentation / analysis",
+    "verified": true,
+    "http_status": 200
+  }
+]

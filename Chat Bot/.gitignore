@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Databases and local SQLite files
+*.db
+*.sqlite
+*.sqlite3
+astronaut_checkin.db
+test_astronaut_checkin.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archives and build artifacts
+*.zip
+dist/
+build/
+*.egg-info/
+astro-chatbot.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

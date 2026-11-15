@@ -1,0 +1,866 @@
+[
+  {
+    "id": 101,
+    "title": "Circadian Rhythm Stabilization Through Sleep Scheduling",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 4.5,
+    "content": "Maintaining circadian alignment in space requires strict consistency in your rest-activity cycle. Go to bed and rise at the exact same designated mission clock time every cycle, even after challenging shifts. This consistent timing anchors your central circadian pacemaker and stabilizes nightly melatonin rhythms. Before entering your sleeping quarters, dim ambient cabin lighting to signal rest preparation to your nervous system. Keep your sleep station quiet, dark, and comfortably cool. Avoid consuming high-protein heavy rations or stimulants within three hours of sleep. If you experience difficulty falling asleep after twenty minutes, do not stay in bed tossing and turning; instead, engage in quiet reading under low-intensity light until drowsiness returns naturally. Consistent application of these circadian scheduling principles preserves restorative slow-wave sleep and prevents cumulative neurobehavioral performance decay over long spaceflight missions.",
+    "source_name": "CDC Sleep and Sleep Disorders: Getting Enough Sleep",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Key points & Getting enough sleep",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 102,
+    "title": "تثبيت الإيقاع اليومي وجدولة النوم في بيئة الفضاء",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 4.5,
+    "content": "يتطلب الحفاظ على التزامن اليومي في بيئة الفضاء التزاماً صارماً بمواعيد نوم واستيقاظ ثابتة وفق توقيت المهمة المحدد. احرص على الدخول إلى كابينة النوم والاستيقاظ في نفس الساعة يومياً لتثبيت ساعتك البيولوجية وإفراز هرمون الميلاتونين بانتظام. قم بخفض شدة إضاءة المحطة تدريجياً قبل موعد النوم بساعة كاملة لإرسال إشارات الاسترخاء للجهاز العصبي. تأكد من عزل مقصورة النوم عن الضوضاء والضوء المباشر مع الحفاظ على تهوية معتدلة ومريحة. تجنب الوجبات الثقيلة والمنبهات قبل ثلاث ساعات من النوم لتفادي اضطراب المعدة. إذا واجهت صعوبة في النوم بعد مرور عشرين دقيقة، تجنب البقاء مستلقياً في حالة توتر، بل مارس قراءة هادئة في إضاءة خافتة حتى يعود النعاس تلقائياً. تطبيق هذه الخطوات يحمي الطاقم من الإجهاد التراكمي وتراجع الانتباه الذهني.",
+    "source_name": "CDC Sleep and Sleep Disorders: Getting Enough Sleep",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Key points & Getting enough sleep",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 103,
+    "title": "Stimulus Control and Sleep Environment Optimization",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 5.0,
+    "content": "In confined habitats, your sleep berth must serve exclusively as a space for restorative rest. Strictly avoid reviewing operational checklists, mission telemetry, or maintenance logs while inside your sleep restraints. Associating your sleeping station solely with relaxation reinforces rapid psychological detachment from daily mission pressures. Ensure eye masks and acoustic earplugs or noise-canceling headphones fit securely to block ambient module hums and indicator lights. Fasten torso restraint straps with firm, even tension against your chest and shoulders; microgravity removes normal gravitational proprioception, and tactile contact prevents involuntary limb floating that triggers startling micro-arousals during light sleep phases. Maintain regular airflow through the berth ducting to eliminate localized carbon dioxide pockets that cause morning headaches and restlessness. Practicing stimulus control ensures faster sleep latency and more sustained deep rest cycles throughout the mission.",
+    "source_name": "NHLBI Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+    "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Healthy Sleep Habits & Sleep Deficiency",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 104,
+    "title": "تهيئة بيئة النوم والتحكم في المثيرات الحسية",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 5.0,
+    "content": "في المحطات الفضائية المغلقة، يجب تخصيص كابينة النوم للراحة والتعافي فقط دون ممارسة أي أنشطة تشغيلية أخرى. امتنع تماماً عن مراجعة قوائم الفحص الفنية أو مراقبة شاشات القياس داخل كيس النوم، ليرتبط هذا المكان ذهنياً بالاسترخاء التام. استخدم قناع العين وسدادات الأذن لعزل الضوء المستمر وضجيج مراوح التبريد داخل المقصورة. احرص على شد أحزمة التثبيت باعتدال حول الكتفين والصدر؛ حيث يفقد الجسم في الجاذبية الصغرى الإحساس بالاستقرار التلامسي، مما يؤدي إلى حركات لا إرادية توقظ رائد الفضاء بشكل مفاجئ. تأكد من تدفق الهواء بانتظام لتجنب تراكم غاز ثاني أكسيد الكربون حول الرأس، والذي يسبب الصداع واضطراب النوم. هذه الإجراءات البيئية تدعم جودة النوم العميق واستعادة النشاط العصبي الكامل.",
+    "source_name": "NHLBI Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+    "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Healthy Sleep Habits & Sleep Deficiency",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 105,
+    "title": "Pre-Sleep Cognitive Wind-Down and Screen Curfew",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 5.0,
+    "content": "Exposure to blue-spectrum illumination from electronic tablets, telemetry monitors, and laptop displays suppresses natural melatonin secretion. Enact a mandatory digital curfew by stowing all personal computing screens and tablets thirty to forty-five minutes before scheduled sleep. Transition into quiet passive activities that quiet the central nervous system: listen to familiar ambient music, engage in progressive muscle relaxing, or review printed relaxing reading material. If persistent thoughts regarding tomorrow's extravehicular activity or docking simulation arise, write them down on an external notepad to deposit cognitive cargo outside your mind before closing your eyes. This structured wind-down sequence lowers heart rate, eases autonomic sympathetic tone, and allows smooth transition into natural sleep architecture.",
+    "source_name": "CDC Sleep and Sleep Disorders: What To Do",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "What to do & Sleep quality",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 106,
+    "title": "روتين التهدئة الذهنية قبل النوم وتجنب الشاشات",
+    "topic": "sleep",
+    "severity_min": 0.0,
+    "severity_max": 5.0,
+    "content": "يؤدي التعرض للضوء الأزرق المنبعث من شاشات التحكم والأجهزة اللوحية إلى تثبيط إفراز الميلاتونين وتأخير النوم. يجب إغلاق كافة الشاشات الإلكترونية قبل موعد النوم بـ 30 إلى 45 دقيقة على الأقل للتهيئة الفسيولوجية السليمة. استبدل الأجهزة بأنشطة استرخاء تساعد على تهدئة الجهاز العصبي، مثل الاستماع لمقاطع صوتية هادئة أو تدريبات التنفس العميق. إذا راودتك أفكار ملحة حول مهام الغد أو صيانات المحطة، دوّنها باختصار في مذكرة ورقية خارجية لتفريغ العبء الذهني قبل إغماض عينيك. هذا التدرج السلوكي يقلل معدل نبضات القلب ويهيئ الدماغ للدخول في مراحل النوم العميق والتعافي العصبي المتوازن.",
+    "source_name": "CDC Sleep and Sleep Disorders: What To Do",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "What to do & Sleep quality",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 201,
+    "title": "Somatic Grounding Through Diaphragmatic Box Breathing",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "When encountering acute operational friction, telemetry alarms, or intense timeline pressure, autonomic arousal triggers elevated heart rate and shallow breathing. Paced diaphragmatic box breathing provides immediate, non-invasive physiological regulation: inhale steadily through the nose for a four-second count, hold your breath calmly with full lungs for four seconds, exhale smoothly through the mouth for four seconds, and hold lungs empty for four seconds. Maintain this rhythm continuously for two to four minutes while relaxing shoulder and neck tension. This controlled respiratory cadence activates parasympathetic vagal stimulation, decreases systemic vascular resistance, and restores mental clarity without requiring medical consumables or interrupting your operational workflow.",
+    "source_name": "WHO Doing What Matters in Times of Stress: Grounding",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Grounding and Breathing Guidelines",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 202,
+    "title": "التنفس البطني المهدئ واستعادة التوازن العصبي",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "عند مواجهة ضغوط عملياتية مفاجئة أو إنذارات فنية طارئة، يتسارع النبض ويزداد التوتر العضلي بشكل لا إرادي. تعد تقنية التنفس المربع من أسرع الوسائل غير الدوائية لاستعادة الهدوء وضبط الاستجابة العصبية: استنشق الهواء ببطء وعمق عبر الأنف لمدة 4 ثوانٍ، واحبس النفس باسترخاء لمدة 4 ثوانٍ، ثم أخرج الزفير بسلاسة عبر الفم لمدة 4 ثوانٍ، وانتظر مع رئة فارغة لمدة 4 ثوانٍ قبل التكرار. استمر في هذه الدورة لمدة 3 إلى 5 دقائق مع إرخاء الكتفين وعضلات الفك. يعمل هذا النمط التنفسي على تحفيز العصب الحائر وتخفيف حدة التوتر العصبي وتعزيز سرعة اتخاذ القرارات بتركيز وثبات.",
+    "source_name": "WHO Doing What Matters in Times of Stress: Grounding",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Grounding and Breathing Guidelines",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 203,
+    "title": "Unhooking from Difficult Operational Thoughts",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "Stress frequently amplifies difficult thoughts, such as fearing mistakes on critical procedures or worrying about timeline delays. Instead of battling these thoughts or attempting to suppress them, practice the technique of unhooking. First, silently notice the thought and label it objectively: 'I notice my mind is generating worry about the airlock pressurization.' Acknowledge the feeling without criticism, recognizing that your brain produces thoughts like an instrument produces telemetry. Next, redirect your immediate attention back to the physical environment: feel your feet planted against the foot restraint, notice the texture of the wrench or console switch under your fingers, and focus entirely on the current checklist step. Unhooking breaks internal rumination and anchors your cognitive resources firmly onto effective task completion.",
+    "source_name": "WHO Doing What Matters in Times of Stress: Unhooking",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Unhooking from Difficult Thoughts",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 204,
+    "title": "التحرر من الأفكار المقلقة وتثبيت الانتباه الحاضر",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "يتسبب التوتر في تضخيم الأفكار السلبية، مثل القلق المفرط من وقوع أخطاء في مهام المحطة أو الشعور بضغط الوقت. بدلاً من مقاومة هذه الأفكار أو إنكارها، تدرب على مهارة فك الارتباط الذهني: لاحظ الفكرة بهدوء وسمّها بموضوعية: 'ألاحظ أن ذهني يولد قلقاً بشأن صيانة وحدة الضغط'. تقبل وجود الفكرة كإشارة طبيعية دون الاستغراق فيها، ثم أعد توجيه انتباهك إلى محيطك العملياتي الفعلي: اشعر بتثبيت قدميك في حزام الأمان، والمس الأدوات التي تعمل بها، ووجه كامل تركيزك إلى الخطوة التالية في قائمة الإجراءات. هذا الأسلوب يوقف دوامة التفكير المشتت ويحفظ طاقتك المعرفية لإنجاز المهام بدقة.",
+    "source_name": "WHO Doing What Matters in Times of Stress: Unhooking",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Unhooking from Difficult Thoughts",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 205,
+    "title": "Structured Problem Breakdown During Mission Pressure",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "When faced with concurrent system demands and cascading operational obligations, perceived stress can rapidly escalate into cognitive overload. Mitigate this strain by applying structured problem decomposition: take two minutes to write down all competing demands into discrete single items. Identify the single highest-priority task that directly impacts crew safety or mission schedule integrity. Temporarily compartmentalize secondary tasks, verbally acknowledging: 'Secondary items are deferred until checklist alpha is resolved.' Focus exclusively on completing the first concrete action. By converting an ambiguous mountain of demands into a linear sequence of discrete milestones, you reduce perceived threat, preserve working memory capacity, and maintain rigorous operational precision.",
+    "source_name": "NIMH So Stressed Out Fact Sheet: Managing Stress",
+    "source_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Managing Stress and Building Resilience",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 206,
+    "title": "تفكيك المشكلات المعقدة والتحكم في ضغوط المهام",
+    "topic": "stress",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "عند تزامن المهام المعقدة وتراكم المتطلبات الفنية، قد يشعر رائد الفضاء بضغط ذهني حاد وصعوبة في تحديد الأولويات. يمكن التغلب على هذا الشعور عبر التفكيك الهيكلي للمهام: خصص دقيقتين لتدوين كافة المهام العاجلة كبنود منفصلة. حدد المهمة الوحيدة ذات الأولوية القصوى لأمان الطاقم وجدول الرحلة، وقم بتأجيل المهام الثانوية بقرار واعٍ وواضح. ركز انتباهك كاملاً على إنجاز الخطوة الأولى فقط دون التفكير في بقية الأعباء. إن تحويل الضغط المتراكم إلى خطوات تسلسلية محددة يقلل من استنزاف الذاكرة العاملة ويعيد السيطرة والهدوء الذهني لمواصلة العمل بكفاءة.",
+    "source_name": "NIMH So Stressed Out Fact Sheet: Managing Stress",
+    "source_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Managing Stress and Building Resilience",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 301,
+    "title": "5-4-3-2-1 Sensory Re-Anchoring in Confined Modules",
+    "topic": "anxiety",
+    "severity_min": 1.5,
+    "severity_max": 6.5,
+    "content": "In confined spaceflight modules, heightened situational anxiety can manifest as sensory constriction, rapid heartbeat, and feeling trapped. Execute the evidence-based 5-4-3-2-1 sensory grounding protocol to pull your nervous system out of an internal anxiety loop: Notice five distinct visual objects around the module (e.g., green telemetry LED, hatch latch, emergency valve, velcro strap, tether clip). Physically feel four tactile surfaces (the cool aluminum handrail, texture of your flight suit sleeve, tension in your waist restraint, smooth glove fabric). Listen for three distinct ambient sounds (avionics fan hum, coolant pump vibration, distant comms chime). Identify two scents (module recycled air, personal hygiene wipe). Notice one taste (water from your hydration pack). This sensory sequence interrupts anxious alarm loops and re-anchors your cognitive processing directly into immediate reality.",
+    "source_name": "NIMH Anxiety Disorders: Coping Strategies",
+    "source_url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Coping Strategies and Psychosocial Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 302,
+    "title": "تقنية التثبيت الحسي 5-4-3-2-1 في البيئات المغلقة",
+    "topic": "anxiety",
+    "severity_min": 1.5,
+    "severity_max": 6.5,
+    "content": "في المقصورات الفضائية الضيقة، قد يظهر القلق المفاجئ على شكل تسارع في النبض وشعور بالانحصار أو التوتر الحركي. تساعد تقنية التثبيت الحسي 5-4-3-2-1 على إعادة الجهاز العصبي إلى الواقع وتجاوز موجة القلق بفعالية: حدد بالنظر خمسة أشياء مميزة في محيطك (مثل مصباح القياس الأخضر، قفل البوابة، صمام الطوارئ، شريط التثبيت، ماسك الحزام). المس أربعة أسطح مادية مختلفة (ملمس مقبض الألومنيوم البارد، نسيج سترة البدلة، حزام الأمان، قفاز التحكم). استمع لثلاثة أصوات بيئية واضحة (طنين مروحة التبريد، اهتزاز مضخة السوائل، صوت أجهزة الاتصال). ميز رائحتين في المقصورة، وتذكر طعماً واحداً مثل رشفة ماء منعشة. هذا التمرين يقطع نوبة القلق ويعيد تركيز الدماغ على البيئة المحيطة بثبات واطمئنان.",
+    "source_name": "NIMH Anxiety Disorders: Coping Strategies",
+    "source_url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Coping Strategies and Psychosocial Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 303,
+    "title": "Differentiating Controllable from Uncontrollable Mission Variables",
+    "topic": "anxiety",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "A primary driver of persistent mission anxiety is expending emotional energy worrying over parameters outside your direct influence, such as ground comms blackout duration, orbital space weather, or mission timeline changes determined by flight controllers. Actively delineate your operational sphere: draw a mental boundary separating controllable elements from uncontrollable conditions. Controllable parameters include your immediate checklist pacing, your breath regulation, your adherence to rest protocols, and clear communication with crewmates. Uncontrollable elements belong to external mission architecture. When anxious ruminations arise regarding external variables, consciously state: 'This parameter is monitored by ground control; my responsibility is executing the immediate procedure accurately.' Channeling mental focus strictly toward your locus of control directly alleviates systemic anxiety.",
+    "source_name": "WHO Questions and Answers: Stress",
+    "source_url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Stress: What it is and how to manage it",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 304,
+    "title": "التمييز بين المتغيرات القابلة للتحكم وغير القابلة للتحكم",
+    "topic": "anxiety",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "ينشأ القلق المستمر في الفضاء غالباً من استهلاك الطاقة النفسية في التفكير بمتغيرات خارج نطاق السيطرة المباشرة للرائد، مثل فترات انقطاع الاتصال بالأرض، أو الطقس الفضائي، أو التعديلات المفاجئة في خطة الطيران العامة. قم بفرز ذهني واعٍ: افصل بين ما يمكنك التحكم فيه فعلياً وما يقع خارج مسؤوليتك المباشرة. ما تتحكم فيه هو دقة تنفيذك لقوائم المهام الحالية، وتناسق تنفسك، والتزامك بفترات الراحة، وتعاونك مع زملائك في الطاقم. أما المتغيرات الكبرى فهي من اختصاص فريق المراقبة الأرضية. عندما تشعر بالقلق، ذكّر نفسك: 'هذا الأمر يتابعه مركز التحكم، ومسؤوليتي الآن تنحصر في تنفيذ خطوتي الحالية بإتقان'. هذا التحديد يحمي توازنك النفسي ويوجه تركيزك نحو ما ينفع.",
+    "source_name": "WHO Questions and Answers: Stress",
+    "source_url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Stress: What it is and how to manage it",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 305,
+    "title": "Progressive Muscle Relaxation for Acute Somatic Tension",
+    "topic": "anxiety",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "Anxiety frequently stores physiological tension across postural muscle groups, particularly in the jaw, trapezius, and forearm flexors. In zero gravity, where muscles lack constant earth-gravity loads, unrecognized tonic clenching can cause tension headaches and restlessness. Practice targeted progressive muscular release: while floating securely in your sleep berth or seat, tense your facial and jaw muscles firmly for five seconds, then consciously release all contraction, allowing the facial tissue to feel limp and heavy for ten seconds. Next, pull your shoulders tightly upward toward your ears, hold for five counts, and drop them completely. Repeat this tension-and-release sequence down through your forearms, hands, abdomen, and calves. Somatic relaxation directly signals safety to the amygdala, decreasing autonomic hyperarousal and fostering calm readiness.",
+    "source_name": "NIMH Caring for Your Mental Health: Relaxation Practices",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Self-Care and Somatic Relaxation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 306,
+    "title": "الاسترخاء العضلي التدريجي لتخفيف التوتر الجسدي",
+    "topic": "anxiety",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "ينعكس القلق النفسي سريعاً على عضلات الجسم، خصوصاً الفك وعضلات الرقبة والكتفين والساعدين. وفي ظل انعدام الجاذبية، قد يتسبب الشد العضلي المستمر وغير الملحوظ في حدوث صداع نصفي وشعور بالانزعاج العام. طبق تدريب الاسترخاء العضلي التدريجي: أثناء ثباتك في مقصورة النوم، قم بشد عضلات وجهك وفكك بإحكام لمدة 5 ثوانٍ، ثم أرخها تماماً لمدة 10 ثوانٍ ولاحظ شعور الراحة والارتخاء. كرر الخطوة برفع كتفيك بقوة نحو أذنيك لـ 5 ثوانٍ ثم أسقطهما باسترخاء كامل. واصل التمرين نزولاً إلى الساعدين، والبطن، والساقين. هذا التحول الجسدي يرسل إشارات بيولوجية مباشرة للمخ بانحسار الخطر، مما يخفض حدة القلق ويعيد للجسم هدوءه الطبيعي.",
+    "source_name": "NIMH Caring for Your Mental Health: Relaxation Practices",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Self-Care and Somatic Relaxation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 401,
+    "title": "Cognitive Pacing and Scheduled Visual Rest Breaks",
+    "topic": "fatigue",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "Continuous technical checklist monitoring, visual telemetry tracking, and robotics operations impose high cognitive workloads that rapidly induce vigilance decrements. To counter cognitive saturation without sacrificing operational timelines, incorporate structured 90-second visual rest intervals every 45 to 60 minutes. Direct your eyes away from illuminated screens, close your eyelids gently for sixty seconds, and breathe slowly. If near an orbital window or cupola, fix your gaze on the distant horizon; viewing distant focal points relaxes ciliary eye muscles strained by close-range displays. Research on the Psychomotor Vigilance Test confirms that brief, scheduled attentional resets significantly decrease lapses of attention and maintain reaction speed, safeguarding both crew safety and procedural accuracy during long mission days.",
+    "source_name": "Basner & Dinges (2011) Maximizing Sensitivity of PVT to Sleep Loss",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21532951/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "PVT-B Sensitivity to Fatigue and Sustained Attention",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 402,
+    "title": "تنظيم وتيرة الجهد الذهني وفترات الراحة البصرية",
+    "topic": "fatigue",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "يؤدي التدقيق المستمر في شاشات المتابعة والعمليات الفنية المعقدة إلى استنزاف الطاقة المعرفية وتراجع سرعة الاستجابة الحركية. لتفادي التشبع الذهني، التزم بفواصل راحة بصرية مدتها 90 ثانية كل 45 إلى 60 دقيقة من العمل المتواصل. أشح بنظرك عن الشاشات المضيئة، وأغمض عينيك بهدوء لمدة دقيقة مع التنفس بعمق. إذا توفرت نافذة مراقبة، ركز بصرك على الأفق الفضائي البعيد؛ فالنظر إلى المسافات الممتدة يريح عضلات العين المجهدة من الشاشات القريبة. تؤكد الأبحاث العلمية في تقييم اليقظة الحركية (PVT) أن فترات التوقف القصيرة المنتظمة تقلل من أخطاء السهو وتحافظ على دقة رد الفعل أثناء المهام الطويلة.",
+    "source_name": "Basner & Dinges (2011) Maximizing Sensitivity of PVT to Sleep Loss",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21532951/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "PVT-B Sensitivity to Fatigue and Sustained Attention",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 403,
+    "title": "Recognizing Cognitive Saturation and Attention Lapses",
+    "topic": "fatigue",
+    "severity_min": 2.0,
+    "severity_max": 6.5,
+    "content": "Operational fatigue in spaceflight rarely announces itself as obvious sleepiness; instead, it manifests insidiously as cognitive tunneling, rereading checklist steps multiple times, missing minor warning tones, or irritability when communicating with mission control. Develop personal self-calibration awareness: if you catch yourself verifying a routine switch configuration three consecutive times without retaining confidence, treat this behavior as an objective biometric warning of fatigue saturation. Pause the current procedure if non-urgent, inform your crew partner: 'I am taking a two-minute reset to clear attention,' drink three ounces of water, stretch your torso and spine against your foot restraint, and perform five deep box breaths before resuming. Honest recognition of fatigue indicators prevents critical operational mishaps.",
+    "source_name": "NHLBI Sleep Deprivation: Symptoms of Deficiency",
+    "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Symptoms of Sleep Deficiency and Performance Lapses",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 404,
+    "title": "رصد التشبع المعرفي ولحظات هبوط الانتباه",
+    "topic": "fatigue",
+    "severity_min": 2.0,
+    "severity_max": 6.5,
+    "content": "نادراً ما يظهر الإجهاد الذهني في الفضاء على شكل نعاس صريح؛ بل يتسلل خلسة في صورة تكرار قراءة البند الواحد عدة مرات، أو تفويت إشارات التنبيه الدقيقة، أو التوتر عند التخاطب مع فريق المراقبة الأرضية. عزز وعيك الذاتي: إذا لاحظت أنك تتحقق من وضعية مفتاح تشغيل اعتيادي ثلاث مرات متتالية دون تذكر النتيجة، فذلك مؤشر بيولوجي واضح على وصول الدماغ لمرحلة الإرهاق. توقف مؤقتاً إذا لم تكن المهمة طارئة، وأخبر زميلك في الطاقم: 'سآخذ دقيقتين لإعادة شحن التركيز'، ثم اشرب قليلاً من الماء، وقم بتمديد عضلات الظهر والجذع، وخذ أنفاساً عميقة. إن الاعتراف المبكر بعلامات الإرهاق يحمي من الأخطاء التشغيلية الجسيمة.",
+    "source_name": "NHLBI Sleep Deprivation: Symptoms of Deficiency",
+    "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Symptoms of Sleep Deficiency and Performance Lapses",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 405,
+    "title": "Micro-Hydration and Postural Shifts Against Mental Lethargy",
+    "topic": "fatigue",
+    "severity_min": 1.0,
+    "severity_max": 5.5,
+    "content": "In microgravity, cephalic fluid shifts reduce perceived thirst, frequently leading astronauts into unintentional mild dehydration. Even subclinical hydration deficits impair psychomotor vigilance, increase perceived exertion, and worsen mental lethargy. Maintain an intentional hydration schedule: consume small volumes of water consistently every hour rather than large amounts infrequently. Additionally, because astronauts do not experience gravitational postural shifts, static tethering can cause localized muscle tightness and sluggish circulation. Every ninety minutes, release your foot restraints and engage in thirty seconds of full-body stretching: extend your arms outward, rotate your ankles, gently twist your torso, and roll your neck. Combining deliberate micro-hydration with active physical re-positioning restores cerebral blood flow and clears mental fog.",
+    "source_name": "CDC Sleep: Health Benefits and Habits",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Health benefits of sleep & physical habits",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 406,
+    "title": "الترطيب المنتظم وتغيير وضعية الجسد لمقاومة الخمول",
+    "topic": "fatigue",
+    "severity_min": 1.0,
+    "severity_max": 5.5,
+    "content": "يؤدي انتقال سوائل الجسم نحو الرأس في بيئة انعدام الجاذبية إلى تراجع الشعور الطبيعي بالعطش، مما يعرض رواد الفضاء لجفاف طفيف غير ملحوظ. ويكفي هذا النقص البسيط في السوائل لخفض سرعة البديهة وزيادة الشعور بالخمول والصداع. احرص على شرب كميات معتدلة من الماء بشكل دوري منتظم على مدار ساعات العمل. كما أن ثبات الجسم في نفس وضعية التثبيت يقلل من تدفق الدورة الدموية ويزيد من تيبس العضلات؛ لذا احرص كل ساعة ونصف على فك أحزمة القدمين وممارسة إطالات خفيفة للجذع والرقبة وتحريك المفاصل لمدة نصف دقيقة. الموازنة بين الترطيب الدائم والحركة التنشيطية تنعش النشاط الذهني وتبدد الإحساس بالبلادة والإعياء.",
+    "source_name": "CDC Sleep: Health Benefits and Habits",
+    "source_url": "https://www.cdc.gov/sleep/about/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Health benefits of sleep & physical habits",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 501,
+    "title": "Maintaining Meaningful Social Anchoring via Asynchronous Comms",
+    "topic": "isolation",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "Long-duration exploration missions produce severe psychological isolation due to extreme physical separation from Earth and communication latency. To counter feelings of emotional detachment, establish a predictable routine for personal asynchronous messaging with family and close ground contacts. Record brief two-minute voice notes or short video journals describing daily moments, thoughts, and reflections, rather than only formal mission updates. Listening to audio clips from home while resting before sleep provides crucial emotional grounding and preserves social bonds. Operational behavioral health research aboard the International Space Station demonstrates that predictable, meaningful personal communication buffers against cumulative homesickness and mitigates the psychological risks of extreme confinement.",
+    "source_name": "Sipes & Vander Ark (2005) Operational Behavioral Health Resources for ISS",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943196/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Family Support and Behavioral Countermeasures",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 502,
+    "title": "الحفاظ على الترابط الاجتماعي عبر التواصل غير المتزامن",
+    "topic": "isolation",
+    "severity_min": 1.0,
+    "severity_max": 6.5,
+    "content": "تفرض المهام الفضائية طويلة الأمد عزلة وجدانية عميقة نتيجة الابتعاد عن الأرض وتأخر وصول إشارات الاتصال اللاسلكي. ولمقاومة الشعور بالانفصال العاطفي، يُنصح ببناء روتين ثابت لتبادل الرسائل الشخصية المسجلة مع العائلة والأصدقاء. سجّل مقاطع صوتية أو مرئية قصيرة تتحدث فيها عن مشاعرك وتفاصيل يومك البسيطة، ولا تقتصر على الأمور الفنية للمهمة فقط. كما أن الاستماع لتسجيلات الأهل قبل النوم يمنح شعوراً عميقاً بالدفء والأمان والترابط مع الوطن. تؤكد الدراسات النفسية في محطة الفضاء الدولية أن التواصل الاجتماعي الصادق والمستمر هو الحصن الأول ضد مشاعر الغربة والوحشة في الفضاء.",
+    "source_name": "Sipes & Vander Ark (2005) Operational Behavioral Health Resources for ISS",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943196/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Family Support and Behavioral Countermeasures",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 503,
+    "title": "Earth Observation and Sensory Broadening in Deep Space",
+    "topic": "isolation",
+    "severity_min": 0.0,
+    "severity_max": 5.5,
+    "content": "Prolonged confinement within artificial modules exposes astronauts to severe sensory monotony, characterized by constant hums, identical metal walls, and recycled air. This sensory restriction amplifies feelings of isolation and psychological confinement. Mitigate sensory deprivation by dedicating fifteen minutes daily to active sensory broadening: if orbital windows or a cupola are available, spend time observing the dynamic cloud patterns, coastlines, and auroras of Earth. If traveling beyond low Earth orbit where Earth appears as a distant point, utilize high-resolution nature photography, audio soundscapes of ocean waves, or recordings of wind through terrestrial forests during rest cycles. Engaging with natural sensory richness stimulates positive affect and relieves the psychological weight of sensory confinement.",
+    "source_name": "NASA 5 Hazards of Human Spaceflight: Isolation and Confinement",
+    "source_url": "https://www.nasa.gov/hrp/hazards/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Hazard 2: Isolation and Confinement",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 504,
+    "title": "مراقبة الأرض والاتصال البصري بالطبيعة لتخفيف العزلة",
+    "topic": "isolation",
+    "severity_min": 0.0,
+    "severity_max": 5.5,
+    "content": "يسبب البقاء الطويل داخل المحطة رتابة حسية خانقة نتيجة الجدران المعدنية المتشابهة، والهواء المكرر، والضجيج المستمر للأجهزة. وتؤدي هذه الرتابة إلى زيادة الإحساس بالانعزال وضيق المكان. يمكن التغلب على هذا الإجهاد الحسي بتخصيص 15 دقيقة يومياً للاتصال بالطبيعة: إذا توفرت نافذة مراقبة، تأمل تشكيلات السحب والشواطئ وأضواء الأرض المتغيرة. وفي المهام السحيقة التي تصبح فيها الأرض نقطة ضوء بعيدة، استخدم صوراً فائقة الدقة للطبيعة أو استمع لتسجيلات أصوات أمواج البحر ورياح الغابات. إن استرجاع هذه المثيرات الطبيعية يثري الحواس ويمنح راحة نفسية عميقة تخفف من وطأة العزلة المكانية.",
+    "source_name": "NASA 5 Hazards of Human Spaceflight: Isolation and Confinement",
+    "source_url": "https://www.nasa.gov/hrp/hazards/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Hazard 2: Isolation and Confinement",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 505,
+    "title": "Structured Crew Peer Check-ins and Informal Gathering",
+    "topic": "isolation",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "Even when physically surrounded by crewmates, astronauts can experience profound psychological isolation if social interactions remain purely technical and transactional. Prevent interpersonal withdrawal by instituting shared communal rituals: gather together for at least one shared daily meal in the galley without electronic distraction. Conduct structured peer check-ins where each crew member shares one operational success and one minor frustration from the day's tasks in a psychologically safe environment. Active listening, acknowledging mutual mission hardships, and participating in informal humor build team cohesion and reassure individual crew members that their emotional experiences are shared and understood by their peers.",
+    "source_name": "WHO Psychological First Aid: Principles of Psychosocial Support",
+    "source_url": "https://www.who.int/publications/i/item/9789241548205",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Principles of Psychological First Aid and Peer Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 506,
+    "title": "جلسات التواصل الودية وتعزيز التماسك بين أفراد الطاقم",
+    "topic": "isolation",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "قد يشعر رائد الفضاء بالوحدة والعزلة النفسية حتى وهو بين زملائه إذا اقتصرت الأحاديث اليومية على الأوامر والتقارير الفنية الجافة فقط. لتفادي التباعد النفسي داخل الطاقم، احرصوا على تناول وجبة طعام رئيسية واحدة يومياً معاً في جو هادئ بعيداً عن الشاشات. شاركوا في جلسات حوارية ودية يطرح فيها كل زميل إنجازه اليومي وتحدياً صغيراً واجهه في مهامه. إن الاستماع باهتمام والتعاطف الصادق مع مشاعر الآخرين ومشاركة الضحك والمواقف الطريفة يبني جسور الثقة ويشعر كل فرد بأنه مدعوم ومقدر من فريقه.",
+    "source_name": "WHO Psychological First Aid: Principles of Psychosocial Support",
+    "source_url": "https://www.who.int/publications/i/item/9789241548205",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Principles of Psychological First Aid and Peer Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 601,
+    "title": "Daily Purpose Reflection and Micro-Journaling",
+    "topic": "mood",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "During long-duration spaceflight missions extending across hundreds of flight days, mood dips and emotional fatigue can arise as the novelty of spaceflight fades. Counter low mood by practicing daily purpose reflection and micro-journaling during evening post-sleep periods. Take three minutes to document three specific items in an encrypted journal: one task you successfully contributed to today, one moment of connection or humor with a crewmate, and one personal value that grounds your dedication to the expedition. Psychological evidence indicates that deliberate daily cognitive appreciation counters negative attentional bias, strengthens personal resilience, and maintains a stable positive emotional trajectory throughout lengthy confined missions.",
+    "source_name": "CDC Emotional Well-Being: Adapting to Challenges",
+    "source_url": "https://www.cdc.gov/emotional-wellbeing/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Adapting to challenges & Benefits of positive well-being",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 602,
+    "title": "التدوين اليومي لتعزيز الشعور بالهدف والإنجاز",
+    "topic": "mood",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "مع امتداد أيام المهمة الفضائية لمئات الأيام وتكرار نفس المهام اليومية، قد يمر رائد الفضاء بفترات من فتور الحماس وهبوط المزاج المؤقت. يعد التدوين اليومي للهدف وسيلة مثبتة علمياً لاستعادة التوازن النفسي وتقدير قيمة التجربة: خصص ثلاث دقائق قبل موعد النوم لكتابة ثلاثة أشياء محددة: مهمة فنية ساهمت في إنجازها اليوم، وموقف إيجابي أو دعابة تشاركتها مع زميل، وقيمة شخصية تجعلك فخوراً بالمشاركة في هذه المهمة العلمية للبشرية. إن تذكير النفس المستمر بغايات المهمة يحمي التوازن العاطفي ويعزز الرضا النفسي طوال مدة الرحلة.",
+    "source_name": "CDC Emotional Well-Being: Adapting to Challenges",
+    "source_url": "https://www.cdc.gov/emotional-wellbeing/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Adapting to challenges & Benefits of positive well-being",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 603,
+    "title": "Behavioral Activation Through Small Achievable Targets",
+    "topic": "mood",
+    "severity_min": 1.5,
+    "severity_max": 6.5,
+    "content": "When experiencing low energy and sluggish mood, astronauts frequently feel tempted to withdraw socially and minimize effort to only mandatory duties. This withdrawal creates a negative feedback loop that deepens lethargy. Counter this trajectory through behavioral activation: choose one small, voluntary, easily achievable positive action each shift. Examples include organizing a small locker compartment, wiping down a common workstation, writing a short note of appreciation to ground controllers, or completing an extra ten minutes of aerobic cycle ergometer exercise while listening to favorite music. Completing concrete positive actions generates dopaminergic reward signals, stimulates natural motivation, and breaks depressive inertia.",
+    "source_name": "NIMH Caring for Your Mental Health: Practical Self-Care",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Practical Self-Care Habits and Behavioral Goals",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 604,
+    "title": "التنشيط السلوكي وتحديد أهداف يومية صغيرة قابلة للتحقيق",
+    "topic": "mood",
+    "severity_min": 1.5,
+    "severity_max": 6.5,
+    "content": "عند الشعور بانخفاض الدافعية والمزاج، قد يميل رائد الفضاء إلى الانعزال وتقليص نشاطه إلى الحد الأدنى الإلزامي فقط، وهو ما يعزز الشعور بالخمول والكسل النفسي. يقوم التنشيط السلوكي على كسر هذه الدائرة عبر اختيار عمل إيجابي تطوعي صغير يومياً: مثل ترتيب خزانة الأدوات الشخصية، أو تنظيف مساحة العمل المشتركة، أو إرسال كلمة شكر لفريق المتابعة على الأرض، أو ممارسة 10 دقائق إضافية على دراجة التمارين الرياضية مع الاستماع لملفات صوتية محفزة. إن إنجاز هذه الأهداف البسيطة يمنح شعوراً ملموساً بالكفاءة ويحفز النشاط الذهني ويطرد مشاعر الإحباط.",
+    "source_name": "NIMH Caring for Your Mental Health: Practical Self-Care",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Practical Self-Care Habits and Behavioral Goals",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 605,
+    "title": "Shared Social Humor and Camaraderie in Confinement",
+    "topic": "mood",
+    "severity_min": 1.0,
+    "severity_max": 5.5,
+    "content": "Extensive spaceflight simulation studies, including the 520-day Mars mission isolation experiment, demonstrate that humor and playful crew camaraderie serve as vital psychological shock absorbers against chronic confinement stress. Deliberately cultivate lighthearted group interactions during off-duty hours: share funny anecdotes from training, organize lighthearted zero-gravity games, or celebrate crew flight milestones with creative homemade decorations. Laughter releases endorphins, decreases salivary cortisol, and softens rigid interpersonal boundaries. Protecting shared social levity maintains emotional cohesion and keeps individual mood resilient across demanding mission timelines.",
+    "source_name": "Basner et al. (2013) Mars 520-d Mission Simulation Crew Performance",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23297233/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Psychological adaptation, crew cohesion, and coping in isolation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 606,
+    "title": "المشاركة الاجتماعية وروح الدعابة للحفاظ على الروح المعنوية",
+    "topic": "mood",
+    "severity_min": 1.0,
+    "severity_max": 5.5,
+    "content": "أثبتت تجارب محاكاة العزل الفضائي الطويلة (مثل تجربة مارس 520 يوماً) أن المرح والدعابة بين أفراد الطاقم يمثلان صمام أمان نفسي بالغ الأهمية لتخفيف أعباء العزلة. احرصوا في أوقات الراحة على خلق مساحات للمرح المشترك: مثل تذكر المواقف الطريفة أثناء فترات التدريب على الأرض، أو ابتكار ألعاب خفيفة في انعدام الجاذبية، أو الاحتفال الرمزي بمرور مئات الأيام في المدار. يساعد الضحك الصادق على تقليل إفراز هرمونات التوتر وتحسين المزاج وتوطيد روابط الأخوة بين رواد الفضاء، مما يضمن بيئة نفسية إيجابية تدعم نجاح المهمة واستقرارها.",
+    "source_name": "Basner et al. (2013) Mars 520-d Mission Simulation Crew Performance",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23297233/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Psychological adaptation, crew cohesion, and coping in isolation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 701,
+    "title": "Single-Task Execution and Distraction Elimination",
+    "topic": "focus",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "Attempting to multitask across complex orbital maintenance, payload experiments, and comms monitoring substantially increases procedural error rates. Human performance research shows that human working memory cannot execute concurrent high-stakes cognitive tasks without attentional degradation. Practice single-task discipline: silence all non-essential audio alerts on your console before initiating a delicate procedure. Read one checklist step completely, execute that single physical action with full sensory presence, and verify telemetry feedback before reading the next line. If an interruption occurs from a crewmate or ground radio, explicitly mark your checklist location with a physical pointer before shifting attention. Single-stream execution eliminates cognitive friction and guarantees procedural integrity.",
+    "source_name": "NASA Human Research Roadmap: Cognitive Performance",
+    "source_url": "https://humanresearchroadmap.nasa.gov/risks/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Risk of Cognitive Performance Decays & Operational Execution",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 702,
+    "title": "التركيز على مهمة واحدة وعزل المشتتات أثناء العمليات",
+    "topic": "focus",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "تؤدي محاولة تنفيذ عدة مهام فنية معقدة في نفس الوقت إلى تشتت الذاكرة ومضاعفة احتمالية وقوع الأخطاء التشغيلية. تؤكد أبحاث الأداء البشري في الفضاء على ضرورة الالتزام بمبدأ المهمة الواحدة: قم بكتم التنبيهات الصوتية غير الضرورية على شاشة التحكم قبل البدء في أي إجراء تقني حساس. اقرأ الخطوة الواحدة كاملة من قائمة الفحص، ونفذها بحضور ذهني وتركيز تام، ثم تأكد من النتيجة على شاشات القياس قبل الانتقال للخطوة التالية. إذا اضطررت للرد على نداء طارئ، ضع علامة واضحة على البند الذي توقفت عنده قبل تحويل انتباهك. هذا الانضباط يحمي من أخطاء السهو ويضمن دقة العمليات الفضائية.",
+    "source_name": "NASA Human Research Roadmap: Cognitive Performance",
+    "source_url": "https://humanresearchroadmap.nasa.gov/risks/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Risk of Cognitive Performance Decays & Operational Execution",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 703,
+    "title": "The 20-20-20 Visual Reset Before Critical Procedures",
+    "topic": "focus",
+    "severity_min": 0.5,
+    "severity_max": 5.5,
+    "content": "Prolonged staring at high-density telemetry tables and engineering schematics causes optical strain and attentional tunnel vision. Before executing critical checklists (e.g., payload deployment, docking, or airlock pre-breathe), perform the 20-20-20 attentional reset: Every twenty minutes of console work, look away from your screens toward an object at least twenty feet away (or the furthest module bulkhead) for twenty seconds. Blink slowly five times to refresh tear film in dry module air. Take two deep, slow nasal breaths. This micro-reset relaxes the intraocular muscles, prevents perceptual fixations, and restores crisp visual acuity and spatial vigilance.",
+    "source_name": "Basner & Dinges (2011) PVT-B in Sleep and Vigilance",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21532951/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Visual Fatigue Countermeasures and Vigilance Resets",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 704,
+    "title": "قاعدة 20-20-20 لتجديد الانتباه البصري قبل المهام الدقيقة",
+    "topic": "focus",
+    "severity_min": 0.5,
+    "severity_max": 5.5,
+    "content": "يؤدي التحديق المستمر في الجداول الرقمية والرسوم الهندسية الدقيقة إلى إجهاد عضلات العين وتضييق مجال الرؤية والانتباه. قبل البدء في تنفيذ إجراءات معقدة (مثل ضبط منافذ الالتحام أو صمامات الضغط)، طبق قاعدة 20-20-20: كل 20 دقيقة من القراءة على الشاشات، انظر بعيداً نحو أبعد نقطة في المقصورة (على مسافة 20 قدماً تقريباً) لمدة 20 ثانية. ارمش عدة مرات بهدوء لترطيب العين في جو المحطة الجاف، وخذ نفسين عميقين. هذا التوقف القصير يريح عضلات العين، ويمنع الصداع، ويعيد حدة الإبصار واليقظة الذهنية الكاملة.",
+    "source_name": "Basner & Dinges (2011) PVT-B in Sleep and Vigilance",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21532951/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Visual Fatigue Countermeasures and Vigilance Resets",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 705,
+    "title": "Pre-Checklist Cognitive Reset and Deliberate Pacing",
+    "topic": "focus",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "Transitioning directly from a stressful task or physical exercise into a high-stakes operational procedure often carries residual mental agitation. Establish a mandatory sixty-second pre-checklist pause: place your hands flat on the console or armrests, close your eyes for three deep breaths, and mentally articulate your primary objective: 'My goal is the safe, unhurried execution of the cooling loop bypass.' Remind yourself that accuracy always supersedes speed in spaceflight systems. Deliberately slow your initial motor movements by ten percent; smooth, unhurried actions prevent clumsy accidental switch toggles and ensure rock-solid concentration throughout the operational sequence.",
+    "source_name": "NIMH Caring for Your Mental Health: Mindfulness Practices",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Mindfulness, Deliberate Focus and Attentional Reset",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 706,
+    "title": "إعادة ضبط الذهن والتمهل الواعي قبل تنفيذ قوائم الفحص",
+    "topic": "focus",
+    "severity_min": 1.0,
+    "severity_max": 6.0,
+    "content": "قد يؤدي الانتقال السريع من تدريب بدني شاق أو مهمة مجهدة مباشرة إلى عمل فني دقيق إلى نقل التوتر والاستعجال دون وعي. احرص دائماً على وقفة هدوء لمدة 60 ثانية قبل بدء أي قائمة إجراءات جديدة: ضع يديك بارتياح على مسند التحكم، وخذ ثلاثة أنفاس عميقة، وحدد هدفك بوضوح: 'هدفي الآن تنفيذ صيانة دارة التبريد بأمان وهدوء تام'. تذكر دائماً أن الدقة والسلامة في الفضاء تسبقان السرعة في كافة المعايير. تمهل في حركات يديك الأولى بنسبة 10%؛ فالتمهل الواعي يمنع الضغط الخاطئ على المفاتيح ويثبت الانتباه طوال مراحل العمل.",
+    "source_name": "NIMH Caring for Your Mental Health: Mindfulness Practices",
+    "source_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Mindfulness, Deliberate Focus and Attentional Reset",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 801,
+    "title": "Criteria for Private Medical Conference (PMC) Engagement",
+    "topic": "escalation",
+    "severity_min": 7.0,
+    "severity_max": 10.0,
+    "content": "Self-help countermeasures and behavioral protocols are designed for mild-to-moderate situational stress and fatigue management. They must never replace specialized clinical medical care when severe symptoms occur. You should initiate a confidential Private Medical Conference (PMC) with your Flight Surgeon or Mission Psychologist if you observe: severe sleep disruption persisting across more than three consecutive cycles despite sleep hygiene measures, feelings of intense hopelessness, uncontrollable anxiety, panic sensations, persistent mental disorientation during checklists, or thoughts of self-harm. Engaging the flight surgeon loop is a routine, non-punitive operational resource available 24/7 to safeguard astronaut health and mission safety.",
+    "source_name": "Flynn (2005) Operational Approach to Astronaut Psychological Selection & Support",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943195/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Flight Surgeon Private Medical Conferences and Operational Behavioral Health Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 802,
+    "title": "معايير طلب المؤتمر الطبي الخاص مع طبيب الرحلة",
+    "topic": "escalation",
+    "severity_min": 7.0,
+    "severity_max": 10.0,
+    "content": "صُممت تقنيات الاسترخاء والدعم الذاتي للتعامل مع الضغوط اليومية الطبيعية والإجهاد العابر، وهي لا تُغني بأي حال عن الاستشارة الطبية المتخصصة عند ظهور أعراض حادة أو مستمرة. يجب طلب مؤتمر طبي خاص (PMC) سري مع طبيب الرحلة أو الأخصائي النفسي للمهمة في الحالات التالية: استمرار الأرق الشديد لأكثر من ثلاث ليالٍ متتالية رغم اتباع التعليمات، أو الشعور بنوبات هلع وتوتر حاد لا يمكن التحكم فيه، أو الإحساس باليأس الشديد وفقدان الطاقة التام، أو صعوبة الاستيعاب أثناء المهام، أو ورود أي أفكار لإيذاء النفس. إن التواصل مع الفريق الطبي هو إجراء تشغيلي روتيني وسري ومتاح على مدار الساعة لحماية صحتك وضمان أمان المهمة.",
+    "source_name": "Flynn (2005) Operational Approach to Astronaut Psychological Selection & Support",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943195/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Flight Surgeon Private Medical Conferences and Operational Behavioral Health Support",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 803,
+    "title": "Operational Protocol for Requesting Flight Surgeon Loop",
+    "topic": "escalation",
+    "severity_min": 7.0,
+    "severity_max": 10.0,
+    "content": "Requesting a private clinical consultation can be accomplished discreetly through existing onboard communication protocols. To schedule a Private Medical Conference (PMC), contact the biomedical engineer (BME) or flight director loop and state: 'Flight, requesting a standard private medical conference for crew member [ID] during the next scheduled comms pass.' PMCs are completely confidential, encrypted channels closed to general mission loops and media recordings. The Flight Surgeon and Behavioral Health Officer will join via secure voice or two-way video to evaluate your symptoms, adjust work-rest cycle parameters, recommend operational schedule modifications, or coordinate clinical interventions. Early medical escalation preserves mission success and prevents acute exhaustion.",
+    "source_name": "NASA Risks of Human Spaceflight: Behavioral Medicine",
+    "source_url": "https://www.nasa.gov/hrp/risks/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Clinical Medical Support, PMCs and Risk Mitigation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 804,
+    "title": "البروتوكول العملياتي للاتصال بطبيب الرحلة والأخصائي النفسي",
+    "topic": "escalation",
+    "severity_min": 7.0,
+    "severity_max": 10.0,
+    "content": "يتم طلب الاستشارة الطبية الخاصة بسرية تامة وسهولة عبر القنوات اللاسلكية المعتمدة للمهمة. لترتيب مؤتمر طبي خاص (PMC)، تواصل مع مهندس الطب الحيوي (BME) أو مسؤول الرحلة وقل ببساطة: 'أطلب عقد مؤتمر طبي خاص لرائد الفضاء خلال نافذة الاتصال القادمة'. تتم هذه المؤتمرات عبر قنوات مشفرة ومغلقة تماماً لا يتم تسجيلها أو بثها على قنوات المحطة العامة. سيتواصل معك طبيب الرحلة والأخصائي النفسي لتقييم الأعراض، وإعادة جدولة ساعات العمل والراحة، وتقديم الدعم الطبي اللازم. إن المبادرة المبكرة بطلب الاستشارة الطبية تحمي صحتك وتمنع تفاقم الإجهاد البدني والنفسي.",
+    "source_name": "NASA Risks of Human Spaceflight: Behavioral Medicine",
+    "source_url": "https://www.nasa.gov/hrp/risks/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Clinical Medical Support, PMCs and Risk Mitigation",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 805,
+    "title": "Confidential Mission Psychologist Consultation for Persistent Strain",
+    "topic": "escalation",
+    "severity_min": 6.5,
+    "severity_max": 10.0,
+    "content": "Behavioral health professionals dedicated to your mission understand the unique stressors of microgravity, confinement, and crew dynamics. If you experience interpersonal tension with a fellow crewmate, acute homesickness, feelings of burnout, or anxiety regarding mission responsibilities, you do not need to wait for a severe breakdown to seek guidance. Private psychological conferences provide an objective, neutral space to externalize frustrations, process operational friction, and develop tailored psychological strategies with an expert clinician on Earth. Seeking behavioral consultation is a hallmark of high-reliability teamwork and operational professionalism.",
+    "source_name": "Sipes & Vander Ark (2005) Operational Behavioral Health Resources for ISS",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943196/",
+    "language": "en",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Behavioral Health Operations & Astronaut Family Care",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": 806,
+    "title": "الاستشارة النفسية السرية عند استمرار الإجهاد النفسي",
+    "topic": "escalation",
+    "severity_min": 6.5,
+    "severity_max": 10.0,
+    "content": "يدرك الأخصائيون النفسيون المخصصون لمتابعة المهمة الطبيعة الاستثنائية للضغوط النفسية الناتجة عن العيش في بيئة معزولة ومنعدمة الجاذبية. إذا شعرت بتوتر مستمر في التواصل مع زملائك، أو حنين جارف للأرض، أو قلق متزايد حول مسؤولياتك في المحطة، فلا تتردد في طلب جلسة دعم نفسي دون انتظار تفاقم الحالة. توفر الاستشارة النفسية مساحة آمنة ومحايدة للحديث بصراحة وتفريغ المشاعر واستكشاف حلول عملية مع متخصصين ذوي خبرة. إن طلب المشورة النفسية في الوقت المناسب دليل على النضج والوعي العالي والحرص على سلامة المهمة.",
+    "source_name": "Sipes & Vander Ark (2005) Operational Behavioral Health Resources for ISS",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15943196/",
+    "language": "ar",
+    "last_reviewed": "2026-11-14T22:13:15.584641+00:00",
+    "approved": true,
+    "verification": {
+      "url_opened": true,
+      "supporting_section": "Behavioral Health Operations & Astronaut Family Care",
+      "confidence": "high"
+    }
+  }
+]

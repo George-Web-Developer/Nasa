@@ -206,6 +206,91 @@ window.addEventListener('load', function () {
             finally:
                 httpd.shutdown()
 
+    def test_widget_offline_7q_checkin_flow_has_zero_network_calls(self):
+        class QuietHandler(http.server.SimpleHTTPRequestHandler):
+            def __init__(self, *args, **kwargs):
+                super().__init__(*args, directory=str(ROOT), **kwargs)
+
+            def do_GET(self):
+                if self.path == "/__widget_7q_test__.html":
+                    html = """<!doctype html><html><head><meta charset="utf-8"></head><body>
+<script src="/nasa-data.js"></script>
+<script src="/ai-model.js"></script>
+<script src="/Chat%20Bot/web/widget.js"></script>
+<astro-chat id="w7q" mode="tab" session-mode="session" api-base="" language="en"></astro-chat>
+<script>
+window.__fetchCalls = [];
+window.fetch = function (url) {
+  window.__fetchCalls.push(String(url));
+  return Promise.reject(new Error('unexpected fetch'));
+};
+window.addEventListener('load', async function () {
+  const w = document.getElementById('w7q');
+  await new Promise(r => setTimeout(r, 150));
+  const initialMsgs = Array.from(w.shadowRoot.querySelectorAll('.astro-msg.assistant')).map(el => el.textContent);
+  for (let i = 1; i <= 7; i++) {
+    w.messageInput.value = 'Answer ' + i + ' nominal sleep and focus';
+    await w.handleUserSend();
+  }
+  const afterMsgs = Array.from(w.shadowRoot.querySelectorAll('.astro-msg.assistant')).map(el => el.textContent);
+  const actionVisible = w.actionCard.classList.contains('visible');
+  await w.switchToCompanion();
+  const modeAfterSwitch = w.sessionMode;
+  const out = document.createElement('pre');
+  out.id = 'out7q';
+  out.textContent = JSON.stringify({
+    fetches: window.__fetchCalls.length,
+    initialMsgs,
+    afterCount: afterMsgs.length,
+    lastMsg: afterMsgs[afterMsgs.length - 1] || '',
+    actionVisible,
+    modeAfterSwitch,
+  });
+  document.body.appendChild(out);
+});
+</script></body></html>"""
+                    raw = html.encode("utf-8")
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Content-Length", str(len(raw)))
+                    self.end_headers()
+                    self.wfile.write(raw)
+                    return
+                super().do_GET()
+
+            def log_message(self, format, *args):
+                pass
+
+        with socketserver.TCPServer(("127.0.0.1", 0), QuietHandler) as httpd:
+            port = httpd.server_address[1]
+            t = threading.Thread(target=httpd.serve_forever, daemon=True)
+            t.start()
+            try:
+                proc = subprocess.run(
+                    [
+                        CHROME,
+                        "--headless=new",
+                        "--disable-gpu",
+                        "--virtual-time-budget=3000",
+                        "--dump-dom",
+                        f"http://127.0.0.1:{port}/__widget_7q_test__.html",
+                    ],
+                    capture_output=True,
+                    text=True,
+                    timeout=25,
+                )
+                m = re.search(r'<pre id="out7q">(.*?)</pre>', proc.stdout, re.S)
+                self.assertIsNotNone(m, f"#out7q missing: {proc.stdout[-800:]}")
+                raw = m.group(1).replace("&quot;", '"').replace("&amp;", "&")
+                d = json.loads(raw)
+                self.assertEqual(d["fetches"], 0)
+                self.assertTrue(any("1/7" in x for x in d["initialMsgs"]), f"Expected Q1/7 prompt, got {d['initialMsgs']}")
+                self.assertTrue(d["actionVisible"], "Expected completion card visible after 7 offline answers")
+                self.assertEqual(d["modeAfterSwitch"], "companion")
+                self.assertIn("Live ML Assessment:", d["lastMsg"])
+            finally:
+                httpd.shutdown()
+
 
 if __name__ == "__main__":
     unittest.main()

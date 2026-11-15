@@ -1032,7 +1032,7 @@
     if (!script) {
       script = document.createElement('script');
       script.id = 'astroChatWidgetScript';
-      script.src = 'Chat%20Bot/web/widget.js';
+      script.src = 'Chat%20Bot/web/widget.js?v=20261115b';
       script.defer = true;
       document.head.appendChild(script);
     }

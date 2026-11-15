@@ -881,7 +881,7 @@ button, input, select, textarea {
   padding: 9px 12px;
   border: 1px solid var(--border-paper-strong);
   border-radius: 3px;
-  background: #FCF9F2;
+  background: var(--bg-paper-card);
   color: var(--ink-dark);
   font-family: var(--font-mono);
   font-size: 13.5px;
@@ -890,7 +890,7 @@ button, input, select, textarea {
 .input-field:focus {
   outline: none;
   border-color: var(--accent-vermilion);
-  background: #FFFFFF;
+  background: var(--bg-paper-muted);
 }
 
 .input-error {
@@ -1780,6 +1780,18 @@ select option {
   color: #17191E !important;
 }
 
+[data-theme="light"] .input-field {
+  background: #FCF9F2;
+}
+
+[data-theme="light"] .input-field:focus {
+  background: #FFFFFF;
+}
+
+[data-theme="light"] .assistant-vital-chip {
+  background: #FAF6ED;
+}
+
 .subchart-title {
   font-family: var(--font-mono);
   font-size: 10.5px;
@@ -2129,7 +2141,7 @@ astro-chat {
 }
 
 .assistant-vital-chip {
-  background: #FAF6ED;
+  background: var(--bg-paper-muted);
   border: 1px solid var(--border-paper);
   border-radius: 3px;
   padding: 8px 10px;
@@ -2147,7 +2159,7 @@ astro-chat {
   font-family: var(--font-mono);
   font-size: 14px;
   font-weight: 700;
-  color: var(--ink-paper);
+  color: var(--ink-dark);
   margin-top: 2px;
 }
 

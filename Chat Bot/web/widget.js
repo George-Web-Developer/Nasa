@@ -671,6 +671,8 @@
       this.isArabic = false;
       this.isEnded = false;
       this.isBackendOffline = false;
+      this.offlineCheckinStep = 0;
+      this.offlineAnswers = [];
       this.unreadCount = 0;
       this.questionIndex = 0;
 
@@ -1073,20 +1075,70 @@
     // ----------------------------------------------------
     // Session API Integration
     // ----------------------------------------------------
-    async initSession(silent = false) {
-      this.sessionMode = this.requestedSessionMode;
-      if (!this.apiBase) {
-        this.isBackendOffline = true;
-        if (!silent) {
+    getOfflineCheckinQuestions() {
+      if (this.isArabic) {
+        return [
+          "[1/7] النوم والراحة: كم ساعة نمت اليوم وهل شعرت بالراحة عند الاستيقاظ؟",
+          "[2/7] المزاج والطاقة: كيف تقيم حالتك المزاجية ومستوى طاقتك منذ الصباح؟",
+          "[3/7] ضغط العمل: هل مهام اليوم وضغط الجدول التشغيلي تحت السيطرة؟",
+          "[4/7] التركيز والانتباه: هل لاحظت أي إرهاق ذهني أو صعوبة في التركيز أثناء الفحوصات؟",
+          "[5/7] التواصل والطاقم: كيف تسير علاقتك مع بقية الطاقم والتواصل مع الأرض والعائلة؟",
+          "[6/7] الراحة الجسدية والبيئة: هل تعاني من صداع أو احتقان أو ضيق بسبب ثاني أكسيد الكربون أو الضوضاء؟",
+          "[7/7] ملاحظات إضافية: هل هناك أي شيء آخر تود تسجيله لمتابعة طبيب الرحلة؟",
+        ];
+      }
+      return [
+        "[1/7] Sleep & circadian rest: How many hours did you sleep, and did you wake up rested?",
+        "[2/7] Mood & energy: How has your overall mood and emotional energy felt today?",
+        "[3/7] Workload & stress: Are EVA, maintenance, and timeline demands feeling manageable?",
+        "[4/7] Cognition & focus: Any brain fog, slowed recall, or checklist concentration difficulty?",
+        "[5/7] Crew cohesion & contact: How are interactions with crewmates and ground/family going?",
+        "[6/7] Habitat & physical comfort: Any headache, congestion, eye strain, or CO2/noise discomfort?",
+        "[7/7] Final check: Anything else you want logged or flagged for Flight Surgeon review today?",
+      ];
+    }
+
+    detectOfflineCrisis(text) {
+      return /(self[- ]?harm|suicide|kill myself|end my life|hurt myself|want to die|انتحار|أؤذي نفسي|اؤذي نفسي|أقتل نفسي|اقتل نفسي)/i.test(String(text || ""));
+    }
+
+    startOfflineModeNotice(silent, reasonPrefix) {
+      this.isBackendOffline = true;
+      this.isEnded = false;
+      this.actionCard?.classList.remove("visible");
+      if (!silent) {
+        if (this.sessionMode === "session") {
+          this.offlineCheckinStep = 1;
+          this.offlineAnswers = [];
+          const q1 = this.getOfflineCheckinQuestions()[0];
+          const intro = this.isArabic
+            ? `الفحص اليومي المحلي (7 أسئلة) جاهز — الخادم غير متصل.\n${q1}`
+            : `Offline Daily Check-in active (7 Questions, local NASA Copilot mode).\n${q1}`;
+          this.appendMessage("assistant", intro);
+        } else {
           const hasLocalCopilot = typeof window.queryBioCopilot === "function";
           const offlineMsg = this.isArabic
             ? "الخادم غير متصل حالياً — يمكنك الكتابة أدناه لاستخدام المساعد المحلي."
             : hasLocalCopilot
-              ? "Offline NASA Copilot mode active (no remote FastAPI backend configured on this static host). Type below to ask about vitals, NASA HRP risks, CO2/radiation, or connect a backend URL on the left."
+              ? reasonPrefix
               : "No backend URL configured. Enter a FastAPI backend URL to enable live sessions.";
           this.appendMessage("assistant", offlineMsg);
         }
-        this.dispatchBridge("astro:backend-offline", { apiBase: this.apiBase });
+      }
+      this.dispatchBridge("astro:backend-offline", { apiBase: this.apiBase });
+    }
+
+    async initSession(silent = false) {
+      this.sessionMode = this.requestedSessionMode;
+      if (!this.apiBase) {
+        if (!this.hasAttribute("session-mode")) {
+          this.sessionMode = "companion";
+          if (this.titleText) this.setupLanguage();
+        }
+        this.startOfflineModeNotice(
+          silent,
+          "Offline NASA Copilot mode active (no remote FastAPI backend configured on this static host). Type below to ask about vitals, NASA HRP risks, CO2/radiation, or connect a backend URL on the left."
+        );
         this.showTyping(false);
         return;
       }
@@ -1139,19 +1191,12 @@
           ts: new Date().toISOString(),
         });
       } catch (err) {
-        this.isBackendOffline = true;
         // Suppress unhandled connection refuse noise while running locally
         console.warn("Bio Astro Assistant: Backend offline at " + this.apiBase + ". Switched to client-side NASA Bio-Copilot.");
-        if (!silent) {
-          const hasLocalCopilot = typeof window.queryBioCopilot === "function";
-          const errMsg = this.isArabic
-            ? "تعذر بدء الجلسة. يرجى التحقق من اتصال الخادم."
-            : hasLocalCopilot
-              ? "FastAPI backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat locally or connect a deployed backend URL — meanwhile, type below for instant Offline NASA Copilot replies."
-              : "Chat backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat to enable live sessions.";
-          this.appendMessage("assistant", errMsg);
-        }
-        this.dispatchBridge("astro:backend-offline", { apiBase: this.apiBase });
+        this.startOfflineModeNotice(
+          silent,
+          "FastAPI backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat locally or connect a deployed backend URL — meanwhile, type below for instant Offline NASA Copilot replies."
+        );
       } finally {
         if (timerId) clearTimeout(timerId);
         this.showTyping(false);
@@ -1159,6 +1204,40 @@
     }
 
     buildOfflineReply(text) {
+      if (this.detectOfflineCrisis(text)) {
+        this.showEscalationBanner();
+        this.dispatchBridge("astro:escalate", {
+          session_id: null,
+          reason: "Crisis safety safeguard triggered in offline mode",
+        });
+        return this.isArabic
+          ? "تم تفعيل تنبيه الدعم الفوري. لست وحدك — يرجى التواصل مباشرة مع طبيب الرحلة أو مركز التحكم الأرضي أو فريق السلامة المعتمد الآن."
+          : "Priority crew safety alert triggered. You are not alone — please contact the Flight Surgeon, Ground Control medical officer, or your mission support team immediately.";
+      }
+      if (this.sessionMode === "session" && !this.isEnded) {
+        this.offlineAnswers.push(text);
+        const questions = this.getOfflineCheckinQuestions();
+        if (this.offlineCheckinStep < questions.length) {
+          this.offlineCheckinStep += 1;
+          const ack = this.isArabic ? "تم التوثيق." : "Logged.";
+          return `${ack} ${questions[this.offlineCheckinStep - 1]}`;
+        }
+        this.isEnded = true;
+        this.actionCard?.classList.add("visible");
+        this.dispatchBridge("astro:session-ended", {
+          session_id: null,
+          analysis_ready: false,
+        });
+        const combined = this.offlineAnswers.join(" | ");
+        const copilotSummary = this.queryCopilotOffline(combined);
+        return this.isArabic
+          ? `اكتمل الفحص اليومي (7/7) في الوضع المحلي.\n${copilotSummary}`
+          : `7/7 Daily Check-in complete (Offline Mode).\n${copilotSummary}`;
+      }
+      return this.queryCopilotOffline(text);
+    }
+
+    queryCopilotOffline(text) {
       if (typeof window.queryBioCopilot === "function") {
         const sess = window.BioShell && typeof window.BioShell.getSession === "function" ? window.BioShell.getSession() : null;
         const features = sess ? sess.features : {};
@@ -1293,6 +1372,25 @@
     }
 
     async switchToCompanion() {
+      if (!this.apiBase || this.isBackendOffline || !this.sessionId) {
+        this.sessionMode = "companion";
+        this.modePill.textContent = this.isArabic ? "الرفيق" : "Companion";
+        this.modePill.classList.add("companion");
+        this.actionCard.classList.remove("visible");
+        const msg = this.isArabic
+          ? "تم التبديل إلى وضع الرفيق المحلي. يمكنك طرح أي سؤال حول القياسات الحيوية أو مخاطر ناسا."
+          : "Switched to Companion mode (Offline NASA Copilot). Ask anything about vitals, sleep, radiation, or NASA HRP risks.";
+        this.appendMessage("assistant", msg);
+        this.dispatchBridge("astro:message", {
+          role: "assistant",
+          text: msg,
+          ts: new Date().toISOString(),
+          escalate: false,
+        });
+        this.messageInput.focus();
+        return;
+      }
+
       this.keepTalkingBtn.disabled = true;
       this.showTyping(true);
       try {

@@ -46,15 +46,41 @@
       .join('');
   }
 
+  function resolveActiveApiBase() {
+    const shell = global.BioShell;
+    if (shell && typeof shell.getChatbotApiBase === 'function') {
+      return shell.getChatbotApiBase();
+    }
+    if (shell && typeof shell.CHATBOT_API_BASE === 'string') {
+      return shell.CHATBOT_API_BASE;
+    }
+    return '';
+  }
+
   async function checkBackendHealth() {
     const shell = global.BioShell;
-    const apiBase = (shell && shell.CHATBOT_API_BASE) || 'http://127.0.0.1:8000';
+    const apiBase = resolveActiveApiBase();
+    const safeBase = shell && typeof shell.escapeHtml === 'function' ? shell.escapeHtml(apiBase) : apiBase;
     const pill = getEl('chatBackendStatusPill');
     const help = getEl('chatBackendHelpText');
     const fallbackBtn = getEl('openOfflineFallbackBtn');
 
+    if (!apiBase) {
+      if (pill) {
+        pill.textContent = 'Offline Copilot';
+        pill.className = 'assistant-status-pill offline';
+      }
+      if (help) {
+        help.innerHTML = 'Running in <strong>Offline NASA Copilot</strong> mode on this static host (built-in Bio-Astro knowledge &amp; live telemetry work without a backend). Paste a deployed FastAPI URL below to enable cloud LLM + SQLite memory.';
+      }
+      if (fallbackBtn) fallbackBtn.classList.remove('hidden');
+      return false;
+    }
+
+    const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    const timer = controller ? setTimeout(() => controller.abort(), 4500) : null;
     try {
-      const res = await fetch(`${apiBase}/health`);
+      const res = await fetch(`${apiBase}/health`, controller ? { signal: controller.signal } : undefined);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       if (pill) {
@@ -63,7 +89,7 @@
       }
       if (help) {
         const modeNote = data && data.mock_llm ? 'Demo reply mode (MOCK_LLM=true — no API key needed).' : 'Live LLM connected.';
-        help.innerHTML = `Connected to FastAPI service at <code>${apiBase}</code>. ${modeNote}`;
+        help.innerHTML = `Connected to FastAPI service at <code>${safeBase}</code>. ${modeNote}`;
       }
       if (fallbackBtn) fallbackBtn.classList.add('hidden');
       return true;
@@ -73,10 +99,15 @@
         pill.className = 'assistant-status-pill offline';
       }
       if (help) {
-        help.innerHTML = `Server not detected on <code>${apiBase}</code>. Double-click <code>Chat Bot\\run.bat</code> to start live assistant sessions, or use the offline NASA guide below.`;
+        const isLocal = Boolean(shell && typeof shell.isLocalOrigin === 'function' && shell.isLocalOrigin());
+        help.innerHTML = isLocal
+          ? `Server not detected on <code>${safeBase}</code>. Double-click <code>Chat Bot\\run.bat</code> to start live assistant sessions, or use the offline NASA Copilot below.`
+          : `Unable to reach <code>${safeBase}</code>. Offline NASA Copilot remains active below, or verify the deployed backend URL.`;
       }
       if (fallbackBtn) fallbackBtn.classList.remove('hidden');
       return false;
+    } finally {
+      if (timer) clearTimeout(timer);
     }
   }
 
@@ -100,7 +131,7 @@
     el.id = 'bioAstroChatWidget';
     el.setAttribute('mode', 'tab');
     el.setAttribute('session-mode', selectedMode);
-    el.setAttribute('api-base', shell.CHATBOT_API_BASE || 'http://127.0.0.1:8000');
+    el.setAttribute('api-base', resolveActiveApiBase());
     el.setAttribute('astronaut-id', String(shell.getChatbotAstronautId ? shell.getChatbotAstronautId() : 1));
     el.setAttribute('mission-day', '42');
     el.setAttribute('language', 'en');
@@ -128,6 +159,11 @@
         updateSessionMeta(global.AstroChat?.getSessionId?.(), 'tab');
         shell.showToast('Active crew profile: ' + picked.name, 'nominal');
       });
+    }
+
+    const apiInput = getEl('chatApiBaseInput');
+    if (apiInput) {
+      apiInput.value = resolveActiveApiBase();
     }
 
     renderTelemetrySidebar();
@@ -162,13 +198,48 @@
     });
 
     getEl('retryChatBackendBtn')?.addEventListener('click', async () => {
+      const apiBase = resolveActiveApiBase();
+      if (!apiBase) {
+        await checkBackendHealth();
+        shell.showToast('Offline NASA Copilot active — paste a deployed backend URL to connect live LLM');
+        return;
+      }
       const ok = await checkBackendHealth();
       if (ok) {
         mountTabAssistant();
         shell.showToast('Connected to Mission Assistant service', 'nominal');
       } else {
-        shell.showToast('Start Chat Bot\\run.bat first to connect port 8000');
+        const isLocal = Boolean(shell.isLocalOrigin && shell.isLocalOrigin());
+        shell.showToast(isLocal ? 'Start Chat Bot\\run.bat first to connect port 8000' : 'Backend unreachable; Offline NASA Copilot remains active');
       }
+    });
+
+    getEl('saveChatApiBtn')?.addEventListener('click', async () => {
+      const raw = getEl('chatApiBaseInput')?.value?.trim() || '';
+      if (!raw) {
+        shell.showToast('Enter an http:// or https:// backend URL, or click Reset');
+        return;
+      }
+      const saved = shell.setChatbotApiBase ? shell.setChatbotApiBase(raw) : raw;
+      if (!saved) {
+        shell.showToast('Invalid URL — use http:// or https://');
+        return;
+      }
+      if (getEl('chatApiBaseInput')) getEl('chatApiBaseInput').value = saved;
+      mountTabAssistant();
+      const ok = await checkBackendHealth();
+      shell.showToast(
+        ok ? `Connected to ${saved}` : `Saved backend URL (${saved}); waiting for response`,
+        ok ? 'nominal' : undefined
+      );
+    });
+
+    getEl('resetChatApiBtn')?.addEventListener('click', async () => {
+      const nextBase = shell.setChatbotApiBase ? shell.setChatbotApiBase('') : '';
+      if (getEl('chatApiBaseInput')) getEl('chatApiBaseInput').value = nextBase || '';
+      mountTabAssistant();
+      await checkBackendHealth();
+      shell.showToast('Reset assistant backend URL to environment default', 'nominal');
     });
 
     getEl('syncTelemetryBtn')?.addEventListener('click', () => {

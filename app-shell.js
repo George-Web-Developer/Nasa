@@ -13,7 +13,8 @@
     lang: 'bioAstroLab.lang.v1',
     theme: 'bioAstroLab.theme.v1',
     footer: 'bioAstroLab.footerCredits.v1',
-    portrait: 'bioAstroLab.facePortrait'
+    portrait: 'bioAstroLab.facePortrait',
+    chatbotApiBase: 'bioAstroLab.chatbotApiBase.v1'
   };
 
   const CREW_PROFILES = [
@@ -98,7 +99,75 @@
     { href: 'assistant.html', label: 'Assistant' }
   ];
 
-  const CHATBOT_API_BASE = 'http://127.0.0.1:8000';
+  const DEFAULT_LOCAL_CHATBOT_API = 'http://127.0.0.1:8000';
+
+  function isLocalOrigin(loc) {
+    const target = loc || (typeof window !== 'undefined' ? window.location : null);
+    if (!target) return true;
+    const proto = String(target.protocol || '').toLowerCase();
+    if (proto === 'file:' || proto === 'about:') return true;
+    const host = String(target.hostname || '').toLowerCase();
+    return host === '' || host === 'localhost' || host === '127.0.0.1' || host === '::1' || host === '[::1]' || host.endsWith('.local');
+  }
+
+  function normalizeChatbotApiUrl(raw) {
+    const trimmed = String(raw || '').trim().replace(/\/+$/, '');
+    if (!trimmed) return '';
+    try {
+      const parsed = new URL(trimmed);
+      if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return '';
+      return parsed.href.replace(/\/+$/, '');
+    } catch (_err) {
+      return '';
+    }
+  }
+
+  function resolveChatbotApiBase(loc) {
+    const target = loc || (typeof window !== 'undefined' ? window.location : null);
+    try {
+      const search = target && target.search ? String(target.search) : '';
+      if (search) {
+        const params = new URLSearchParams(search);
+        const queryApi = normalizeChatbotApiUrl(params.get('api'));
+        if (queryApi) {
+          if (typeof window !== 'undefined' && target === window.location && typeof localStorage !== 'undefined') {
+            localStorage.setItem(STORAGE_KEYS.chatbotApiBase, queryApi);
+          }
+          return queryApi;
+        }
+      }
+    } catch (_err) {}
+
+    const globalOverride = normalizeChatbotApiUrl(global.BIO_ASTRO_CHATBOT_API);
+    if (globalOverride) return globalOverride;
+
+    try {
+      if (typeof localStorage !== 'undefined') {
+        const stored = normalizeChatbotApiUrl(localStorage.getItem(STORAGE_KEYS.chatbotApiBase));
+        if (stored) return stored;
+      }
+    } catch (_err) {}
+
+    return isLocalOrigin(target) ? DEFAULT_LOCAL_CHATBOT_API : '';
+  }
+
+  function getChatbotApiBase() {
+    return resolveChatbotApiBase(typeof window !== 'undefined' ? window.location : null);
+  }
+
+  function setChatbotApiBase(url) {
+    const clean = normalizeChatbotApiUrl(url);
+    try {
+      if (typeof localStorage !== 'undefined') {
+        if (clean) {
+          localStorage.setItem(STORAGE_KEYS.chatbotApiBase, clean);
+        } else {
+          localStorage.removeItem(STORAGE_KEYS.chatbotApiBase);
+        }
+      }
+    } catch (_err) {}
+    return clean || getChatbotApiBase();
+  }
   const CREW_CHAT_ID_MAP = {
     C001: 1,
     C002: 1,
@@ -467,6 +536,12 @@
 
   function initCosmicPreloader() {
     if (typeof document === 'undefined') return;
+    if (!document.body) {
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initCosmicPreloader, { once: true });
+      }
+      return;
+    }
     if (document.getElementById('cosmicPreloader')) return;
 
     const preloader = document.createElement('div');
@@ -900,11 +975,12 @@
 
   let lastPostedSignalSessionId = null;
   function postSessionSignalsIfReady(sessionId) {
-    if (!sessionId || typeof fetch !== 'function' || lastPostedSignalSessionId === sessionId) return;
+    const apiBase = getChatbotApiBase();
+    if (!apiBase || !sessionId || typeof fetch !== 'function' || lastPostedSignalSessionId === sessionId) return;
     lastPostedSignalSessionId = sessionId;
     const { recent } = buildChatbotSignalsPayload();
     if (Object.keys(recent).length === 0) return;
-    fetch(CHATBOT_API_BASE + '/sessions/' + encodeURIComponent(sessionId) + '/signals', {
+    fetch(apiBase + '/sessions/' + encodeURIComponent(sessionId) + '/signals', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -919,16 +995,18 @@
     if (typeof document === 'undefined') return null;
     const target = (opts && opts.container) || document.body;
     const mode = (opts && opts.mode) || 'floating';
+    const apiBase = getChatbotApiBase();
     const existing = document.getElementById('bioAstroChatWidget');
     if (existing) {
       existing.setAttribute('astronaut-id', String(getChatbotAstronautId()));
+      existing.setAttribute('api-base', apiBase);
       return existing;
     }
     const el = document.createElement('astro-chat');
     el.id = 'bioAstroChatWidget';
     el.setAttribute('mode', mode);
     el.setAttribute('session-mode', (opts && opts.sessionMode) || 'companion');
-    el.setAttribute('api-base', CHATBOT_API_BASE);
+    el.setAttribute('api-base', apiBase);
     el.setAttribute('astronaut-id', String(getChatbotAstronautId()));
     el.setAttribute('mission-day', '42');
     el.setAttribute('language', 'en');
@@ -1609,7 +1687,11 @@
     closeEmergencyModal,
     toggleCopilot,
     askCopilot,
-    CHATBOT_API_BASE,
+    get CHATBOT_API_BASE() { return getChatbotApiBase(); },
+    isLocalOrigin,
+    resolveChatbotApiBase,
+    getChatbotApiBase,
+    setChatbotApiBase,
     getChatbotAstronautId,
     syncChatbotContext,
     mountAstroChatWidget,

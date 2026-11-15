@@ -23,12 +23,12 @@ COPY . .
 # Seed initial database and approved knowledge base placeholders
 RUN python seed.py
 
-# Expose standard application port
+# Expose default application port (cloud platforms inject PORT dynamically)
 EXPOSE 8000
 
 # Health check probe
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:8000/health || exit 1
+  CMD sh -c 'curl -f "http://localhost:${PORT:-8000}/health" || exit 1'
 
-# Start Uvicorn ASGI server
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Start Uvicorn ASGI server binding to injected $PORT (default 8000)
+CMD ["sh", "-c", "python seed.py && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

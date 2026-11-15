@@ -1,6 +1,25 @@
+from pathlib import Path
 from sqlalchemy import create_engine, text, event
+from sqlalchemy.engine.url import make_url
 from sqlalchemy.orm import declarative_base, sessionmaker
 from app.config import DB_URL, logger
+
+
+def ensure_sqlite_parent_dir(db_url: str) -> None:
+    """Create the parent directory for file-backed SQLite URLs before opening connections."""
+    if not db_url or not db_url.startswith("sqlite"):
+        return
+    try:
+        parsed = make_url(db_url)
+    except Exception:
+        return
+    db_path = parsed.database
+    if db_path and db_path != ":memory:":
+        Path(db_path).parent.mkdir(parents=True, exist_ok=True)
+
+
+# Ensure SQLite folder exists on fresh cloud/local boots before SQLAlchemy connects
+ensure_sqlite_parent_dir(DB_URL)
 
 # Configure connect_args for SQLite to support multi-threaded FastAPI calls and busy timeout
 connect_args = {"check_same_thread": False, "timeout": 30} if DB_URL.startswith("sqlite") else {}

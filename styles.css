@@ -2084,8 +2084,8 @@ astro-chat {
   background: #11151B;
   border: 1px solid var(--border-dark);
   border-radius: 6px;
-  height: 640px;
-  min-height: 520px;
+  height: clamp(320px, calc(100vh - 256px), 640px);
+  min-height: 320px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -2156,7 +2156,7 @@ astro-chat {
     grid-template-columns: 1fr;
   }
   .assistant-chat-stage {
-    height: 540px;
+    height: clamp(340px, 68vh, 540px);
   }
 }
 

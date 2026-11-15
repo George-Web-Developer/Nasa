@@ -103,7 +103,7 @@
       :host([mode="tab"]) {
         width: 100%;
         height: 100%;
-        min-height: 420px;
+        min-height: 0;
       }
       :host([mode="tab"]) .astro-container {
         border-radius: 0;
@@ -670,6 +670,7 @@
       this.sessionMode = "session"; // "session" | "companion"
       this.isArabic = false;
       this.isEnded = false;
+      this.isBackendOffline = false;
       this.unreadCount = 0;
       this.questionIndex = 0;
 
@@ -699,8 +700,9 @@
     }
 
     get apiBase() {
-      const attr = this.getAttribute("api-base");
-      if (attr) return attr.replace(/\/+$/, "");
+      if (this.hasAttribute("api-base")) {
+        return (this.getAttribute("api-base") || "").trim().replace(/\/+$/, "");
+      }
       return window.location.origin;
     }
 
@@ -737,6 +739,9 @@
         this.syncExpandLink();
       } else if (name === "theme") {
         this.applyTheme();
+      } else if (name === "api-base") {
+        this.isBackendOffline = false;
+        this.sessionId = null;
       }
     }
 
@@ -1070,11 +1075,30 @@
     // ----------------------------------------------------
     async initSession(silent = false) {
       this.sessionMode = this.requestedSessionMode;
+      if (!this.apiBase) {
+        this.isBackendOffline = true;
+        if (!silent) {
+          const hasLocalCopilot = typeof window.queryBioCopilot === "function";
+          const offlineMsg = this.isArabic
+            ? "الخادم غير متصل حالياً — يمكنك الكتابة أدناه لاستخدام المساعد المحلي."
+            : hasLocalCopilot
+              ? "Offline NASA Copilot mode active (no remote FastAPI backend configured on this static host). Type below to ask about vitals, NASA HRP risks, CO2/radiation, or connect a backend URL on the left."
+              : "No backend URL configured. Enter a FastAPI backend URL to enable live sessions.";
+          this.appendMessage("assistant", offlineMsg);
+        }
+        this.dispatchBridge("astro:backend-offline", { apiBase: this.apiBase });
+        this.showTyping(false);
+        return;
+      }
+
       this.showTyping(true);
+      const controller = typeof AbortController === "function" ? new AbortController() : null;
+      const timerId = controller ? setTimeout(() => controller.abort(), 4500) : null;
       try {
         const res = await fetch(`${this.apiBase}/sessions/start`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
+          signal: controller ? controller.signal : undefined,
           body: JSON.stringify({
             astronaut_id: this.astronautId,
             mission_day: this.missionDay,
@@ -1087,6 +1111,7 @@
         }
 
         const data = await res.json();
+        this.isBackendOffline = false;
         this.sessionId = data.session_id;
         this.sessionMode = data.mode || this.requestedSessionMode;
         this.questionIndex = this.sessionMode === "companion" ? 0 : 1;
@@ -1116,18 +1141,19 @@
       } catch (err) {
         this.isBackendOffline = true;
         // Suppress unhandled connection refuse noise while running locally
-        console.warn("Bio Astro Assistant: Port 8000 backend offline. Switched to client-side NASA Bio-Copilot.");
+        console.warn("Bio Astro Assistant: Backend offline at " + this.apiBase + ". Switched to client-side NASA Bio-Copilot.");
         if (!silent) {
           const hasLocalCopilot = typeof window.queryBioCopilot === "function";
           const errMsg = this.isArabic
             ? "تعذر بدء الجلسة. يرجى التحقق من اتصال الخادم."
             : hasLocalCopilot
-              ? "FastAPI backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat for full memory sessions — meanwhile, you can still type below for instant Offline NASA Copilot replies."
+              ? "FastAPI backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat locally or connect a deployed backend URL — meanwhile, type below for instant Offline NASA Copilot replies."
               : "Chat backend offline at " + this.apiBase + ". Run Chat Bot\\run.bat to enable live sessions.";
           this.appendMessage("assistant", errMsg);
         }
         this.dispatchBridge("astro:backend-offline", { apiBase: this.apiBase });
       } finally {
+        if (timerId) clearTimeout(timerId);
         this.showTyping(false);
       }
     }
@@ -1161,7 +1187,7 @@
       });
 
       try {
-        if (!this.sessionId) {
+        if (!this.sessionId && !this.isBackendOffline) {
           await this.initSession(true);
         }
 
@@ -1382,7 +1408,11 @@
       if (activeWidgetInstance) activeWidgetInstance.close();
     },
     startSession: function () {
-      if (activeWidgetInstance) activeWidgetInstance.initSession();
+      if (activeWidgetInstance) {
+        activeWidgetInstance.isBackendOffline = false;
+        activeWidgetInstance.sessionId = null;
+        activeWidgetInstance.initSession();
+      }
     },
     endSession: function () {
       if (activeWidgetInstance) activeWidgetInstance.completeSession();

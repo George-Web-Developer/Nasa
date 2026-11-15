@@ -1,3 +1,4 @@
+import sys
 from contextlib import asynccontextmanager
 from pathlib import Path
 from fastapi import FastAPI, Request, HTTPException, status
@@ -13,15 +14,34 @@ from app.config import (
     BASE_DIR,
     logger,
 )
-from app.database import init_db
+from app.database import init_db, SessionLocal
+from app.models import Astronaut
 from app.routers import sessions, chat, astronauts, alerts, kb, dashboard
+
+
+def ensure_initial_seed() -> None:
+    """Auto-seed demo astronauts and approved KB chunks when starting on an empty database."""
+    db = SessionLocal()
+    try:
+        existing_count = db.query(Astronaut).count()
+    finally:
+        db.close()
+
+    if existing_count == 0:
+        logger.info("Empty database detected on startup; running initial seed...")
+        if str(BASE_DIR) not in sys.path:
+            sys.path.insert(0, str(BASE_DIR))
+        from seed import seed as run_seed
+
+        run_seed()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize database tables and FTS5 index on application startup."""
+    """Initialize database tables, FTS5 index, and initial seed data on startup."""
     logger.info("Initializing database tables and SQLite FTS5 index...")
     init_db()
+    ensure_initial_seed()
     logger.info(
         f"Astronaut Psychological Check-in Backend started (MOCK_LLM={MOCK_LLM}, MODEL={CLAUDE_MODEL})"
     )

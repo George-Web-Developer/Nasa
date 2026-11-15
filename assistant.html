@@ -37,11 +37,22 @@
               <span id="chatBackendStatusPill" class="assistant-status-pill offline">Checking...</span>
             </div>
             <p id="chatBackendHelpText" style="font-size:12.5px;color:var(--ink-muted-paper);line-height:1.5;margin:0 0 12px;">
-              Connecting to assistant service at <code>http://127.0.0.1:8000</code>...
+              Checking assistant backend connection or Offline NASA Copilot readiness...
             </p>
-            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
               <button id="retryChatBackendBtn" type="button" class="btn-outline" style="font-size:12px;padding:7px 12px;">Check Connection</button>
               <button id="openOfflineFallbackBtn" type="button" class="btn-outline hidden" style="font-size:12px;padding:7px 12px;">Use Offline NASA Guide</button>
+            </div>
+            <div style="border-top:1px solid rgba(20,24,31,0.12);padding-top:10px;margin-top:8px;">
+              <label for="chatApiBaseInput" style="display:block;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-muted-paper);margin-bottom:6px;">
+                Deployed Backend URL (Optional)
+              </label>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+                <input id="chatApiBaseInput" type="url" placeholder="https://your-chatbot.onrender.com"
+                  style="flex:1 1 170px;min-width:0;padding:6px 9px;font-size:12px;border:1px solid rgba(20,24,31,0.2);border-radius:4px;background:#fff;color:#14181F;" />
+                <button id="saveChatApiBtn" type="button" class="btn-outline" style="font-size:11.5px;padding:6px 10px;">Save</button>
+                <button id="resetChatApiBtn" type="button" class="btn-outline" style="font-size:11.5px;padding:6px 10px;">Reset</button>
+              </div>
             </div>
           </section>
 
